@@ -28,6 +28,12 @@ body {
   padding: 20px; text-align: center; margin-bottom: 16px;
 }
 .glyph { width: 200px; height: 200px; background: var(--bone); border-radius: 8px; }
+.scan-toggle {
+  margin: 10px auto 0; display: block; padding: 6px 14px; font-size: 14px;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink);
+  border-radius: 6px; cursor: pointer;
+}
+.scan-toggle:hover { background: var(--bone); }
 .q { margin: 14px 0 0; font-size: 20px; }
 .choices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
 .choice {

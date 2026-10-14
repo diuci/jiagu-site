@@ -56,6 +56,7 @@ export function buildSnapshot() {
     subtype: c.subtype || null,
     difficulty: c.difficulty,
     glyph: c.glyph,
+    scan: c.scan || null,
     tags: c.tags || [],
     license: c.license,
     author: c.author,

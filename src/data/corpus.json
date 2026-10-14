@@ -1,6 +1,6 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "591597b5646bb8f2204886736ac76dd57eaf525b962ddf2af3c849431e7a8efa",
+  "sourceSha256": "9c27b35f1e573b772d62e5215916318dab8035f6ab53a67daa1102648f891621",
   "count": 52,
   "sourceTotal": 52,
   "skipped": [],
@@ -20,6 +20,7 @@
       "subtype": "人体",
       "difficulty": 1,
       "glyph": "人体动作/kou.png",
+      "scan": "人体动作/kou-scan.png",
       "tags": [
         "口",
         "人体",
@@ -38,6 +39,7 @@
       "subtype": "人体",
       "difficulty": 1,
       "glyph": "人体动作/ren.png",
+      "scan": "人体动作/ren-scan.png",
       "tags": [
         "人",
         "人体"
@@ -55,6 +57,7 @@
       "subtype": "人体",
       "difficulty": 2,
       "glyph": "人体动作/mu2.png",
+      "scan": "人体动作/mu2-scan.png",
       "tags": [
         "眼睛",
         "人体"
@@ -72,6 +75,7 @@
       "subtype": "称谓",
       "difficulty": 2,
       "glyph": "人体动作/mu3.png",
+      "scan": "人体动作/mu3-scan.png",
       "tags": [
         "母",
         "称谓",
@@ -90,6 +94,7 @@
       "subtype": "称谓",
       "difficulty": 2,
       "glyph": "人体动作/nv.png",
+      "scan": "人体动作/nv-scan.png",
       "tags": [
         "女",
         "称谓",
@@ -108,6 +113,7 @@
       "subtype": "人体",
       "difficulty": 2,
       "glyph": "人体动作/xin.png",
+      "scan": "人体动作/xin-scan.png",
       "tags": [
         "心",
         "人体",
@@ -126,6 +132,7 @@
       "subtype": "称谓",
       "difficulty": 2,
       "glyph": "人体动作/zi.png",
+      "scan": "人体动作/zi-scan.png",
       "tags": [
         "子",
         "称谓",
@@ -144,6 +151,7 @@
       "subtype": "动作",
       "difficulty": 2,
       "glyph": "人体动作/zou.png",
+      "scan": null,
       "tags": [
         "走",
         "动作",
@@ -162,6 +170,7 @@
       "subtype": "称谓",
       "difficulty": 3,
       "glyph": "人体动作/fu.png",
+      "scan": "人体动作/fu-scan.png",
       "tags": [
         "父",
         "称谓",
@@ -180,6 +189,7 @@
       "subtype": "人体",
       "difficulty": 3,
       "glyph": "人体动作/shou.png",
+      "scan": null,
       "tags": [
         "手",
         "人体"
@@ -197,6 +207,7 @@
       "subtype": "人体",
       "difficulty": 3,
       "glyph": "人体动作/zu.png",
+      "scan": null,
       "tags": [
         "足",
         "人体",
@@ -215,6 +226,7 @@
       "subtype": "植物",
       "difficulty": 2,
       "glyph": "动植物/he.png",
+      "scan": "动植物/he-scan.png",
       "tags": [
         "禾",
         "植物",
@@ -233,6 +245,7 @@
       "subtype": "植物",
       "difficulty": 2,
       "glyph": "动植物/mi.png",
+      "scan": "动植物/mi-scan.png",
       "tags": [
         "米",
         "植物",
@@ -251,6 +264,7 @@
       "subtype": "植物",
       "difficulty": 2,
       "glyph": "动植物/mu4.png",
+      "scan": "动植物/mu4-scan.png",
       "tags": [
         "树",
         "植物"
@@ -268,6 +282,7 @@
       "subtype": "动物",
       "difficulty": 2,
       "glyph": "动植物/niao.png",
+      "scan": "动植物/niao-scan.png",
       "tags": [
         "鸟",
         "动物"
@@ -285,6 +300,7 @@
       "subtype": "动物",
       "difficulty": 2,
       "glyph": "动植物/niu.png",
+      "scan": "动植物/niu-scan.png",
       "tags": [
         "牛",
         "动物"
@@ -302,6 +318,7 @@
       "subtype": "动物",
       "difficulty": 2,
       "glyph": "动植物/yang.png",
+      "scan": "动植物/yang-scan.png",
       "tags": [
         "羊",
         "动物",
@@ -320,6 +337,7 @@
       "subtype": "动物",
       "difficulty": 2,
       "glyph": "动植物/yu2.png",
+      "scan": "动植物/yu2-scan.png",
       "tags": [
         "鱼",
         "动物"
@@ -337,6 +355,7 @@
       "subtype": "动物",
       "difficulty": 3,
       "glyph": "动植物/ma.png",
+      "scan": null,
       "tags": [
         "马",
         "动物"
@@ -354,6 +373,7 @@
       "subtype": "动物",
       "difficulty": 3,
       "glyph": "动植物/quan.png",
+      "scan": "动植物/quan-scan.png",
       "tags": [
         "犬",
         "动物",
@@ -372,6 +392,7 @@
       "subtype": "动物",
       "difficulty": 3,
       "glyph": "动植物/shi2.png",
+      "scan": "动植物/shi2-scan.png",
       "tags": [
         "豕",
         "动物",
@@ -390,6 +411,7 @@
       "subtype": "动物",
       "difficulty": 3,
       "glyph": "动植物/tu.png",
+      "scan": "动植物/tu-scan.png",
       "tags": [
         "兔",
         "动物"
@@ -407,6 +429,7 @@
       "subtype": "植物",
       "difficulty": 3,
       "glyph": "动植物/zhu.png",
+      "scan": "动植物/zhu-scan.png",
       "tags": [
         "竹",
         "植物"
@@ -424,6 +447,7 @@
       "subtype": "兵器",
       "difficulty": 1,
       "glyph": "器物/dao.png",
+      "scan": "器物/dao-scan.png",
       "tags": [
         "刀",
         "兵器",
@@ -442,6 +466,7 @@
       "subtype": "兵器",
       "difficulty": 1,
       "glyph": "器物/gong.png",
+      "scan": "器物/gong-scan.png",
       "tags": [
         "弓",
         "兵器"
@@ -459,6 +484,7 @@
       "subtype": "器皿",
       "difficulty": 1,
       "glyph": "器物/min.png",
+      "scan": "器物/min-scan.png",
       "tags": [
         "皿",
         "器皿"
@@ -476,6 +502,7 @@
       "subtype": "车马",
       "difficulty": 2,
       "glyph": "器物/che.png",
+      "scan": "器物/che-scan.png",
       "tags": [
         "车",
         "车马",
@@ -494,6 +521,7 @@
       "subtype": "礼器",
       "difficulty": 2,
       "glyph": "器物/ding.png",
+      "scan": "器物/ding-scan.png",
       "tags": [
         "鼎",
         "礼器",
@@ -512,6 +540,7 @@
       "subtype": "工具",
       "difficulty": 2,
       "glyph": "器物/wang.png",
+      "scan": "器物/wang-scan.png",
       "tags": [
         "网",
         "工具",
@@ -530,6 +559,7 @@
       "subtype": "车马",
       "difficulty": 2,
       "glyph": "器物/zhou.png",
+      "scan": "器物/zhou-scan.png",
       "tags": [
         "舟",
         "船",
@@ -548,6 +578,7 @@
       "subtype": "兵器",
       "difficulty": 3,
       "glyph": "器物/ge.png",
+      "scan": "器物/ge-scan.png",
       "tags": [
         "戈",
         "兵器"
@@ -565,6 +596,7 @@
       "subtype": "形状",
       "difficulty": 1,
       "glyph": "抽象/da.png",
+      "scan": "抽象/da-scan.png",
       "tags": [
         "大",
         "形状"
@@ -582,6 +614,7 @@
       "subtype": "方位",
       "difficulty": 1,
       "glyph": "抽象/shang.png",
+      "scan": "抽象/shang-scan.png",
       "tags": [
         "上",
         "方位"
@@ -599,6 +632,7 @@
       "subtype": "方位",
       "difficulty": 1,
       "glyph": "抽象/xia.png",
+      "scan": "抽象/xia-scan.png",
       "tags": [
         "下",
         "方位"
@@ -616,6 +650,7 @@
       "subtype": "方位",
       "difficulty": 1,
       "glyph": "抽象/zhong.png",
+      "scan": "抽象/zhong-scan.png",
       "tags": [
         "中",
         "方位"
@@ -633,6 +668,7 @@
       "subtype": "数量",
       "difficulty": 2,
       "glyph": "抽象/duo.png",
+      "scan": "抽象/duo-scan.png",
       "tags": [
         "多",
         "数量"
@@ -650,6 +686,7 @@
       "subtype": "形状",
       "difficulty": 2,
       "glyph": "抽象/xiao.png",
+      "scan": "抽象/xiao-scan.png",
       "tags": [
         "小",
         "形状"
@@ -667,6 +704,7 @@
       "subtype": "数",
       "difficulty": 1,
       "glyph": "数目/bai.png",
+      "scan": "数目/bai-scan.png",
       "tags": [
         "百",
         "数"
@@ -684,6 +722,7 @@
       "subtype": "数",
       "difficulty": 1,
       "glyph": "数目/er.png",
+      "scan": "数目/er-scan.png",
       "tags": [
         "二",
         "数"
@@ -701,6 +740,7 @@
       "subtype": "数",
       "difficulty": 1,
       "glyph": "数目/qian.png",
+      "scan": "数目/qian-scan.png",
       "tags": [
         "千",
         "数"
@@ -718,6 +758,7 @@
       "subtype": "数",
       "difficulty": 1,
       "glyph": "数目/san.png",
+      "scan": "数目/san-scan.png",
       "tags": [
         "三",
         "数"
@@ -735,6 +776,7 @@
       "subtype": "数",
       "difficulty": 1,
       "glyph": "数目/shi.png",
+      "scan": "数目/shi-scan.png",
       "tags": [
         "十",
         "数"
@@ -752,6 +794,7 @@
       "subtype": "数",
       "difficulty": 1,
       "glyph": "数目/yi.png",
+      "scan": "数目/yi-scan.png",
       "tags": [
         "一",
         "数"
@@ -769,6 +812,7 @@
       "subtype": "天体",
       "difficulty": 1,
       "glyph": "自然现象/ri.png",
+      "scan": "自然现象/ri-scan.png",
       "tags": [
         "太阳",
         "天体"
@@ -786,6 +830,7 @@
       "subtype": "地形",
       "difficulty": 1,
       "glyph": "自然现象/shan.png",
+      "scan": "自然现象/shan-scan.png",
       "tags": [
         "山",
         "地形"
@@ -803,6 +848,7 @@
       "subtype": "天体",
       "difficulty": 1,
       "glyph": "自然现象/yue.png",
+      "scan": "自然现象/yue-scan.png",
       "tags": [
         "月亮",
         "天体"
@@ -820,6 +866,7 @@
       "subtype": "火焰",
       "difficulty": 2,
       "glyph": "自然现象/huo.png",
+      "scan": "自然现象/huo-scan.png",
       "tags": [
         "火",
         "火焰"
@@ -837,6 +884,7 @@
       "subtype": "流水",
       "difficulty": 2,
       "glyph": "自然现象/shui.png",
+      "scan": "自然现象/shui-scan.png",
       "tags": [
         "水",
         "流水"
@@ -854,6 +902,7 @@
       "subtype": "天体",
       "difficulty": 2,
       "glyph": "自然现象/tian.png",
+      "scan": "自然现象/tian-scan.png",
       "tags": [
         "天",
         "天体"
@@ -871,6 +920,7 @@
       "subtype": "气象",
       "difficulty": 2,
       "glyph": "自然现象/yu.png",
+      "scan": "自然现象/yu-scan.png",
       "tags": [
         "雨",
         "气象"
@@ -888,6 +938,7 @@
       "subtype": "天体",
       "difficulty": 3,
       "glyph": "自然现象/xing.png",
+      "scan": "自然现象/xing-scan.png",
       "tags": [
         "星",
         "天体"
@@ -905,6 +956,7 @@
       "subtype": "气象",
       "difficulty": 3,
       "glyph": "自然现象/yun.png",
+      "scan": "自然现象/yun-scan.png",
       "tags": [
         "云",
         "气象"
@@ -918,12 +970,16 @@
   ],
   "history": {
     "since": "2026-10-14",
-    "through": "2026-10-14",
-    "added": 0,
+    "through": "2026-10-15",
+    "added": 1,
     "days": [
       {
         "day": "2026-10-14",
         "id": "ri"
+      },
+      {
+        "day": "2026-10-15",
+        "id": "ding"
       }
     ],
     "chars": {
@@ -937,6 +993,24 @@
         "tags": [
           "太阳",
           "天体"
+        ],
+        "license": "public-domain",
+        "author": "佚名",
+        "era": "商",
+        "authorDied": null,
+        "authorEraEnd": -1300
+      },
+      "ding": {
+        "id": "ding",
+        "char": "鼎",
+        "type": "器物",
+        "subtype": "礼器",
+        "difficulty": 2,
+        "glyph": "器物/ding.png",
+        "tags": [
+          "鼎",
+          "礼器",
+          "祭器"
         ],
         "license": "public-domain",
         "author": "佚名",

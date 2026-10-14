@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { store, startDaily, startPractice, pick, corpus } from '../logic/store'
 
 const props = defineProps<{ mode: 'daily' | 'practice' }>()
@@ -7,9 +7,12 @@ defineEmits<{ (e: 'next'): void }>()
 
 const types = computed(() => Array.from(new Set(corpus.chars.map((c) => c.type))))
 
+// 两路图：默认渲染图（谜面清楚）；有原拓片的字可切真骨片墨拓（scan 在 /glyphs/<type>/<id>-scan.png）
+const showScan = ref(false)
+const hasScan = computed(() => !!store.char?.scan)
 const glyphUrl = computed(() => {
   if (!store.char) return ''
-  // 甲骨形图在 /glyphs/<type>/<id>.png
+  if (showScan.value && store.char.scan) return '/glyphs/' + store.char.scan
   return '/glyphs/' + store.char.glyph
 })
 
@@ -28,7 +31,10 @@ const explanation = computed(() => {
     </div>
 
     <div class="board">
-      <img :src="glyphUrl" :alt="store.char ? store.char.char + ' 的甲骨形' : '甲骨形'" class="glyph" />
+      <img :src="glyphUrl" :alt="store.char ? store.char.char + (showScan ? ' 的原拓片' : ' 的甲骨形') : '甲骨形'" class="glyph" />
+      <button v-if="hasScan" class="scan-toggle" @click="showScan = !showScan">
+        {{ showScan ? '看示意形' : '看原拓片' }}
+      </button>
       <p class="q">这是哪个现代汉字？</p>
     </div>
 
