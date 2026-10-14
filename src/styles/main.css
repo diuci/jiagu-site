@@ -1,0 +1,49 @@
+:root {
+  --paper: #f4ede0;
+  --card: #fbf7ee;
+  --bone: #efe6d2;
+  --line: #d8cbb4;
+  --ink: #241f1a;
+  --dim: #7a715f;
+  --cinnabar: #c8442e;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+}
+.app { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
+.hdr h1 { margin: 0; font-size: 28px; letter-spacing: 2px; }
+.hdr .sub { margin: 4px 0 0; color: var(--dim); font-size: 14px; }
+.tabs { display: flex; gap: 8px; margin: 20px 0; }
+.tabs button {
+  flex: 1; padding: 10px 0; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink); border-radius: 8px; font-size: 15px; cursor: pointer;
+}
+.tabs button.on { background: var(--cinnabar); color: #fff; border-color: var(--cinnabar); }
+.board {
+  background: var(--card); border: 2px solid var(--line); border-radius: 12px;
+  padding: 20px; text-align: center; margin-bottom: 16px;
+}
+.glyph { width: 200px; height: 200px; background: var(--bone); border-radius: 8px; }
+.q { margin: 14px 0 0; font-size: 20px; }
+.choices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+.choice {
+  padding: 22px 0; font-size: 32px; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink); border-radius: 8px; cursor: pointer;
+}
+.choice:disabled { cursor: default; }
+.choice.ok { border-color: var(--cinnabar); background: #fbe9e5; }
+.choice.bad { border-color: #b08968; background: #f0e4d8; }
+.feedback { background: var(--card); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
+.feedback.good { border-left: 4px solid var(--cinnabar); }
+.feedback.bad { border-left: 4px solid #b08968; }
+.feedback .expl { color: var(--dim); font-size: 14px; margin: 8px 0 0; }
+.bar { display: flex; gap: 16px; align-items: center; color: var(--dim); font-size: 14px; }
+.bar button { margin-left: auto; padding: 8px 16px; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 6px; cursor: pointer; }
+.filter { margin-bottom: 12px; font-size: 14px; }
+.filter button { margin: 0 6px 6px 0; padding: 4px 10px; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 6px; cursor: pointer; }
+.about { background: var(--card); border-radius: 12px; padding: 20px; line-height: 1.8; }
+.about h2 { margin-top: 0; }

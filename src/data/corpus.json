@@ -1,0 +1,950 @@
+{
+  "contentVersion": 1,
+  "sourceSha256": "591597b5646bb8f2204886736ac76dd57eaf525b962ddf2af3c849431e7a8efa",
+  "count": 52,
+  "sourceTotal": 52,
+  "skipped": [],
+  "types": {
+    "人体动作": 11,
+    "动植物": 12,
+    "器物": 8,
+    "抽象": 6,
+    "数目": 6,
+    "自然现象": 9
+  },
+  "chars": [
+    {
+      "id": "kou",
+      "char": "口",
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 1,
+      "glyph": "人体动作/kou.png",
+      "tags": [
+        "口",
+        "人体",
+        "器官"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ren",
+      "char": "人",
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 1,
+      "glyph": "人体动作/ren.png",
+      "tags": [
+        "人",
+        "人体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "mu2",
+      "char": "目",
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 2,
+      "glyph": "人体动作/mu2.png",
+      "tags": [
+        "眼睛",
+        "人体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "mu3",
+      "char": "母",
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 2,
+      "glyph": "人体动作/mu3.png",
+      "tags": [
+        "母",
+        "称谓",
+        "家庭"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "nv",
+      "char": "女",
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 2,
+      "glyph": "人体动作/nv.png",
+      "tags": [
+        "女",
+        "称谓",
+        "性别"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "xin",
+      "char": "心",
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 2,
+      "glyph": "人体动作/xin.png",
+      "tags": [
+        "心",
+        "人体",
+        "器官"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zi",
+      "char": "子",
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 2,
+      "glyph": "人体动作/zi.png",
+      "tags": [
+        "子",
+        "称谓",
+        "后代"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zou",
+      "char": "走",
+      "type": "人体动作",
+      "subtype": "动作",
+      "difficulty": 2,
+      "glyph": "人体动作/zou.png",
+      "tags": [
+        "走",
+        "动作",
+        "行走"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "fu",
+      "char": "父",
+      "type": "人体动作",
+      "subtype": "称谓",
+      "difficulty": 3,
+      "glyph": "人体动作/fu.png",
+      "tags": [
+        "父",
+        "称谓",
+        "家庭"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shou",
+      "char": "手",
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 3,
+      "glyph": "人体动作/shou.png",
+      "tags": [
+        "手",
+        "人体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zu",
+      "char": "足",
+      "type": "人体动作",
+      "subtype": "人体",
+      "difficulty": 3,
+      "glyph": "人体动作/zu.png",
+      "tags": [
+        "足",
+        "人体",
+        "脚"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "he",
+      "char": "禾",
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 2,
+      "glyph": "动植物/he.png",
+      "tags": [
+        "禾",
+        "植物",
+        "谷"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "mi",
+      "char": "米",
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 2,
+      "glyph": "动植物/mi.png",
+      "tags": [
+        "米",
+        "植物",
+        "谷"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "mu4",
+      "char": "木",
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 2,
+      "glyph": "动植物/mu4.png",
+      "tags": [
+        "树",
+        "植物"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "niao",
+      "char": "鸟",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "glyph": "动植物/niao.png",
+      "tags": [
+        "鸟",
+        "动物"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "niu",
+      "char": "牛",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "glyph": "动植物/niu.png",
+      "tags": [
+        "牛",
+        "动物"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yang",
+      "char": "羊",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "glyph": "动植物/yang.png",
+      "tags": [
+        "羊",
+        "动物",
+        "家畜"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yu2",
+      "char": "鱼",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 2,
+      "glyph": "动植物/yu2.png",
+      "tags": [
+        "鱼",
+        "动物"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ma",
+      "char": "马",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "glyph": "动植物/ma.png",
+      "tags": [
+        "马",
+        "动物"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "quan",
+      "char": "犬",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "glyph": "动植物/quan.png",
+      "tags": [
+        "犬",
+        "动物",
+        "狗"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shi2",
+      "char": "豕",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "glyph": "动植物/shi2.png",
+      "tags": [
+        "豕",
+        "动物",
+        "猪"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "tu",
+      "char": "兔",
+      "type": "动植物",
+      "subtype": "动物",
+      "difficulty": 3,
+      "glyph": "动植物/tu.png",
+      "tags": [
+        "兔",
+        "动物"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zhu",
+      "char": "竹",
+      "type": "动植物",
+      "subtype": "植物",
+      "difficulty": 3,
+      "glyph": "动植物/zhu.png",
+      "tags": [
+        "竹",
+        "植物"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "dao",
+      "char": "刀",
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "glyph": "器物/dao.png",
+      "tags": [
+        "刀",
+        "兵器",
+        "工具"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "gong",
+      "char": "弓",
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "glyph": "器物/gong.png",
+      "tags": [
+        "弓",
+        "兵器"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "min",
+      "char": "皿",
+      "type": "器物",
+      "subtype": "器皿",
+      "difficulty": 1,
+      "glyph": "器物/min.png",
+      "tags": [
+        "皿",
+        "器皿"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "che",
+      "char": "车",
+      "type": "器物",
+      "subtype": "车马",
+      "difficulty": 2,
+      "glyph": "器物/che.png",
+      "tags": [
+        "车",
+        "车马",
+        "交通"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ding",
+      "char": "鼎",
+      "type": "器物",
+      "subtype": "礼器",
+      "difficulty": 2,
+      "glyph": "器物/ding.png",
+      "tags": [
+        "鼎",
+        "礼器",
+        "祭器"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "wang",
+      "char": "网",
+      "type": "器物",
+      "subtype": "工具",
+      "difficulty": 2,
+      "glyph": "器物/wang.png",
+      "tags": [
+        "网",
+        "工具",
+        "渔猎"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zhou",
+      "char": "舟",
+      "type": "器物",
+      "subtype": "车马",
+      "difficulty": 2,
+      "glyph": "器物/zhou.png",
+      "tags": [
+        "舟",
+        "船",
+        "交通"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ge",
+      "char": "戈",
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 3,
+      "glyph": "器物/ge.png",
+      "tags": [
+        "戈",
+        "兵器"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "da",
+      "char": "大",
+      "type": "抽象",
+      "subtype": "形状",
+      "difficulty": 1,
+      "glyph": "抽象/da.png",
+      "tags": [
+        "大",
+        "形状"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shang",
+      "char": "上",
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "glyph": "抽象/shang.png",
+      "tags": [
+        "上",
+        "方位"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "xia",
+      "char": "下",
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "glyph": "抽象/xia.png",
+      "tags": [
+        "下",
+        "方位"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zhong",
+      "char": "中",
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "glyph": "抽象/zhong.png",
+      "tags": [
+        "中",
+        "方位"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "duo",
+      "char": "多",
+      "type": "抽象",
+      "subtype": "数量",
+      "difficulty": 2,
+      "glyph": "抽象/duo.png",
+      "tags": [
+        "多",
+        "数量"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "xiao",
+      "char": "小",
+      "type": "抽象",
+      "subtype": "形状",
+      "difficulty": 2,
+      "glyph": "抽象/xiao.png",
+      "tags": [
+        "小",
+        "形状"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "bai",
+      "char": "百",
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "glyph": "数目/bai.png",
+      "tags": [
+        "百",
+        "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "er",
+      "char": "二",
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "glyph": "数目/er.png",
+      "tags": [
+        "二",
+        "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "qian",
+      "char": "千",
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "glyph": "数目/qian.png",
+      "tags": [
+        "千",
+        "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "san",
+      "char": "三",
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "glyph": "数目/san.png",
+      "tags": [
+        "三",
+        "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shi",
+      "char": "十",
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "glyph": "数目/shi.png",
+      "tags": [
+        "十",
+        "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yi",
+      "char": "一",
+      "type": "数目",
+      "subtype": "数",
+      "difficulty": 1,
+      "glyph": "数目/yi.png",
+      "tags": [
+        "一",
+        "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ri",
+      "char": "日",
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 1,
+      "glyph": "自然现象/ri.png",
+      "tags": [
+        "太阳",
+        "天体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shan",
+      "char": "山",
+      "type": "自然现象",
+      "subtype": "地形",
+      "difficulty": 1,
+      "glyph": "自然现象/shan.png",
+      "tags": [
+        "山",
+        "地形"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yue",
+      "char": "月",
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 1,
+      "glyph": "自然现象/yue.png",
+      "tags": [
+        "月亮",
+        "天体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "huo",
+      "char": "火",
+      "type": "自然现象",
+      "subtype": "火焰",
+      "difficulty": 2,
+      "glyph": "自然现象/huo.png",
+      "tags": [
+        "火",
+        "火焰"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shui",
+      "char": "水",
+      "type": "自然现象",
+      "subtype": "流水",
+      "difficulty": 2,
+      "glyph": "自然现象/shui.png",
+      "tags": [
+        "水",
+        "流水"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "tian",
+      "char": "天",
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 2,
+      "glyph": "自然现象/tian.png",
+      "tags": [
+        "天",
+        "天体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yu",
+      "char": "雨",
+      "type": "自然现象",
+      "subtype": "气象",
+      "difficulty": 2,
+      "glyph": "自然现象/yu.png",
+      "tags": [
+        "雨",
+        "气象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "xing",
+      "char": "星",
+      "type": "自然现象",
+      "subtype": "天体",
+      "difficulty": 3,
+      "glyph": "自然现象/xing.png",
+      "tags": [
+        "星",
+        "天体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yun",
+      "char": "云",
+      "type": "自然现象",
+      "subtype": "气象",
+      "difficulty": 3,
+      "glyph": "自然现象/yun.png",
+      "tags": [
+        "云",
+        "气象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    }
+  ],
+  "history": {
+    "since": "2026-10-14",
+    "through": "2026-10-14",
+    "added": 0,
+    "days": [
+      {
+        "day": "2026-10-14",
+        "id": "ri"
+      }
+    ],
+    "chars": {
+      "ri": {
+        "id": "ri",
+        "char": "日",
+        "type": "自然现象",
+        "subtype": "天体",
+        "difficulty": 1,
+        "glyph": "自然现象/ri.png",
+        "tags": [
+          "太阳",
+          "天体"
+        ],
+        "license": "public-domain",
+        "author": "佚名",
+        "era": "商",
+        "authorDied": null,
+        "authorEraEnd": -1300
+      }
+    },
+    "retexted": []
+  }
+}

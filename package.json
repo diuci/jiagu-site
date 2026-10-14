@@ -1,0 +1,30 @@
+{
+  "name": "jiagu-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "甲骨猜字 · 丢词夺理甲骨文分站",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync:corpus": "node tools/sync-corpus.mjs",
+    "check:puzzle": "node tools/check-puzzle.mjs",
+    "check:corpus": "node tools/sync-corpus.mjs --check",
+    "check:legal": "node tools/check-legal.mjs",
+    "check:build": "node tools/check-build.mjs",
+    "check:ui": "node tools/check-ui.mjs",
+    "smoke": "node tools/smoke.mjs",
+    "selftest": "node tools/sync-corpus.mjs --selftest && node tools/check-puzzle.mjs --selftest && node tools/check-legal.mjs --selftest && node tools/check-build.mjs --selftest && node tools/check-ui.mjs --selftest && node tools/smoke.mjs --selftest",
+    "verify": "npm run selftest && npm run build && npm run check:puzzle && npm run check:corpus && npm run check:legal && npm run check:build && npm run check:ui"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "puppeteer-core": "^25.13.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
