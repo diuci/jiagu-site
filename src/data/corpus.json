@@ -1,6 +1,6 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "9c27b35f1e573b772d62e5215916318dab8035f6ab53a67daa1102648f891621",
+  "sourceSha256": "c9eb3833c0671cc0a73e0b5c866d21a5c51c1487d5d2d9cb7f812609445695b1",
   "count": 52,
   "sourceTotal": 52,
   "skipped": [],
@@ -151,7 +151,7 @@
       "subtype": "动作",
       "difficulty": 2,
       "glyph": "人体动作/zou.png",
-      "scan": null,
+      "scan": "人体动作/zou-scan.png",
       "tags": [
         "走",
         "动作",
@@ -189,7 +189,7 @@
       "subtype": "人体",
       "difficulty": 3,
       "glyph": "人体动作/shou.png",
-      "scan": null,
+      "scan": "人体动作/shou-scan.png",
       "tags": [
         "手",
         "人体"
@@ -207,7 +207,7 @@
       "subtype": "人体",
       "difficulty": 3,
       "glyph": "人体动作/zu.png",
-      "scan": null,
+      "scan": "人体动作/zu-scan.png",
       "tags": [
         "足",
         "人体",
@@ -355,7 +355,7 @@
       "subtype": "动物",
       "difficulty": 3,
       "glyph": "动植物/ma.png",
-      "scan": null,
+      "scan": "动植物/ma-scan.png",
       "tags": [
         "马",
         "动物"
@@ -971,7 +971,7 @@
   "history": {
     "since": "2026-10-14",
     "through": "2026-10-15",
-    "added": 1,
+    "added": 0,
     "days": [
       {
         "day": "2026-10-14",
