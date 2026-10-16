@@ -1,13 +1,13 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "217c533b13c30c61411c262239a094260bb99e894d2688f6bd441c2da2b7462a",
-  "count": 82,
-  "sourceTotal": 82,
+  "sourceSha256": "6fe13361cb3357a70d21e4f4d8e9612f46f32b3d3020257fd4e975cd961890aa",
+  "count": 87,
+  "sourceTotal": 87,
   "skipped": [],
   "types": {
-    "人体动作": 19,
+    "人体动作": 20,
     "动植物": 12,
-    "器物": 9,
+    "器物": 13,
     "抽象": 22,
     "数目": 6,
     "自然现象": 14
@@ -79,6 +79,24 @@
         "口",
         "人体",
         "器官"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "li",
+      "char": "力",
+      "type": "人体动作",
+      "subtype": "力量",
+      "difficulty": 1,
+      "glyph": "人体动作/li.png",
+      "scan": "人体动作/li-scan.png",
+      "tags": [
+        "力",
+        "力量"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -604,6 +622,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "dun",
+      "char": "盾",
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "glyph": "器物/dun.png",
+      "scan": "器物/dun-scan.png",
+      "tags": [
+        "盾",
+        "盾牌"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "fu2",
+      "char": "斧",
+      "type": "器物",
+      "subtype": "工具",
+      "difficulty": 1,
+      "glyph": "器物/fu2.png",
+      "scan": "器物/fu2-scan.png",
+      "tags": [
+        "斧",
+        "斧头"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "gong",
       "char": "弓",
       "type": "器物",
@@ -622,6 +676,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "jia",
+      "char": "甲",
+      "type": "器物",
+      "subtype": "甲胄",
+      "difficulty": 1,
+      "glyph": "器物/jia.png",
+      "scan": "器物/jia-scan.png",
+      "tags": [
+        "甲",
+        "铠甲"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "min",
       "char": "皿",
       "type": "器物",
@@ -632,6 +704,24 @@
       "tags": [
         "皿",
         "器皿"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ren2",
+      "char": "刃",
+      "type": "器物",
+      "subtype": "兵器",
+      "difficulty": 1,
+      "glyph": "器物/ren2.png",
+      "scan": "器物/ren2-scan.png",
+      "tags": [
+        "刃",
+        "刀刃"
       ],
       "license": "public-domain",
       "author": "佚名",
