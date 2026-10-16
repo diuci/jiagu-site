@@ -1,15 +1,15 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "dd4d3b465cbbafab7c280b8d0931b318881644b1a011dc6cc327a9b42392eee4",
-  "count": 160,
-  "sourceTotal": 160,
+  "sourceSha256": "a66bd4bfc7f8dc384d19461b31dfe3f9c1e2ba7be975a0e5733442cbfd37efb3",
+  "count": 165,
+  "sourceTotal": 165,
   "skipped": [],
   "types": {
     "人体动作": 21,
     "动植物": 12,
     "器物": 19,
-    "抽象": 83,
-    "数目": 6,
+    "抽象": 84,
+    "数目": 10,
     "自然现象": 19
   },
   "chars": [
@@ -1122,6 +1122,24 @@
       "tags": [
         "南",
         "方位"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "qie",
+      "char": "且",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/qie.png",
+      "scan": "抽象/qie-scan.png",
+      "tags": [
+        "且",
+        "抽象"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -2481,6 +2499,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "chou",
+      "char": "丑",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/chou.png",
+      "scan": "数目/chou-scan.png",
+      "tags": [
+        "丑",
+        "数目"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ding2",
+      "char": "丁",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/ding2.png",
+      "scan": "数目/ding2-scan.png",
+      "tags": [
+        "丁",
+        "数目"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "er",
       "char": "二",
       "type": "数目",
@@ -2491,6 +2545,24 @@
       "tags": [
         "二",
         "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "qi2",
+      "char": "七",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/qi2.png",
+      "scan": "数目/qi2-scan.png",
+      "tags": [
+        "七",
+        "数目"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -2545,6 +2617,24 @@
       "tags": [
         "十",
         "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "wan",
+      "char": "万",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/wan.png",
+      "scan": "数目/wan-scan.png",
+      "tags": [
+        "万",
+        "数目"
       ],
       "license": "public-domain",
       "author": "佚名",
