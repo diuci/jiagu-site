@@ -1,15 +1,15 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "b3367b5add8e0dc4a88eb92f79771f9f37071bab4fea30998991a947e51547ee",
-  "count": 237,
-  "sourceTotal": 237,
+  "sourceSha256": "8c3a0835338e4ab0f06b0a41fe6e17d6ff6658ad21d9c5eba377be827c221ef1",
+  "count": 243,
+  "sourceTotal": 243,
   "skipped": [],
   "types": {
     "人体动作": 31,
-    "动植物": 12,
+    "动植物": 13,
     "器物": 19,
-    "抽象": 134,
-    "数目": 17,
+    "抽象": 137,
+    "数目": 19,
     "自然现象": 24
   },
   "chars": [
@@ -765,6 +765,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "si",
+      "char": "兕",
+      "type": "动植物",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "动植物/si.png",
+      "scan": "动植物/si-scan.png",
+      "tags": [
+        "兕",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "tu",
       "char": "兔",
       "type": "动植物",
@@ -1319,6 +1337,42 @@
       "scan": "抽象/gen-scan.png",
       "tags": [
         "亘",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "gong3",
+      "char": "公",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/gong3.png",
+      "scan": "抽象/gong3-scan.png",
+      "tags": [
+        "公",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "gong4",
+      "char": "共",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/gong4.png",
+      "scan": "抽象/gong4-scan.png",
+      "tags": [
+        "共",
         "抽象"
       ],
       "license": "public-domain",
@@ -3525,6 +3579,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "xi5",
+      "char": "兮",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/xi5.png",
+      "scan": "抽象/xi5-scan.png",
+      "tags": [
+        "兮",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "xiong2",
       "char": "兇",
       "type": "抽象",
@@ -3553,6 +3625,24 @@
       "tags": [
         "亞",
         "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ba",
+      "char": "八",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/ba.png",
+      "scan": "数目/ba-scan.png",
+      "tags": [
+        "八",
+        "数目"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -3678,6 +3768,24 @@
       "scan": "数目/jiu2-scan.png",
       "tags": [
         "九",
+        "数目"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "liu",
+      "char": "六",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/liu.png",
+      "scan": "数目/liu-scan.png",
+      "tags": [
+        "六",
         "数目"
       ],
       "license": "public-domain",
