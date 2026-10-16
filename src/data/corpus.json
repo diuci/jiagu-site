@@ -1,16 +1,16 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "65c43e5d5fefd73c8e7f6d2069dcd8d0c2c8b9727b63f0648446aa9e1c53658d",
-  "count": 183,
-  "sourceTotal": 183,
+  "sourceSha256": "a2d57b7df12c66f31ba7351aa2f7b34905d4e66389c80459b97abc34af567d2b",
+  "count": 189,
+  "sourceTotal": 189,
   "skipped": [],
   "types": {
     "人体动作": 22,
     "动植物": 12,
     "器物": 19,
-    "抽象": 96,
-    "数目": 13,
-    "自然现象": 21
+    "抽象": 100,
+    "数目": 14,
+    "自然现象": 22
   },
   "chars": [
     {
@@ -1094,6 +1094,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "gen",
+      "char": "亘",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/gen.png",
+      "scan": "抽象/gen-scan.png",
+      "tags": [
+        "亘",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "hu",
       "char": "乎",
       "type": "抽象",
@@ -1103,6 +1121,24 @@
       "scan": "抽象/hu-scan.png",
       "tags": [
         "乎",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ji2",
+      "char": "亟",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/ji2.png",
+      "scan": "抽象/ji2-scan.png",
+      "tags": [
+        "亟",
         "抽象"
       ],
       "license": "public-domain",
@@ -1410,6 +1446,24 @@
       "tags": [
         "言",
         "言语"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yu4",
+      "char": "于",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/yu4.png",
+      "scan": "抽象/yu4-scan.png",
+      "tags": [
+        "于",
+        "抽象"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -2625,13 +2679,13 @@
       "authorEraEnd": -1300
     },
     {
-      "id": "ji",
+      "id": "ji3",
       "char": "祭",
       "type": "抽象",
       "subtype": "祭祀",
       "difficulty": 3,
-      "glyph": "抽象/ji.png",
-      "scan": "抽象/ji-scan.png",
+      "glyph": "抽象/ji3.png",
+      "scan": "抽象/ji3-scan.png",
       "tags": [
         "祭",
         "祭祀"
@@ -2706,6 +2760,24 @@
       "scan": "抽象/tao2-scan.png",
       "tags": [
         "乇",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ya",
+      "char": "亞",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/ya.png",
+      "scan": "抽象/ya-scan.png",
+      "tags": [
+        "亞",
         "罕见"
       ],
       "license": "public-domain",
@@ -2913,6 +2985,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "wu2",
+      "char": "五",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/wu2.png",
+      "scan": "数目/wu2-scan.png",
+      "tags": [
+        "五",
+        "数目"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "yi",
       "char": "一",
       "type": "数目",
@@ -3031,6 +3121,24 @@
       "tags": [
         "黑",
         "黑色"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "jing",
+      "char": "井",
+      "type": "自然现象",
+      "subtype": "自然",
+      "difficulty": 1,
+      "glyph": "自然现象/jing.png",
+      "scan": "自然现象/jing-scan.png",
+      "tags": [
+        "井",
+        "自然"
       ],
       "license": "public-domain",
       "author": "佚名",
