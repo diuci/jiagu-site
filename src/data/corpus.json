@@ -1,15 +1,15 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "22b402acc52e0e31b10a49df8b1a9d95cb3c925bc6dc795f378b3fc7676cf4ae",
-  "count": 201,
-  "sourceTotal": 201,
+  "sourceSha256": "9a9457f53076162abd95ee74e049e69d1da787c0e66d3b4dea3c4b13a6a678c8",
+  "count": 207,
+  "sourceTotal": 207,
   "skipped": [],
   "types": {
-    "人体动作": 23,
+    "人体动作": 26,
     "动植物": 12,
     "器物": 19,
-    "抽象": 107,
-    "数目": 16,
+    "抽象": 109,
+    "数目": 17,
     "自然现象": 24
   },
   "chars": [
@@ -104,6 +104,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "fa",
+      "char": "伐",
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "人体动作/fa.png",
+      "scan": "人体动作/fa-scan.png",
+      "tags": [
+        "伐",
+        "动作"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "kou",
       "char": "口",
       "type": "人体动作",
@@ -141,6 +159,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "qi4",
+      "char": "企",
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "人体动作/qi4.png",
+      "scan": "人体动作/qi4-scan.png",
+      "tags": [
+        "企",
+        "动作"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "ren",
       "char": "人",
       "type": "人体动作",
@@ -151,6 +187,24 @@
       "tags": [
         "人",
         "人体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ren3",
+      "char": "任",
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "人体动作/ren3.png",
+      "scan": "人体动作/ren3-scan.png",
+      "tags": [
+        "任",
+        "动作"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -1598,6 +1652,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "yi6",
+      "char": "伊",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/yi6.png",
+      "scan": "抽象/yi6-scan.png",
+      "tags": [
+        "伊",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "yu4",
       "char": "于",
       "type": "抽象",
@@ -2823,6 +2895,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "geng",
+      "char": "伇",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/geng.png",
+      "scan": "抽象/geng-scan.png",
+      "tags": [
+        "伇",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "ji3",
       "char": "祭",
       "type": "抽象",
@@ -3192,6 +3282,24 @@
       "scan": "数目/yi3-scan.png",
       "tags": [
         "乙",
+        "数目"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zhong2",
+      "char": "仲",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/zhong2.png",
+      "scan": "数目/zhong2-scan.png",
+      "tags": [
+        "仲",
         "数目"
       ],
       "license": "public-domain",
