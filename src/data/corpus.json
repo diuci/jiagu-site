@@ -1,16 +1,16 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "c9eb3833c0671cc0a73e0b5c866d21a5c51c1487d5d2d9cb7f812609445695b1",
-  "count": 52,
-  "sourceTotal": 52,
+  "sourceSha256": "eb74a87d13de73c362604db386efeae551a49b51b0abd134e6deb741ea401cbe",
+  "count": 58,
+  "sourceTotal": 58,
   "skipped": [],
   "types": {
     "人体动作": 11,
     "动植物": 12,
-    "器物": 8,
-    "抽象": 6,
+    "器物": 9,
+    "抽象": 9,
     "数目": 6,
-    "自然现象": 9
+    "自然现象": 11
   },
   "chars": [
     {
@@ -553,6 +553,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "yu3",
+      "char": "玉",
+      "type": "器物",
+      "subtype": "玉器",
+      "difficulty": 2,
+      "glyph": "器物/yu3.png",
+      "scan": "器物/yu3-scan.png",
+      "tags": [
+        "玉",
+        "玉器"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "zhou",
       "char": "舟",
       "type": "器物",
@@ -582,6 +600,24 @@
       "tags": [
         "戈",
         "兵器"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "bu",
+      "char": "卜",
+      "type": "抽象",
+      "subtype": "占卜",
+      "difficulty": 1,
+      "glyph": "抽象/bu.png",
+      "scan": "抽象/bu-scan.png",
+      "tags": [
+        "卜",
+        "占卜"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -680,6 +716,25 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "shi3",
+      "char": "示",
+      "type": "抽象",
+      "subtype": "祭祀",
+      "difficulty": 2,
+      "glyph": "抽象/shi3.png",
+      "scan": "抽象/shi3-scan.png",
+      "tags": [
+        "示",
+        "祭祀",
+        "神主"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "xiao",
       "char": "小",
       "type": "抽象",
@@ -690,6 +745,24 @@
       "tags": [
         "小",
         "形状"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ji",
+      "char": "祭",
+      "type": "抽象",
+      "subtype": "祭祀",
+      "difficulty": 3,
+      "glyph": "抽象/ji.png",
+      "scan": "抽象/ji-scan.png",
+      "tags": [
+        "祭",
+        "祭祀"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -842,6 +915,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "tian2",
+      "char": "田",
+      "type": "自然现象",
+      "subtype": "农耕",
+      "difficulty": 1,
+      "glyph": "自然现象/tian2.png",
+      "scan": "自然现象/tian2-scan.png",
+      "tags": [
+        "田",
+        "农耕"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "yue",
       "char": "月",
       "type": "自然现象",
@@ -870,6 +961,25 @@
       "tags": [
         "火",
         "火焰"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "lei",
+      "char": "雷",
+      "type": "自然现象",
+      "subtype": "天象",
+      "difficulty": 2,
+      "glyph": "自然现象/lei.png",
+      "scan": "自然现象/lei-scan.png",
+      "tags": [
+        "雷",
+        "天象",
+        "雨"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -970,8 +1080,8 @@
   ],
   "history": {
     "since": "2026-10-14",
-    "through": "2026-10-15",
-    "added": 0,
+    "through": "2026-10-16",
+    "added": 1,
     "days": [
       {
         "day": "2026-10-14",
@@ -980,6 +1090,10 @@
       {
         "day": "2026-10-15",
         "id": "ding"
+      },
+      {
+        "day": "2026-10-16",
+        "id": "duo"
       }
     ],
     "chars": {
@@ -1011,6 +1125,24 @@
           "鼎",
           "礼器",
           "祭器"
+        ],
+        "license": "public-domain",
+        "author": "佚名",
+        "era": "商",
+        "authorDied": null,
+        "authorEraEnd": -1300
+      },
+      "duo": {
+        "id": "duo",
+        "char": "多",
+        "type": "抽象",
+        "subtype": "数量",
+        "difficulty": 2,
+        "glyph": "抽象/duo.png",
+        "scan": "抽象/duo-scan.png",
+        "tags": [
+          "多",
+          "数量"
         ],
         "license": "public-domain",
         "author": "佚名",
