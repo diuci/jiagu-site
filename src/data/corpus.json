@@ -1,14 +1,14 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "c5073d095a4dc8edc51587d5dc9d8a00a6ec33e75dd513e29e04d2ed07f05cac",
-  "count": 225,
-  "sourceTotal": 225,
+  "sourceSha256": "a858a390c19b453f3dc241419bb2f0dba2b279376d164bde631d2d864e4adc1c",
+  "count": 231,
+  "sourceTotal": 231,
   "skipped": [],
   "types": {
     "人体动作": 31,
     "动植物": 12,
     "器物": 19,
-    "抽象": 122,
+    "抽象": 128,
     "数目": 17,
     "自然现象": 24
   },
@@ -1148,13 +1148,31 @@
       "authorEraEnd": -1300
     },
     {
-      "id": "bei",
+      "id": "bei2",
+      "char": "備",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/bei2.png",
+      "scan": "抽象/bei2-scan.png",
+      "tags": [
+        "備",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "bei3",
       "char": "北",
       "type": "抽象",
       "subtype": "方位",
       "difficulty": 1,
-      "glyph": "抽象/bei.png",
-      "scan": "抽象/bei-scan.png",
+      "glyph": "抽象/bei3.png",
+      "scan": "抽象/bei3-scan.png",
       "tags": [
         "北",
         "方位"
@@ -1913,6 +1931,42 @@
       "scan": "抽象/yu5-scan.png",
       "tags": [
         "余",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yuan",
+      "char": "元",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/yuan.png",
+      "scan": "抽象/yuan-scan.png",
+      "tags": [
+        "元",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yun2",
+      "char": "允",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/yun2.png",
+      "scan": "抽象/yun2-scan.png",
+      "tags": [
+        "允",
         "抽象"
       ],
       "license": "public-domain",
@@ -3111,6 +3165,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "cheng2",
+      "char": "偁",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/cheng2.png",
+      "scan": "抽象/cheng2-scan.png",
+      "tags": [
+        "偁",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "chou2",
       "char": "侜",
       "type": "抽象",
@@ -3273,6 +3345,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "peng",
+      "char": "倗",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/peng.png",
+      "scan": "抽象/peng-scan.png",
+      "tags": [
+        "倗",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "shu",
       "char": "伓",
       "type": "抽象",
@@ -3300,6 +3390,24 @@
       "scan": "抽象/tao2-scan.png",
       "tags": [
         "乇",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ti",
+      "char": "倿",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/ti.png",
+      "scan": "抽象/ti-scan.png",
+      "tags": [
+        "倿",
         "罕见"
       ],
       "license": "public-domain",
