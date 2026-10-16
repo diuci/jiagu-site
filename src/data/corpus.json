@@ -1,16 +1,16 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "a66bd4bfc7f8dc384d19461b31dfe3f9c1e2ba7be975a0e5733442cbfd37efb3",
-  "count": 165,
-  "sourceTotal": 165,
+  "sourceSha256": "d51a60c56ca2e154ab0528a9a5c4a172886ff6a94d52f09c9e12c6c664ff0308",
+  "count": 171,
+  "sourceTotal": 171,
   "skipped": [],
   "types": {
     "人体动作": 21,
     "动植物": 12,
     "器物": 19,
-    "抽象": 84,
-    "数目": 10,
-    "自然现象": 19
+    "抽象": 88,
+    "数目": 11,
+    "自然现象": 20
   },
   "chars": [
     {
@@ -2463,6 +2463,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "bing2",
+      "char": "並",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/bing2.png",
+      "scan": "抽象/bing2-scan.png",
+      "tags": [
+        "並",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ge2",
+      "char": "丯",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/ge2.png",
+      "scan": "抽象/ge2-scan.png",
+      "tags": [
+        "丯",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "ji",
       "char": "祭",
       "type": "抽象",
@@ -2481,6 +2517,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "jiu",
+      "char": "丩",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/jiu.png",
+      "scan": "抽象/jiu-scan.png",
+      "tags": [
+        "丩",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "nv2",
+      "char": "丮",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/nv2.png",
+      "scan": "抽象/nv2-scan.png",
+      "tags": [
+        "丮",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "bai",
       "char": "百",
       "type": "数目",
@@ -2491,6 +2563,24 @@
       "tags": [
         "百",
         "数"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "bing",
+      "char": "丙",
+      "type": "数目",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "数目/bing.png",
+      "scan": "数目/bing-scan.png",
+      "tags": [
+        "丙",
+        "数目"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -2761,6 +2851,24 @@
       "tags": [
         "气",
         "空气"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "qiu",
+      "char": "丘",
+      "type": "自然现象",
+      "subtype": "自然",
+      "difficulty": 1,
+      "glyph": "自然现象/qiu.png",
+      "scan": "自然现象/qiu-scan.png",
+      "tags": [
+        "丘",
+        "自然"
       ],
       "license": "public-domain",
       "author": "佚名",
