@@ -1,16 +1,16 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "6763fcd0819915edc03aa6dfd5bce0c23eebb0bef233aa4608f056adb48da2ae",
-  "count": 195,
-  "sourceTotal": 195,
+  "sourceSha256": "22b402acc52e0e31b10a49df8b1a9d95cb3c925bc6dc795f378b3fc7676cf4ae",
+  "count": 201,
+  "sourceTotal": 201,
   "skipped": [],
   "types": {
-    "人体动作": 22,
+    "人体动作": 23,
     "动植物": 12,
     "器物": 19,
-    "抽象": 103,
+    "抽象": 107,
     "数目": 16,
-    "自然现象": 23
+    "自然现象": 24
   },
   "chars": [
     {
@@ -59,6 +59,24 @@
       "scan": "人体动作/cheng-scan.png",
       "tags": [
         "乘",
+        "动作"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "cong2",
+      "char": "从",
+      "type": "人体动作",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "人体动作/cong2.png",
+      "scan": "人体动作/cong2-scan.png",
+      "tags": [
+        "从",
         "动作"
       ],
       "license": "public-domain",
@@ -1148,6 +1166,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "jie",
+      "char": "介",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/jie.png",
+      "scan": "抽象/jie-scan.png",
+      "tags": [
+        "介",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "jin",
+      "char": "今",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/jin.png",
+      "scan": "抽象/jin-scan.png",
+      "tags": [
+        "今",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "kang",
       "char": "亢",
       "type": "抽象",
@@ -1157,6 +1211,24 @@
       "scan": "抽象/kang-scan.png",
       "tags": [
         "亢",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ling",
+      "char": "令",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/ling.png",
+      "scan": "抽象/ling-scan.png",
+      "tags": [
+        "令",
         "抽象"
       ],
       "license": "public-domain",
@@ -1499,6 +1571,24 @@
       "scan": "抽象/yi4-scan.png",
       "tags": [
         "亦",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yi5",
+      "char": "以",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/yi5.png",
+      "scan": "抽象/yi5-scan.png",
+      "tags": [
+        "以",
         "抽象"
       ],
       "license": "public-domain",
@@ -3139,6 +3229,24 @@
       "tags": [
         "白",
         "白色"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "bo",
+      "char": "亳",
+      "type": "自然现象",
+      "subtype": "自然",
+      "difficulty": 1,
+      "glyph": "自然现象/bo.png",
+      "scan": "自然现象/bo-scan.png",
+      "tags": [
+        "亳",
+        "自然"
       ],
       "license": "public-domain",
       "author": "佚名",
