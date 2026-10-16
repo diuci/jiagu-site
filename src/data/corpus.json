@@ -1,14 +1,14 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "64bf5969e0ea2c72329e2950de34a6762b49d74fecef771a702a1517dc7ef018",
-  "count": 149,
-  "sourceTotal": 149,
+  "sourceSha256": "cd24a3396458a4697acb1102b805fe1131e1b20295b68c07420ba56d225a8a9b",
+  "count": 155,
+  "sourceTotal": 155,
   "skipped": [],
   "types": {
     "人体动作": 21,
     "动植物": 12,
     "器物": 19,
-    "抽象": 72,
+    "抽象": 78,
     "数目": 6,
     "自然现象": 19
   },
@@ -2157,6 +2157,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "a48",
+      "char": "䏤",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/a48.png",
+      "scan": "抽象/a48-scan.png",
+      "tags": [
+        "䏤",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "a49",
+      "char": "䖵",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/a49.png",
+      "scan": "抽象/a49-scan.png",
+      "tags": [
+        "䖵",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "a5",
       "char": "㕫",
       "type": "抽象",
@@ -2166,6 +2202,78 @@
       "scan": "抽象/a5-scan.png",
       "tags": [
         "㕫",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "a50",
+      "char": "䜴",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/a50.png",
+      "scan": "抽象/a50-scan.png",
+      "tags": [
+        "䜴",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "a51",
+      "char": "䝅",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/a51.png",
+      "scan": "抽象/a51-scan.png",
+      "tags": [
+        "䝅",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "a52",
+      "char": "䝭",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/a52.png",
+      "scan": "抽象/a52-scan.png",
+      "tags": [
+        "䝭",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "a53",
+      "char": "䞢",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/a53.png",
+      "scan": "抽象/a53-scan.png",
+      "tags": [
+        "䞢",
         "罕见"
       ],
       "license": "public-domain",
