@@ -1,14 +1,14 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "7465bb6e79b3c541321f01ceb8b70c7e555f153ffb73c1f26afeaa2557f4aa4c",
-  "count": 70,
-  "sourceTotal": 70,
+  "sourceSha256": "04a447ed19da24d2b473ab6f3f93bae2175a9e3b8dbb61104b8bd1e5bd4bef7a",
+  "count": 76,
+  "sourceTotal": 76,
   "skipped": [],
   "types": {
     "人体动作": 14,
     "动植物": 12,
     "器物": 9,
-    "抽象": 16,
+    "抽象": 22,
     "数目": 6,
     "自然现象": 13
   },
@@ -698,6 +698,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "bu3",
+      "char": "不",
+      "type": "抽象",
+      "subtype": "否定",
+      "difficulty": 1,
+      "glyph": "抽象/bu3.png",
+      "scan": "抽象/bu3-scan.png",
+      "tags": [
+        "不",
+        "否定"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "chu",
       "char": "出",
       "type": "抽象",
@@ -726,6 +744,42 @@
       "tags": [
         "大",
         "形状"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "fei",
+      "char": "非",
+      "type": "抽象",
+      "subtype": "否定",
+      "difficulty": 1,
+      "glyph": "抽象/fei.png",
+      "scan": "抽象/fei-scan.png",
+      "tags": [
+        "非",
+        "否定"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "mo",
+      "char": "莫",
+      "type": "抽象",
+      "subtype": "否定",
+      "difficulty": 1,
+      "glyph": "抽象/mo.png",
+      "scan": "抽象/mo-scan.png",
+      "tags": [
+        "莫",
+        "否定"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -824,6 +878,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "wei",
+      "char": "未",
+      "type": "抽象",
+      "subtype": "否定",
+      "difficulty": 1,
+      "glyph": "抽象/wei.png",
+      "scan": "抽象/wei-scan.png",
+      "tags": [
+        "未",
+        "否定"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "wu",
+      "char": "勿",
+      "type": "抽象",
+      "subtype": "否定",
+      "difficulty": 1,
+      "glyph": "抽象/wu.png",
+      "scan": "抽象/wu-scan.png",
+      "tags": [
+        "勿",
+        "否定"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "xi",
       "char": "西",
       "type": "抽象",
@@ -869,6 +959,24 @@
       "scan": "抽象/zhong-scan.png",
       "tags": [
         "中",
+        "方位"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "zuo",
+      "char": "左",
+      "type": "抽象",
+      "subtype": "方位",
+      "difficulty": 1,
+      "glyph": "抽象/zuo.png",
+      "scan": "抽象/zuo-scan.png",
+      "tags": [
+        "左",
         "方位"
       ],
       "license": "public-domain",
