@@ -1,16 +1,16 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "56565b034c53075fd7397038dbb3820cfa3735c923a4690b3fa9529ac35a0f02",
-  "count": 95,
-  "sourceTotal": 95,
+  "sourceSha256": "a1424791f6d7d2ecb569abfd994fb3c01027d38fdbb8bf02f7edb77ed2638c29",
+  "count": 101,
+  "sourceTotal": 101,
   "skipped": [],
   "types": {
     "人体动作": 21,
     "动植物": 12,
-    "器物": 15,
+    "器物": 18,
     "抽象": 25,
     "数目": 6,
-    "自然现象": 16
+    "自然现象": 19
   },
   "chars": [
     {
@@ -621,6 +621,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "bi2",
+      "char": "璧",
+      "type": "器物",
+      "subtype": "玉器",
+      "difficulty": 1,
+      "glyph": "器物/bi2.png",
+      "scan": "器物/bi2-scan.png",
+      "tags": [
+        "璧",
+        "玉璧"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "cong",
+      "char": "琮",
+      "type": "器物",
+      "subtype": "玉器",
+      "difficulty": 1,
+      "glyph": "器物/cong.png",
+      "scan": "器物/cong-scan.png",
+      "tags": [
+        "琮",
+        "玉琮"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "dao",
       "char": "刀",
       "type": "器物",
@@ -758,6 +794,24 @@
       "tags": [
         "刃",
         "刀刃"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "tao",
+      "char": "陶",
+      "type": "器物",
+      "subtype": "陶器",
+      "difficulty": 1,
+      "glyph": "器物/tao.png",
+      "scan": "器物/tao-scan.png",
+      "tags": [
+        "陶",
+        "陶器"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -1455,6 +1509,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "bai2",
+      "char": "白",
+      "type": "自然现象",
+      "subtype": "颜色",
+      "difficulty": 1,
+      "glyph": "自然现象/bai2.png",
+      "scan": "自然现象/bai2-scan.png",
+      "tags": [
+        "白",
+        "白色"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "chuan",
       "char": "川",
       "type": "自然现象",
@@ -1483,6 +1555,24 @@
       "tags": [
         "光",
         "光芒"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "hei",
+      "char": "黑",
+      "type": "自然现象",
+      "subtype": "颜色",
+      "difficulty": 1,
+      "glyph": "自然现象/hei.png",
+      "scan": "自然现象/hei-scan.png",
+      "tags": [
+        "黑",
+        "黑色"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -1555,6 +1645,24 @@
       "tags": [
         "山",
         "地形"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shi4",
+      "char": "石",
+      "type": "自然现象",
+      "subtype": "岩石",
+      "difficulty": 1,
+      "glyph": "自然现象/shi4.png",
+      "scan": "自然现象/shi4-scan.png",
+      "tags": [
+        "石",
+        "石头"
       ],
       "license": "public-domain",
       "author": "佚名",
