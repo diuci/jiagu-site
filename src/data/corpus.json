@@ -1,16 +1,16 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "b344cc9be4b14ed44cd357f950cf33c57896a1f825efad92b48635c00f65f471",
-  "count": 89,
-  "sourceTotal": 89,
+  "sourceSha256": "56565b034c53075fd7397038dbb3820cfa3735c923a4690b3fa9529ac35a0f02",
+  "count": 95,
+  "sourceTotal": 95,
   "skipped": [],
   "types": {
-    "人体动作": 20,
+    "人体动作": 21,
     "动植物": 12,
     "器物": 15,
-    "抽象": 22,
+    "抽象": 25,
     "数目": 6,
-    "自然现象": 14
+    "自然现象": 16
   },
   "chars": [
     {
@@ -151,6 +151,24 @@
       "tags": [
         "舌",
         "舌头"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "shen",
+      "char": "身",
+      "type": "人体动作",
+      "subtype": "身体",
+      "difficulty": 1,
+      "glyph": "人体动作/shen.png",
+      "scan": "人体动作/shen-scan.png",
+      "tags": [
+        "身",
+        "身体"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -986,6 +1004,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "ming2",
+      "char": "名",
+      "type": "抽象",
+      "subtype": "名字",
+      "difficulty": 1,
+      "glyph": "抽象/ming2.png",
+      "scan": "抽象/ming2-scan.png",
+      "tags": [
+        "名",
+        "名字"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "mo",
       "char": "莫",
       "type": "抽象",
@@ -1112,6 +1148,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "wen",
+      "char": "文",
+      "type": "抽象",
+      "subtype": "文字",
+      "difficulty": 1,
+      "glyph": "抽象/wen.png",
+      "scan": "抽象/wen-scan.png",
+      "tags": [
+        "文",
+        "文字"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "wu",
       "char": "勿",
       "type": "抽象",
@@ -1158,6 +1212,24 @@
       "tags": [
         "下",
         "方位"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yan",
+      "char": "言",
+      "type": "抽象",
+      "subtype": "言语",
+      "difficulty": 1,
+      "glyph": "抽象/yan.png",
+      "scan": "抽象/yan-scan.png",
+      "tags": [
+        "言",
+        "言语"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -1411,6 +1483,42 @@
       "tags": [
         "光",
         "光芒"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "ming",
+      "char": "明",
+      "type": "自然现象",
+      "subtype": "光明",
+      "difficulty": 1,
+      "glyph": "自然现象/ming.png",
+      "scan": "自然现象/ming-scan.png",
+      "tags": [
+        "明",
+        "光明"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "qi",
+      "char": "气",
+      "type": "自然现象",
+      "subtype": "气流",
+      "difficulty": 1,
+      "glyph": "自然现象/qi.png",
+      "scan": "自然现象/qi-scan.png",
+      "tags": [
+        "气",
+        "空气"
       ],
       "license": "public-domain",
       "author": "佚名",
