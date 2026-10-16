@@ -1,14 +1,14 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "90425149b81fd4ce8d77d5ba0b6a892d6b520efe8bbbba72cb3ca8a4def218b7",
-  "count": 249,
-  "sourceTotal": 249,
+  "sourceSha256": "ccc04a7ef12a89ba639d0c67ebe5f9cd6b9194cacecb9b7df2a3621bdcb2c69f",
+  "count": 255,
+  "sourceTotal": 255,
   "skipped": [],
   "types": {
     "人体动作": 32,
     "动植物": 13,
-    "器物": 21,
-    "抽象": 140,
+    "器物": 22,
+    "抽象": 145,
     "数目": 19,
     "自然现象": 24
   },
@@ -1220,6 +1220,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "zhou2",
+      "char": "冑",
+      "type": "器物",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "器物/zhou.png",
+      "scan": "器物/zhou-scan.png",
+      "tags": [
+        "冑",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "bei2",
       "char": "備",
       "type": "抽象",
@@ -1392,6 +1410,24 @@
       "tags": [
         "非",
         "否定"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "fen",
+      "char": "分",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/fen.png",
+      "scan": "抽象/fen-scan.png",
+      "tags": [
+        "分",
+        "抽象"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -1770,6 +1806,24 @@
       "tags": [
         "去",
         "出入"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "re",
+      "char": "刈",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/re.png",
+      "scan": "抽象/re-scan.png",
+      "tags": [
+        "刈",
+        "抽象"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -3525,6 +3579,42 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "jiao",
+      "char": "冓",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/jiao.png",
+      "scan": "抽象/jiao-scan.png",
+      "tags": [
+        "冓",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "jiong",
+      "char": "冏",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/jiong.png",
+      "scan": "抽象/jiong-scan.png",
+      "tags": [
+        "冏",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "jiu",
       "char": "丩",
       "type": "抽象",
@@ -3606,6 +3696,24 @@
       "scan": "抽象/peng-scan.png",
       "tags": [
         "倗",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "qing",
+      "char": "冟",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/qing.png",
+      "scan": "抽象/qing-scan.png",
+      "tags": [
+        "冟",
         "罕见"
       ],
       "license": "public-domain",
