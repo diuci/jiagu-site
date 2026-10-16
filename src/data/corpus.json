@@ -1,16 +1,16 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "eb74a87d13de73c362604db386efeae551a49b51b0abd134e6deb741ea401cbe",
-  "count": 58,
-  "sourceTotal": 58,
+  "sourceSha256": "432421dacd1c5509fc81ed6777b8b8f536b9757a9a61a115995eee3ecf6b4151",
+  "count": 64,
+  "sourceTotal": 64,
   "skipped": [],
   "types": {
-    "人体动作": 11,
+    "人体动作": 12,
     "动植物": 12,
     "器物": 9,
-    "抽象": 9,
+    "抽象": 12,
     "数目": 6,
-    "自然现象": 11
+    "自然现象": 13
   },
   "chars": [
     {
@@ -43,6 +43,24 @@
       "tags": [
         "人",
         "人体"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "xing2",
+      "char": "行",
+      "type": "人体动作",
+      "subtype": "行走",
+      "difficulty": 1,
+      "glyph": "人体动作/xing2.png",
+      "scan": "人体动作/xing2-scan.png",
+      "tags": [
+        "行",
+        "行走"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -626,6 +644,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "chu",
+      "char": "出",
+      "type": "抽象",
+      "subtype": "出入",
+      "difficulty": 1,
+      "glyph": "抽象/chu.png",
+      "scan": "抽象/chu-scan.png",
+      "tags": [
+        "出",
+        "出入"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "da",
       "char": "大",
       "type": "抽象",
@@ -644,6 +680,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "ru",
+      "char": "入",
+      "type": "抽象",
+      "subtype": "出入",
+      "difficulty": 1,
+      "glyph": "抽象/ru.png",
+      "scan": "抽象/ru-scan.png",
+      "tags": [
+        "入",
+        "出入"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "shang",
       "char": "上",
       "type": "抽象",
@@ -654,6 +708,24 @@
       "tags": [
         "上",
         "方位"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "wang2",
+      "char": "王",
+      "type": "抽象",
+      "subtype": "王权",
+      "difficulty": 1,
+      "glyph": "抽象/wang2.png",
+      "scan": "抽象/wang2-scan.png",
+      "tags": [
+        "王",
+        "王权"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -879,6 +951,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "chuan",
+      "char": "川",
+      "type": "自然现象",
+      "subtype": "河流",
+      "difficulty": 1,
+      "glyph": "自然现象/chuan.png",
+      "scan": "自然现象/chuan-scan.png",
+      "tags": [
+        "川",
+        "河流"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "ri",
       "char": "日",
       "type": "自然现象",
@@ -925,6 +1015,24 @@
       "tags": [
         "田",
         "农耕"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "tu2",
+      "char": "土",
+      "type": "自然现象",
+      "subtype": "土地",
+      "difficulty": 1,
+      "glyph": "自然现象/tu2.png",
+      "scan": "自然现象/tu2-scan.png",
+      "tags": [
+        "土",
+        "土地"
       ],
       "license": "public-domain",
       "author": "佚名",
@@ -1081,7 +1189,7 @@
   "history": {
     "since": "2026-10-14",
     "through": "2026-10-16",
-    "added": 1,
+    "added": 0,
     "days": [
       {
         "day": "2026-10-14",
