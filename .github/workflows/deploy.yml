@@ -87,5 +87,7 @@ jobs:
           # dist 与源码并存于 main：源码在 app/、tools/，产物在根的 index.html、assets/、glyphs/…
           cp -r app/dist/. .
           git add -A
-          git commit -m "deploy: 画甲骨 $(date -u +%Y%m%dT%H%M%SZ)"
+          # 产物与上次部署字节相同时没有变更可提交——空提交也照落：它标记
+          # 「这次部署发生过」，deploy: 守卫会让下一条流水线整条跳过。
+          git commit --allow-empty -m "deploy: 画甲骨 $(date -u +%Y%m%dT%H%M%SZ)"
           git push origin main
