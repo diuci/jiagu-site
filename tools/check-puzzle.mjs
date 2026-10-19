@@ -11,12 +11,12 @@
 import { readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { makeChoices, verify } from '../src/logic/puzzle.mjs'
-import { puzzleFor, dayKey } from '../src/logic/daily.mjs'
+import { makeChoices, verify } from '../app/src/logic/puzzle.mjs'
+import { puzzleFor, dayKey } from '../app/src/logic/daily.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(HERE, '..')
-const CORPUS = resolve(ROOT, 'src/data/corpus.json')
+const CORPUS = resolve(ROOT, 'app/src/data/corpus.json')
 
 export function checkAll(corpus) {
   const problems = []

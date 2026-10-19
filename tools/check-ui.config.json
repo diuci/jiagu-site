@@ -1,22 +1,22 @@
 {
-  "tokens": "src/styles/tokens.css",
+  "tokens": "app/src/styles/tokens.css",
   "tokensSha256": "1dc7fa43afa870c3fde8b52f9e2b90b23d819d37dadde3dc79e1bdb6d5ae1985",
   "css": [
-    "src/styles/main.css",
-    "src/App.vue",
-    "src/components/TopNav.vue",
-    "src/components/SiteFooter.vue"
+    "app/src/styles/main.css",
+    "app/src/App.vue",
+    "app/src/components/TopNav.vue",
+    "app/src/components/SiteFooter.vue"
   ],
   "nav": [
     {
-      "file": "src/components/TopNav.vue",
+      "file": "app/src/components/TopNav.vue",
       "start": "<nav class=\"dc-nav\">",
       "end": "</nav>"
     }
   ],
   "footer": [
     {
-      "file": "src/components/SiteFooter.vue",
+      "file": "app/src/components/SiteFooter.vue",
       "start": "<footer class=\"dc-foot\">",
       "end": "</footer>"
     }
@@ -24,12 +24,12 @@
   "sidebar": [],
   "parkOrder": [
     {
-      "file": "src/components/TopNav.vue",
+      "file": "app/src/components/TopNav.vue",
       "start": "<nav class=\"dc-nav\">",
       "end": "</nav>"
     },
     {
-      "file": "src/components/SiteFooter.vue",
+      "file": "app/src/components/SiteFooter.vue",
       "start": "<footer class=\"dc-foot\">",
       "end": "</footer>"
     }

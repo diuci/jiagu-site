@@ -13,17 +13,17 @@ import { createHash } from 'node:crypto'
 import { readFileSync, writeFileSync, copyFileSync, mkdirSync, readdirSync, statSync, rmSync } from 'node:fs'
 import { dirname, resolve, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { dayKey, pickDaily } from '../src/logic/daily.mjs'
+import { dayKey, pickDaily } from '../app/src/logic/daily.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(HERE, '..')
 const CONTENT_ROOT = process.env.CONTENT_ROOT || resolve(ROOT, '../chinese-oracle-bone-script')
 const SOURCE = resolve(CONTENT_ROOT, 'data/characters.json')
 const CHARS_DIR = resolve(CONTENT_ROOT, 'characters')
-const OUT_CORPUS = resolve(ROOT, 'src/data/corpus.json')
+const OUT_CORPUS = resolve(ROOT, 'app/src/data/corpus.json')
 // 甲骨形图放 public/glyphs/：GameView 按 /glyphs/<type>/<id>.png 绝对路径引用，
 // Vite 只把 public/ 原样伺服到根路径；放 src/data/ 下不会被伺服，图会破。
-const OUT_GLYPHS = resolve(ROOT, 'public/glyphs')
+const OUT_GLYPHS = resolve(ROOT, 'app/public/glyphs')
 
 function readSource() {
   let raw

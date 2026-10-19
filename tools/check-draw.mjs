@@ -10,10 +10,10 @@
 import { readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { scoreDraw, judge, strokeToPrim, scrambleStrokes } from '../src/logic/draw.mjs'
+import { scoreDraw, judge, strokeToPrim, scrambleStrokes } from '../app/src/logic/draw.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
-const CORPUS = resolve(HERE, '../src/data/corpus.json')
+const CORPUS = resolve(HERE, '../app/src/data/corpus.json')
 
 /** 把快照 strokes 变成「玩家笔画点列」——拿标准图元的几何当轨迹采样源。 */
 function strokesAsPoints(strokes) {

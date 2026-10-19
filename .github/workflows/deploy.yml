@@ -1,14 +1,16 @@
-name: 构建并部署甲骨猜字
+name: 构建并部署画甲骨
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
+# Pages 源被锁在 main /（legacy，该账号切不了 GHA 模式；2026-10-19 查
+# deployments API 实证）。故构建后把 app/dist 落到 main 根，Pages 即 serve
+# 它；.nojekyll 禁 Jekyll。源码本身住在 app/ 子目录，与产物不抢同一条路径。
+# 防死循环：deploy: 开头的提交是工作流自己推的，遇到就整条跳过。
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -21,40 +23,53 @@ jobs:
       - name: 检出
         uses: actions/checkout@v5
 
+      - name: 读出当前提交主题
+        id: head
+        run: echo "msg=$(git log -1 --pretty=%s)" >> "$GITHUB_OUTPUT"
+
       - name: 设置 Node
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
 
       - name: 安装依赖
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: npm ci
 
       - name: 检查器自检
         # 先证明检查本身会失败。空过的检查比没有检查更危险。
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: npm run selftest
 
-      - name: 盘面与快照
+      - name: 盘面与画字判定
         # check:corpus（快照 vs 内容仓）是本地推送前的检查：CI 不检出内容仓，跑不了。
         # 这里只校验已提交快照的内部自洽（check:puzzle）。
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: |
           npm run check:puzzle
           npm run check:draw
 
       - name: 构建
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: npm run build
 
       - name: 法律护栏
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: npm run check:legal
 
       - name: UI 闸门
         # 令牌与主站一致、CSS 不得把令牌色值抄成字面量。
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: npm run check:ui
 
       - name: 产物体检
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: npm run check:build
 
-      - name: 冒烟：真开浏览器把当天这字猜到底
+      - name: 冒烟：真开浏览器把当天这字画到底
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
         run: |
           npm run preview -- --port 4173 --host 127.0.0.1 &
           for i in $(seq 1 30); do
@@ -64,18 +79,13 @@ jobs:
           curl -sf http://127.0.0.1:4173/ >/dev/null
           node tools/smoke.mjs --url=http://127.0.0.1:4173
 
-      - name: 上传 Pages 产物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: 部署到 GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: 把 app/dist 落到 main 根并推送
+        if: "!startsWith(steps.head.outputs.msg, 'deploy:')"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # dist 与源码并存于 main：源码在 app/、tools/，产物在根的 index.html、assets/、glyphs/…
+          cp -r app/dist/. .
+          git add -A
+          git commit -m "deploy: 画甲骨 $(date -u +%Y%m%dT%H%M%SZ)"
+          git push origin main

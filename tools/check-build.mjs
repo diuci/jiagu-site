@@ -17,9 +17,9 @@ import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
-const DIST = resolve(HERE, '../dist')
-const STYLES = resolve(HERE, '../src/styles/main.css')
-const TOKENS = resolve(HERE, '../src/styles/tokens.css')
+const DIST = resolve(HERE, '../app/dist')
+const STYLES = resolve(HERE, '../app/src/styles/main.css')
+const TOKENS = resolve(HERE, '../app/src/styles/tokens.css')
 const TITLE = '画甲骨 · 丢词夺理'
 
 // 与主站 _deploy/ui/tokens.css 逐值一致（宣纸色 + 朱砂）。
