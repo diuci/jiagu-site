@@ -1,6 +1,6 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "2dbe27abdeb2a992819a61da2c89eca603807d94d3c7fe4436fee6af9de56248",
+  "sourceSha256": "d93f0e892305b2c5daf2149a94d56c3617dc5166d574251276d299de607208fc",
   "count": 261,
   "sourceTotal": 261,
   "skipped": [],
@@ -21,6 +21,8 @@
       "difficulty": 1,
       "glyph": "人体动作/bao.png",
       "scan": "人体动作/bao-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "保",
         "动作"
@@ -39,6 +41,8 @@
       "difficulty": 1,
       "glyph": "人体动作/bi.png",
       "scan": "人体动作/bi-scan.png",
+      "glyphFingerprint": "df96d21544664a5b",
+      "strokeCount": 14,
       "tags": [
         "鼻",
         "鼻子"
@@ -57,6 +61,8 @@
       "difficulty": 1,
       "glyph": "人体动作/bing3.png",
       "scan": "人体动作/bing3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "兵",
         "动作"
@@ -75,6 +81,8 @@
       "difficulty": 1,
       "glyph": "人体动作/bu2.png",
       "scan": "人体动作/bu2-scan.png",
+      "glyphFingerprint": "2bd709bf37d62cd8",
+      "strokeCount": 7,
       "tags": [
         "步",
         "行走"
@@ -93,6 +101,8 @@
       "difficulty": 1,
       "glyph": "人体动作/cheng.png",
       "scan": "人体动作/cheng-scan.png",
+      "glyphFingerprint": "fb60f9ba77f12aea",
+      "strokeCount": 10,
       "tags": [
         "乘",
         "动作"
@@ -111,6 +121,8 @@
       "difficulty": 1,
       "glyph": "人体动作/cong2.png",
       "scan": "人体动作/cong2-scan.png",
+      "glyphFingerprint": "aeb003c8397119e1",
+      "strokeCount": 4,
       "tags": [
         "从",
         "动作"
@@ -129,6 +141,8 @@
       "difficulty": 1,
       "glyph": "人体动作/er2.png",
       "scan": "人体动作/er2-scan.png",
+      "glyphFingerprint": "7d64af71c0f987c4",
+      "strokeCount": 6,
       "tags": [
         "耳",
         "耳朵"
@@ -147,6 +161,8 @@
       "difficulty": 1,
       "glyph": "人体动作/fa.png",
       "scan": "人体动作/fa-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "伐",
         "动作"
@@ -165,6 +181,8 @@
       "difficulty": 1,
       "glyph": "人体动作/fu4.png",
       "scan": "人体动作/fu4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "俘",
         "动作"
@@ -183,6 +201,8 @@
       "difficulty": 1,
       "glyph": "人体动作/kou.png",
       "scan": "人体动作/kou-scan.png",
+      "glyphFingerprint": "9c1e14db7f20e5a0",
+      "strokeCount": 3,
       "tags": [
         "口",
         "人体",
@@ -202,6 +222,8 @@
       "difficulty": 1,
       "glyph": "人体动作/lai.png",
       "scan": "人体动作/lai-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "来",
         "动作"
@@ -220,6 +242,8 @@
       "difficulty": 1,
       "glyph": "人体动作/li.png",
       "scan": "人体动作/li-scan.png",
+      "glyphFingerprint": "bc98b154cdf58f94",
+      "strokeCount": 2,
       "tags": [
         "力",
         "力量"
@@ -238,6 +262,8 @@
       "difficulty": 1,
       "glyph": "人体动作/qi4.png",
       "scan": "人体动作/qi4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "企",
         "动作"
@@ -256,6 +282,8 @@
       "difficulty": 1,
       "glyph": "人体动作/ren.png",
       "scan": "人体动作/ren-scan.png",
+      "glyphFingerprint": "3e9abbbdc16b36a7",
+      "strokeCount": 2,
       "tags": [
         "人",
         "人体"
@@ -274,6 +302,8 @@
       "difficulty": 1,
       "glyph": "人体动作/ren3.png",
       "scan": "人体动作/ren3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "任",
         "动作"
@@ -292,6 +322,8 @@
       "difficulty": 1,
       "glyph": "人体动作/rou.png",
       "scan": "人体动作/rou-scan.png",
+      "glyphFingerprint": "786cabef4f075066",
+      "strokeCount": 6,
       "tags": [
         "肉",
         "肉"
@@ -310,6 +342,8 @@
       "difficulty": 1,
       "glyph": "人体动作/she.png",
       "scan": "人体动作/she-scan.png",
+      "glyphFingerprint": "00bdc602d2555818",
+      "strokeCount": 6,
       "tags": [
         "舌",
         "舌头"
@@ -328,6 +362,8 @@
       "difficulty": 1,
       "glyph": "人体动作/shen.png",
       "scan": "人体动作/shen-scan.png",
+      "glyphFingerprint": "de109133bca71307",
+      "strokeCount": 7,
       "tags": [
         "身",
         "身体"
@@ -346,6 +382,8 @@
       "difficulty": 1,
       "glyph": "人体动作/shou2.png",
       "scan": "人体动作/shou2-scan.png",
+      "glyphFingerprint": "8eeb2f3d8d83a66c",
+      "strokeCount": 9,
       "tags": [
         "首",
         "头"
@@ -364,6 +402,8 @@
       "difficulty": 1,
       "glyph": "人体动作/xing2.png",
       "scan": "人体动作/xing2-scan.png",
+      "glyphFingerprint": "eb6af52867f8209a",
+      "strokeCount": 6,
       "tags": [
         "行",
         "行走"
@@ -382,6 +422,8 @@
       "difficulty": 1,
       "glyph": "人体动作/xiu.png",
       "scan": "人体动作/xiu-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "休",
         "动作"
@@ -400,6 +442,8 @@
       "difficulty": 1,
       "glyph": "人体动作/zhi.png",
       "scan": "人体动作/zhi-scan.png",
+      "glyphFingerprint": "d445176065e0f464",
+      "strokeCount": 4,
       "tags": [
         "止",
         "停止"
@@ -418,6 +462,8 @@
       "difficulty": 1,
       "glyph": "人体动作/zuo2.png",
       "scan": "人体动作/zuo2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "作",
         "动作"
@@ -436,6 +482,8 @@
       "difficulty": 2,
       "glyph": "人体动作/mu2.png",
       "scan": "人体动作/mu2-scan.png",
+      "glyphFingerprint": "e0225a3125a8a224",
+      "strokeCount": 5,
       "tags": [
         "眼睛",
         "人体"
@@ -454,6 +502,8 @@
       "difficulty": 2,
       "glyph": "人体动作/mu3.png",
       "scan": "人体动作/mu3-scan.png",
+      "glyphFingerprint": "434fd01eb8568e56",
+      "strokeCount": 5,
       "tags": [
         "母",
         "称谓",
@@ -473,6 +523,8 @@
       "difficulty": 2,
       "glyph": "人体动作/nv.png",
       "scan": "人体动作/nv-scan.png",
+      "glyphFingerprint": "ad00f2f3eeb6ac19",
+      "strokeCount": 3,
       "tags": [
         "女",
         "称谓",
@@ -492,6 +544,8 @@
       "difficulty": 2,
       "glyph": "人体动作/xin.png",
       "scan": "人体动作/xin-scan.png",
+      "glyphFingerprint": "21f8211f1e60bddb",
+      "strokeCount": 4,
       "tags": [
         "心",
         "人体",
@@ -511,6 +565,8 @@
       "difficulty": 2,
       "glyph": "人体动作/zi.png",
       "scan": "人体动作/zi-scan.png",
+      "glyphFingerprint": "86dddbc1c9e2df13",
+      "strokeCount": 3,
       "tags": [
         "子",
         "称谓",
@@ -530,6 +586,8 @@
       "difficulty": 2,
       "glyph": "人体动作/zou.png",
       "scan": "人体动作/zou-scan.png",
+      "glyphFingerprint": "fc027901eee7b4b2",
+      "strokeCount": 7,
       "tags": [
         "走",
         "动作",
@@ -549,6 +607,8 @@
       "difficulty": 3,
       "glyph": "人体动作/fu3.png",
       "scan": "人体动作/fu3-scan.png",
+      "glyphFingerprint": "57d171ea20abe2a1",
+      "strokeCount": 4,
       "tags": [
         "父",
         "称谓",
@@ -568,6 +628,8 @@
       "difficulty": 3,
       "glyph": "人体动作/shou.png",
       "scan": "人体动作/shou-scan.png",
+      "glyphFingerprint": "de9f0302ca872d23",
+      "strokeCount": 4,
       "tags": [
         "手",
         "人体"
@@ -586,6 +648,8 @@
       "difficulty": 3,
       "glyph": "人体动作/zu.png",
       "scan": "人体动作/zu-scan.png",
+      "glyphFingerprint": "ca4ced883acd22c5",
+      "strokeCount": 7,
       "tags": [
         "足",
         "人体",
@@ -605,6 +669,8 @@
       "difficulty": 2,
       "glyph": "动植物/he.png",
       "scan": "动植物/he-scan.png",
+      "glyphFingerprint": "842725b940b8155c",
+      "strokeCount": 5,
       "tags": [
         "禾",
         "植物",
@@ -624,6 +690,8 @@
       "difficulty": 2,
       "glyph": "动植物/mi.png",
       "scan": "动植物/mi-scan.png",
+      "glyphFingerprint": "60626cf90dfb1c4c",
+      "strokeCount": 6,
       "tags": [
         "米",
         "植物",
@@ -643,6 +711,8 @@
       "difficulty": 2,
       "glyph": "动植物/mu4.png",
       "scan": "动植物/mu4-scan.png",
+      "glyphFingerprint": "b6297b9468d0f9a7",
+      "strokeCount": 4,
       "tags": [
         "树",
         "植物"
@@ -661,6 +731,8 @@
       "difficulty": 2,
       "glyph": "动植物/niao.png",
       "scan": "动植物/niao-scan.png",
+      "glyphFingerprint": "20562bfbfd78e9a7",
+      "strokeCount": 5,
       "tags": [
         "鸟",
         "动物"
@@ -679,6 +751,8 @@
       "difficulty": 2,
       "glyph": "动植物/niu.png",
       "scan": "动植物/niu-scan.png",
+      "glyphFingerprint": "da9a31faa6d0c66f",
+      "strokeCount": 4,
       "tags": [
         "牛",
         "动物"
@@ -697,6 +771,8 @@
       "difficulty": 2,
       "glyph": "动植物/yang.png",
       "scan": "动植物/yang-scan.png",
+      "glyphFingerprint": "8fdf8b7234bfe77e",
+      "strokeCount": 6,
       "tags": [
         "羊",
         "动物",
@@ -716,6 +792,8 @@
       "difficulty": 2,
       "glyph": "动植物/yu2.png",
       "scan": "动植物/yu2-scan.png",
+      "glyphFingerprint": "7e6720fcf0224402",
+      "strokeCount": 8,
       "tags": [
         "鱼",
         "动物"
@@ -734,6 +812,8 @@
       "difficulty": 3,
       "glyph": "动植物/ma.png",
       "scan": "动植物/ma-scan.png",
+      "glyphFingerprint": "27be6a5ab5f4890f",
+      "strokeCount": 3,
       "tags": [
         "马",
         "动物"
@@ -752,6 +832,8 @@
       "difficulty": 3,
       "glyph": "动植物/quan.png",
       "scan": "动植物/quan-scan.png",
+      "glyphFingerprint": "d95e208db03714eb",
+      "strokeCount": 4,
       "tags": [
         "犬",
         "动物",
@@ -771,6 +853,8 @@
       "difficulty": 3,
       "glyph": "动植物/shi2.png",
       "scan": "动植物/shi2-scan.png",
+      "glyphFingerprint": "f245e9a6a155fb23",
+      "strokeCount": 7,
       "tags": [
         "豕",
         "动物",
@@ -790,6 +874,8 @@
       "difficulty": 3,
       "glyph": "动植物/si.png",
       "scan": "动植物/si-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "兕",
         "罕见"
@@ -808,6 +894,8 @@
       "difficulty": 3,
       "glyph": "动植物/tu.png",
       "scan": "动植物/tu-scan.png",
+      "glyphFingerprint": "94f153894fa4b311",
+      "strokeCount": 8,
       "tags": [
         "兔",
         "动物"
@@ -826,6 +914,8 @@
       "difficulty": 3,
       "glyph": "动植物/zhu.png",
       "scan": "动植物/zhu-scan.png",
+      "glyphFingerprint": "c28c033262eaa9b4",
+      "strokeCount": 6,
       "tags": [
         "竹",
         "植物"
@@ -844,6 +934,8 @@
       "difficulty": 1,
       "glyph": "器物/bi2.png",
       "scan": "器物/bi2-scan.png",
+      "glyphFingerprint": "8f2d741193e24447",
+      "strokeCount": 18,
       "tags": [
         "璧",
         "玉璧"
@@ -862,6 +954,8 @@
       "difficulty": 1,
       "glyph": "器物/ce.png",
       "scan": "器物/ce-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 5,
       "tags": [
         "冊",
         "器物"
@@ -880,6 +974,8 @@
       "difficulty": 1,
       "glyph": "器物/cong.png",
       "scan": "器物/cong-scan.png",
+      "glyphFingerprint": "6bd79c0484d1cb6d",
+      "strokeCount": 12,
       "tags": [
         "琮",
         "玉琮"
@@ -898,6 +994,8 @@
       "difficulty": 1,
       "glyph": "器物/dao.png",
       "scan": "器物/dao-scan.png",
+      "glyphFingerprint": "5c300805d849199b",
+      "strokeCount": 2,
       "tags": [
         "刀",
         "兵器",
@@ -917,6 +1015,8 @@
       "difficulty": 1,
       "glyph": "器物/dun.png",
       "scan": "器物/dun-scan.png",
+      "glyphFingerprint": "f221429c17e45bc5",
+      "strokeCount": 9,
       "tags": [
         "盾",
         "盾牌"
@@ -935,6 +1035,8 @@
       "difficulty": 1,
       "glyph": "器物/fu2.png",
       "scan": "器物/fu2-scan.png",
+      "glyphFingerprint": "849c03ff37761175",
+      "strokeCount": 8,
       "tags": [
         "斧",
         "斧头"
@@ -953,6 +1055,8 @@
       "difficulty": 1,
       "glyph": "器物/gong.png",
       "scan": "器物/gong-scan.png",
+      "glyphFingerprint": "e5dfe93d105df3d4",
+      "strokeCount": 3,
       "tags": [
         "弓",
         "兵器"
@@ -971,6 +1075,8 @@
       "difficulty": 1,
       "glyph": "器物/jia.png",
       "scan": "器物/jia-scan.png",
+      "glyphFingerprint": "7f0d4c9f99b4841d",
+      "strokeCount": 5,
       "tags": [
         "甲",
         "铠甲"
@@ -989,6 +1095,8 @@
       "difficulty": 1,
       "glyph": "器物/ju.png",
       "scan": "器物/ju-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "具",
         "器物"
@@ -1007,6 +1115,8 @@
       "difficulty": 1,
       "glyph": "器物/lv.png",
       "scan": "器物/lv-scan.png",
+      "glyphFingerprint": "4e494a984c1f5a0b",
+      "strokeCount": 15,
       "tags": [
         "履",
         "鞋"
@@ -1025,6 +1135,8 @@
       "difficulty": 1,
       "glyph": "器物/min.png",
       "scan": "器物/min-scan.png",
+      "glyphFingerprint": "475f57c28af25c57",
+      "strokeCount": 5,
       "tags": [
         "皿",
         "器皿"
@@ -1043,6 +1155,8 @@
       "difficulty": 1,
       "glyph": "器物/ren2.png",
       "scan": "器物/ren2-scan.png",
+      "glyphFingerprint": "bc98b154cdf58f94",
+      "strokeCount": 3,
       "tags": [
         "刃",
         "刀刃"
@@ -1061,6 +1175,8 @@
       "difficulty": 1,
       "glyph": "器物/tao.png",
       "scan": "器物/tao-scan.png",
+      "glyphFingerprint": "a50ec6ceeb392940",
+      "strokeCount": 11,
       "tags": [
         "陶",
         "陶器"
@@ -1079,6 +1195,8 @@
       "difficulty": 1,
       "glyph": "器物/yi2.png",
       "scan": "器物/yi2-scan.png",
+      "glyphFingerprint": "533ec4fe83548ebc",
+      "strokeCount": 6,
       "tags": [
         "衣",
         "衣服"
@@ -1097,6 +1215,8 @@
       "difficulty": 2,
       "glyph": "器物/che.png",
       "scan": "器物/che-scan.png",
+      "glyphFingerprint": "b55910ae88761f84",
+      "strokeCount": 4,
       "tags": [
         "车",
         "车马",
@@ -1116,6 +1236,8 @@
       "difficulty": 2,
       "glyph": "器物/ding.png",
       "scan": "器物/ding-scan.png",
+      "glyphFingerprint": "ff31058c2023a73d",
+      "strokeCount": 13,
       "tags": [
         "鼎",
         "礼器",
@@ -1135,6 +1257,8 @@
       "difficulty": 2,
       "glyph": "器物/jue.png",
       "scan": "器物/jue-scan.png",
+      "glyphFingerprint": "aeb003c8397119e1",
+      "strokeCount": 9,
       "tags": [
         "珏",
         "珏玉"
@@ -1153,6 +1277,8 @@
       "difficulty": 2,
       "glyph": "器物/wang.png",
       "scan": "器物/wang-scan.png",
+      "glyphFingerprint": "92fd3afbd1430b62",
+      "strokeCount": 6,
       "tags": [
         "网",
         "工具",
@@ -1172,6 +1298,8 @@
       "difficulty": 2,
       "glyph": "器物/yu3.png",
       "scan": "器物/yu3-scan.png",
+      "glyphFingerprint": "1a981f6e414d7651",
+      "strokeCount": 5,
       "tags": [
         "玉",
         "玉器"
@@ -1190,6 +1318,8 @@
       "difficulty": 2,
       "glyph": "器物/zhou.png",
       "scan": null,
+      "glyphFingerprint": "7a97a6df51598816",
+      "strokeCount": 6,
       "tags": [
         "舟",
         "船",
@@ -1209,6 +1339,8 @@
       "difficulty": 3,
       "glyph": "器物/ge.png",
       "scan": "器物/ge-scan.png",
+      "glyphFingerprint": "046933f05450781a",
+      "strokeCount": 4,
       "tags": [
         "戈",
         "兵器"
@@ -1227,6 +1359,8 @@
       "difficulty": 3,
       "glyph": "器物/zhou2.png",
       "scan": "器物/zhou2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "冑",
         "罕见"
@@ -1245,6 +1379,8 @@
       "difficulty": 1,
       "glyph": "抽象/bei2.png",
       "scan": "抽象/bei2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 12,
       "tags": [
         "備",
         "抽象"
@@ -1263,6 +1399,8 @@
       "difficulty": 1,
       "glyph": "抽象/bei3.png",
       "scan": "抽象/bei3-scan.png",
+      "glyphFingerprint": "f46a53da10b97538",
+      "strokeCount": 5,
       "tags": [
         "北",
         "方位"
@@ -1281,6 +1419,8 @@
       "difficulty": 1,
       "glyph": "抽象/bo2.png",
       "scan": "抽象/bo2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "伯",
         "抽象"
@@ -1299,6 +1439,8 @@
       "difficulty": 1,
       "glyph": "抽象/bu.png",
       "scan": "抽象/bu-scan.png",
+      "glyphFingerprint": "d32e512d8d685ac9",
+      "strokeCount": 2,
       "tags": [
         "卜",
         "占卜"
@@ -1317,6 +1459,8 @@
       "difficulty": 1,
       "glyph": "抽象/bu3.png",
       "scan": "抽象/bu3-scan.png",
+      "glyphFingerprint": "817057b1336b83d1",
+      "strokeCount": 4,
       "tags": [
         "不",
         "否定"
@@ -1335,6 +1479,8 @@
       "difficulty": 1,
       "glyph": "抽象/chu.png",
       "scan": "抽象/chu-scan.png",
+      "glyphFingerprint": "141079951b4c8adc",
+      "strokeCount": 5,
       "tags": [
         "出",
         "出入"
@@ -1353,6 +1499,8 @@
       "difficulty": 1,
       "glyph": "抽象/da.png",
       "scan": "抽象/da-scan.png",
+      "glyphFingerprint": "0b2df8830b2c10cf",
+      "strokeCount": 3,
       "tags": [
         "大",
         "形状"
@@ -1371,6 +1519,8 @@
       "difficulty": 1,
       "glyph": "抽象/dian.png",
       "scan": "抽象/dian-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "典",
         "抽象"
@@ -1389,6 +1539,8 @@
       "difficulty": 1,
       "glyph": "抽象/er3.png",
       "scan": "抽象/er3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "兒",
         "抽象"
@@ -1407,6 +1559,8 @@
       "difficulty": 1,
       "glyph": "抽象/fei.png",
       "scan": "抽象/fei-scan.png",
+      "glyphFingerprint": "0db0d1df2de7c4fd",
+      "strokeCount": 8,
       "tags": [
         "非",
         "否定"
@@ -1425,6 +1579,8 @@
       "difficulty": 1,
       "glyph": "抽象/fen.png",
       "scan": "抽象/fen-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "分",
         "抽象"
@@ -1443,6 +1599,8 @@
       "difficulty": 1,
       "glyph": "抽象/gen.png",
       "scan": "抽象/gen-scan.png",
+      "glyphFingerprint": "5710cd607883d9b5",
+      "strokeCount": 6,
       "tags": [
         "亘",
         "抽象"
@@ -1461,6 +1619,8 @@
       "difficulty": 1,
       "glyph": "抽象/gong3.png",
       "scan": "抽象/gong3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "公",
         "抽象"
@@ -1479,6 +1639,8 @@
       "difficulty": 1,
       "glyph": "抽象/gong4.png",
       "scan": "抽象/gong4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "共",
         "抽象"
@@ -1497,6 +1659,8 @@
       "difficulty": 1,
       "glyph": "抽象/he2.png",
       "scan": "抽象/he2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "何",
         "抽象"
@@ -1515,6 +1679,8 @@
       "difficulty": 1,
       "glyph": "抽象/hou.png",
       "scan": "抽象/hou-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "侯",
         "抽象"
@@ -1533,6 +1699,8 @@
       "difficulty": 1,
       "glyph": "抽象/hu.png",
       "scan": "抽象/hu-scan.png",
+      "glyphFingerprint": "db6892f0284c4744",
+      "strokeCount": 5,
       "tags": [
         "乎",
         "抽象"
@@ -1551,6 +1719,8 @@
       "difficulty": 1,
       "glyph": "抽象/ji2.png",
       "scan": "抽象/ji2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "亟",
         "抽象"
@@ -1569,6 +1739,8 @@
       "difficulty": 1,
       "glyph": "抽象/jie.png",
       "scan": "抽象/jie-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "介",
         "抽象"
@@ -1587,6 +1759,8 @@
       "difficulty": 1,
       "glyph": "抽象/jin.png",
       "scan": "抽象/jin-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "今",
         "抽象"
@@ -1605,6 +1779,8 @@
       "difficulty": 1,
       "glyph": "抽象/kan.png",
       "scan": "抽象/kan-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "侃",
         "抽象"
@@ -1623,6 +1799,8 @@
       "difficulty": 1,
       "glyph": "抽象/kang.png",
       "scan": "抽象/kang-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "亢",
         "抽象"
@@ -1641,6 +1819,8 @@
       "difficulty": 1,
       "glyph": "抽象/ke.png",
       "scan": "抽象/ke-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "克",
         "抽象"
@@ -1659,6 +1839,8 @@
       "difficulty": 1,
       "glyph": "抽象/li4.png",
       "scan": "抽象/li4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "利",
         "抽象"
@@ -1677,6 +1859,8 @@
       "difficulty": 1,
       "glyph": "抽象/ling.png",
       "scan": "抽象/ling-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 5,
       "tags": [
         "令",
         "抽象"
@@ -1695,6 +1879,8 @@
       "difficulty": 1,
       "glyph": "抽象/ming2.png",
       "scan": "抽象/ming2-scan.png",
+      "glyphFingerprint": "3c9144f4e7c69c02",
+      "strokeCount": 6,
       "tags": [
         "名",
         "名字"
@@ -1713,6 +1899,8 @@
       "difficulty": 1,
       "glyph": "抽象/mo.png",
       "scan": "抽象/mo-scan.png",
+      "glyphFingerprint": "434cd41011b9e29b",
+      "strokeCount": 11,
       "tags": [
         "莫",
         "否定"
@@ -1731,6 +1919,8 @@
       "difficulty": 1,
       "glyph": "抽象/nai.png",
       "scan": "抽象/nai-scan.png",
+      "glyphFingerprint": "09f9fef486c75f27",
+      "strokeCount": 2,
       "tags": [
         "乃",
         "抽象"
@@ -1749,6 +1939,8 @@
       "difficulty": 1,
       "glyph": "抽象/nan.png",
       "scan": "抽象/nan-scan.png",
+      "glyphFingerprint": "19d07374d7f9e3bd",
+      "strokeCount": 9,
       "tags": [
         "南",
         "方位"
@@ -1767,6 +1959,8 @@
       "difficulty": 1,
       "glyph": "抽象/qi3.png",
       "scan": "抽象/qi3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 3,
       "tags": [
         "乞",
         "抽象"
@@ -1785,6 +1979,8 @@
       "difficulty": 1,
       "glyph": "抽象/qi5.png",
       "scan": "抽象/qi5-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "其",
         "抽象"
@@ -1803,6 +1999,8 @@
       "difficulty": 1,
       "glyph": "抽象/qie.png",
       "scan": "抽象/qie-scan.png",
+      "glyphFingerprint": "81f14a0fff9368c8",
+      "strokeCount": 5,
       "tags": [
         "且",
         "抽象"
@@ -1821,6 +2019,8 @@
       "difficulty": 1,
       "glyph": "抽象/qu.png",
       "scan": "抽象/qu-scan.png",
+      "glyphFingerprint": "bc98b154cdf58f94",
+      "strokeCount": 5,
       "tags": [
         "去",
         "出入"
@@ -1839,6 +2039,8 @@
       "difficulty": 1,
       "glyph": "抽象/re.png",
       "scan": "抽象/re-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "刈",
         "抽象"
@@ -1857,6 +2059,8 @@
       "difficulty": 1,
       "glyph": "抽象/ru.png",
       "scan": "抽象/ru-scan.png",
+      "glyphFingerprint": "467f8d59db27ac97",
+      "strokeCount": 2,
       "tags": [
         "入",
         "出入"
@@ -1875,6 +2079,8 @@
       "difficulty": 1,
       "glyph": "抽象/shang.png",
       "scan": "抽象/shang-scan.png",
+      "glyphFingerprint": "ef1b1170acb881af",
+      "strokeCount": 3,
       "tags": [
         "上",
         "方位"
@@ -1893,6 +2099,8 @@
       "difficulty": 1,
       "glyph": "抽象/shi5.png",
       "scan": "抽象/shi5-scan.png",
+      "glyphFingerprint": "81f14a0fff9368c8",
+      "strokeCount": 8,
       "tags": [
         "事",
         "抽象"
@@ -1911,6 +2119,8 @@
       "difficulty": 1,
       "glyph": "抽象/shi6.png",
       "scan": "抽象/shi6-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "使",
         "抽象"
@@ -1929,6 +2139,8 @@
       "difficulty": 1,
       "glyph": "抽象/wang2.png",
       "scan": "抽象/wang2-scan.png",
+      "glyphFingerprint": "9b606ad4124ab280",
+      "strokeCount": 4,
       "tags": [
         "王",
         "王权"
@@ -1947,6 +2159,8 @@
       "difficulty": 1,
       "glyph": "抽象/wang3.png",
       "scan": "抽象/wang3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 3,
       "tags": [
         "亡",
         "抽象"
@@ -1965,6 +2179,8 @@
       "difficulty": 1,
       "glyph": "抽象/wei.png",
       "scan": "抽象/wei-scan.png",
+      "glyphFingerprint": "817057b1336b83d1",
+      "strokeCount": 5,
       "tags": [
         "未",
         "否定"
@@ -1983,6 +2199,8 @@
       "difficulty": 1,
       "glyph": "抽象/wen.png",
       "scan": "抽象/wen-scan.png",
+      "glyphFingerprint": "de109133bca71307",
+      "strokeCount": 4,
       "tags": [
         "文",
         "文字"
@@ -2001,6 +2219,8 @@
       "difficulty": 1,
       "glyph": "抽象/wu.png",
       "scan": "抽象/wu-scan.png",
+      "glyphFingerprint": "db0510e577b7cc86",
+      "strokeCount": 4,
       "tags": [
         "勿",
         "否定"
@@ -2019,6 +2239,8 @@
       "difficulty": 1,
       "glyph": "抽象/xi4.png",
       "scan": "抽象/xi4-scan.png",
+      "glyphFingerprint": "bca3c96159ff16fa",
+      "strokeCount": 6,
       "tags": [
         "西",
         "方位"
@@ -2037,6 +2259,8 @@
       "difficulty": 1,
       "glyph": "抽象/xia.png",
       "scan": "抽象/xia-scan.png",
+      "glyphFingerprint": "db6892f0284c4744",
+      "strokeCount": 3,
       "tags": [
         "下",
         "方位"
@@ -2055,6 +2279,8 @@
       "difficulty": 1,
       "glyph": "抽象/xian.png",
       "scan": "抽象/xian-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "先",
         "抽象"
@@ -2073,6 +2299,8 @@
       "difficulty": 1,
       "glyph": "抽象/xiong.png",
       "scan": "抽象/xiong-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 5,
       "tags": [
         "兄",
         "抽象"
@@ -2091,6 +2319,8 @@
       "difficulty": 1,
       "glyph": "抽象/yan.png",
       "scan": "抽象/yan-scan.png",
+      "glyphFingerprint": "938daf283fad4d39",
+      "strokeCount": 7,
       "tags": [
         "言",
         "言语"
@@ -2109,6 +2339,8 @@
       "difficulty": 1,
       "glyph": "抽象/yi4.png",
       "scan": "抽象/yi4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "亦",
         "抽象"
@@ -2127,6 +2359,8 @@
       "difficulty": 1,
       "glyph": "抽象/yi5.png",
       "scan": "抽象/yi5-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 5,
       "tags": [
         "以",
         "抽象"
@@ -2145,6 +2379,8 @@
       "difficulty": 1,
       "glyph": "抽象/yi6.png",
       "scan": "抽象/yi6-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "伊",
         "抽象"
@@ -2163,6 +2399,8 @@
       "difficulty": 1,
       "glyph": "抽象/you.png",
       "scan": "抽象/you-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "佑",
         "抽象"
@@ -2181,6 +2419,8 @@
       "difficulty": 1,
       "glyph": "抽象/you2.png",
       "scan": "抽象/you2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "侑",
         "抽象"
@@ -2199,6 +2439,8 @@
       "difficulty": 1,
       "glyph": "抽象/yu4.png",
       "scan": "抽象/yu4-scan.png",
+      "glyphFingerprint": "db6892f0284c4744",
+      "strokeCount": 3,
       "tags": [
         "于",
         "抽象"
@@ -2217,6 +2459,8 @@
       "difficulty": 1,
       "glyph": "抽象/yu5.png",
       "scan": "抽象/yu5-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "余",
         "抽象"
@@ -2235,6 +2479,8 @@
       "difficulty": 1,
       "glyph": "抽象/yuan.png",
       "scan": "抽象/yuan-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "元",
         "抽象"
@@ -2253,6 +2499,8 @@
       "difficulty": 1,
       "glyph": "抽象/yun2.png",
       "scan": "抽象/yun2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "允",
         "抽象"
@@ -2271,6 +2519,8 @@
       "difficulty": 1,
       "glyph": "抽象/zai.png",
       "scan": "抽象/zai-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "再",
         "抽象"
@@ -2289,6 +2539,8 @@
       "difficulty": 1,
       "glyph": "抽象/zha.png",
       "scan": "抽象/zha-scan.png",
+      "glyphFingerprint": "4196b3062eb08b4c",
+      "strokeCount": 5,
       "tags": [
         "乍",
         "抽象"
@@ -2307,6 +2559,8 @@
       "difficulty": 1,
       "glyph": "抽象/zhi2.png",
       "scan": "抽象/zhi2-scan.png",
+      "glyphFingerprint": "5547007826b02d12",
+      "strokeCount": 4,
       "tags": [
         "之",
         "抽象"
@@ -2325,6 +2579,8 @@
       "difficulty": 1,
       "glyph": "抽象/zhong.png",
       "scan": "抽象/zhong-scan.png",
+      "glyphFingerprint": "fba755475b4fb732",
+      "strokeCount": 4,
       "tags": [
         "中",
         "方位"
@@ -2343,6 +2599,8 @@
       "difficulty": 1,
       "glyph": "抽象/zuo.png",
       "scan": "抽象/zuo-scan.png",
+      "glyphFingerprint": "d6db140734856c4a",
+      "strokeCount": 5,
       "tags": [
         "左",
         "方位"
@@ -2361,6 +2619,8 @@
       "difficulty": 2,
       "glyph": "抽象/duo.png",
       "scan": "抽象/duo-scan.png",
+      "glyphFingerprint": "b5994ec0bdf0df26",
+      "strokeCount": 6,
       "tags": [
         "多",
         "数量"
@@ -2379,6 +2639,8 @@
       "difficulty": 2,
       "glyph": "抽象/shi3.png",
       "scan": "抽象/shi3-scan.png",
+      "glyphFingerprint": "cbc3ebc82f09cc9a",
+      "strokeCount": 5,
       "tags": [
         "示",
         "祭祀",
@@ -2398,6 +2660,8 @@
       "difficulty": 2,
       "glyph": "抽象/xiao.png",
       "scan": "抽象/xiao-scan.png",
+      "glyphFingerprint": "fb73fff56e1d0cca",
+      "strokeCount": 3,
       "tags": [
         "小",
         "形状"
@@ -2416,6 +2680,8 @@
       "difficulty": 3,
       "glyph": "抽象/a1.png",
       "scan": "抽象/a1-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "㐭",
         "罕见"
@@ -2434,6 +2700,8 @@
       "difficulty": 3,
       "glyph": "抽象/a10.png",
       "scan": "抽象/a10-scan.png",
+      "glyphFingerprint": "42ae8963a14bf6d7",
+      "strokeCount": 12,
       "tags": [
         "㛸",
         "罕见"
@@ -2452,6 +2720,8 @@
       "difficulty": 3,
       "glyph": "抽象/a11.png",
       "scan": "抽象/a11-scan.png",
+      "glyphFingerprint": "f221429c17e45bc5",
+      "strokeCount": 6,
       "tags": [
         "㜽",
         "罕见"
@@ -2470,6 +2740,8 @@
       "difficulty": 3,
       "glyph": "抽象/a12.png",
       "scan": "抽象/a12-scan.png",
+      "glyphFingerprint": "f221429c17e45bc5",
+      "strokeCount": 11,
       "tags": [
         "㝛",
         "罕见"
@@ -2488,6 +2760,8 @@
       "difficulty": 3,
       "glyph": "抽象/a13.png",
       "scan": "抽象/a13-scan.png",
+      "glyphFingerprint": "987404e40599f8fe",
+      "strokeCount": 11,
       "tags": [
         "㝡",
         "罕见"
@@ -2506,6 +2780,8 @@
       "difficulty": 3,
       "glyph": "抽象/a14.png",
       "scan": "抽象/a14-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "㝵",
         "罕见"
@@ -2524,6 +2800,8 @@
       "difficulty": 3,
       "glyph": "抽象/a15.png",
       "scan": "抽象/a15-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "㞢",
         "罕见"
@@ -2542,6 +2820,8 @@
       "difficulty": 3,
       "glyph": "抽象/a16.png",
       "scan": "抽象/a16-scan.png",
+      "glyphFingerprint": "f221429c17e45bc5",
+      "strokeCount": 7,
       "tags": [
         "㞷",
         "罕见"
@@ -2560,6 +2840,8 @@
       "difficulty": 3,
       "glyph": "抽象/a17.png",
       "scan": "抽象/a17-scan.png",
+      "glyphFingerprint": "eabdf7ff168e3ed3",
+      "strokeCount": 5,
       "tags": [
         "㠯",
         "罕见"
@@ -2578,6 +2860,8 @@
       "difficulty": 3,
       "glyph": "抽象/a18.png",
       "scan": "抽象/a18-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "㢭",
         "罕见"
@@ -2596,6 +2880,8 @@
       "difficulty": 3,
       "glyph": "抽象/a19.png",
       "scan": "抽象/a19-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "㣕",
         "罕见"
@@ -2614,6 +2900,8 @@
       "difficulty": 3,
       "glyph": "抽象/a2.png",
       "scan": "抽象/a2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 5,
       "tags": [
         "㐱",
         "罕见"
@@ -2632,6 +2920,8 @@
       "difficulty": 3,
       "glyph": "抽象/a20.png",
       "scan": "抽象/a20-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "㣙",
         "罕见"
@@ -2650,6 +2940,8 @@
       "difficulty": 3,
       "glyph": "抽象/a21.png",
       "scan": "抽象/a21-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "㦰",
         "罕见"
@@ -2668,6 +2960,8 @@
       "difficulty": 3,
       "glyph": "抽象/a22.png",
       "scan": "抽象/a22-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "㦵",
         "罕见"
@@ -2686,6 +2980,8 @@
       "difficulty": 3,
       "glyph": "抽象/a23.png",
       "scan": "抽象/a23-scan.png",
+      "glyphFingerprint": "f221429c17e45bc5",
+      "strokeCount": 9,
       "tags": [
         "㪅",
         "罕见"
@@ -2704,6 +3000,8 @@
       "difficulty": 3,
       "glyph": "抽象/a24.png",
       "scan": "抽象/a24-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 12,
       "tags": [
         "㪔",
         "罕见"
@@ -2722,6 +3020,8 @@
       "difficulty": 3,
       "glyph": "抽象/a25.png",
       "scan": "抽象/a25-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "㫃",
         "罕见"
@@ -2740,6 +3040,8 @@
       "difficulty": 3,
       "glyph": "抽象/a26.png",
       "scan": "抽象/a26-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 11,
       "tags": [
         "㫌",
         "罕见"
@@ -2758,6 +3060,8 @@
       "difficulty": 3,
       "glyph": "抽象/a27.png",
       "scan": "抽象/a27-scan.png",
+      "glyphFingerprint": "4adfb261a7e0c6bc",
+      "strokeCount": 12,
       "tags": [
         "㫶",
         "罕见"
@@ -2776,6 +3080,8 @@
       "difficulty": 3,
       "glyph": "抽象/a28.png",
       "scan": "抽象/a28-scan.png",
+      "glyphFingerprint": "aeb003c8397119e1",
+      "strokeCount": 16,
       "tags": [
         "㯥",
         "罕见"
@@ -2794,6 +3100,8 @@
       "difficulty": 3,
       "glyph": "抽象/a29.png",
       "scan": "抽象/a29-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 15,
       "tags": [
         "㱃",
         "罕见"
@@ -2812,6 +3120,8 @@
       "difficulty": 3,
       "glyph": "抽象/a3.png",
       "scan": "抽象/a3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "㕚",
         "罕见"
@@ -2830,6 +3140,8 @@
       "difficulty": 3,
       "glyph": "抽象/a30.png",
       "scan": "抽象/a30-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "㱿",
         "罕见"
@@ -2848,6 +3160,8 @@
       "difficulty": 3,
       "glyph": "抽象/a31.png",
       "scan": "抽象/a31-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "㲋",
         "罕见"
@@ -2866,6 +3180,8 @@
       "difficulty": 3,
       "glyph": "抽象/a32.png",
       "scan": "抽象/a32-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 5,
       "tags": [
         "㲹",
         "罕见"
@@ -2884,6 +3200,8 @@
       "difficulty": 3,
       "glyph": "抽象/a33.png",
       "scan": "抽象/a33-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "㲻",
         "罕见"
@@ -2902,6 +3220,8 @@
       "difficulty": 3,
       "glyph": "抽象/a34.png",
       "scan": "抽象/a34-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "㳄",
         "罕见"
@@ -2920,6 +3240,8 @@
       "difficulty": 3,
       "glyph": "抽象/a35.png",
       "scan": "抽象/a35-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "㳑",
         "罕见"
@@ -2938,6 +3260,8 @@
       "difficulty": 3,
       "glyph": "抽象/a36.png",
       "scan": "抽象/a36-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 16,
       "tags": [
         "㵢",
         "罕见"
@@ -2956,6 +3280,8 @@
       "difficulty": 3,
       "glyph": "抽象/a37.png",
       "scan": "抽象/a37-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 14,
       "tags": [
         "㸕",
         "罕见"
@@ -2974,6 +3300,8 @@
       "difficulty": 3,
       "glyph": "抽象/a38.png",
       "scan": "抽象/a38-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "㽙",
         "罕见"
@@ -2992,6 +3320,8 @@
       "difficulty": 3,
       "glyph": "抽象/a39.png",
       "scan": "抽象/a39-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "㿝",
         "罕见"
@@ -3010,6 +3340,8 @@
       "difficulty": 3,
       "glyph": "抽象/a4.png",
       "scan": "抽象/a4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "㕦",
         "罕见"
@@ -3028,6 +3360,8 @@
       "difficulty": 3,
       "glyph": "抽象/a40.png",
       "scan": "抽象/a40-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 11,
       "tags": [
         "䂫",
         "罕见"
@@ -3046,6 +3380,8 @@
       "difficulty": 3,
       "glyph": "抽象/a41.png",
       "scan": "抽象/a41-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 13,
       "tags": [
         "䃄",
         "罕见"
@@ -3064,6 +3400,8 @@
       "difficulty": 3,
       "glyph": "抽象/a42.png",
       "scan": "抽象/a42-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 11,
       "tags": [
         "䄆",
         "罕见"
@@ -3082,6 +3420,8 @@
       "difficulty": 3,
       "glyph": "抽象/a43.png",
       "scan": "抽象/a43-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "䇂",
         "罕见"
@@ -3100,6 +3440,8 @@
       "difficulty": 3,
       "glyph": "抽象/a44.png",
       "scan": "抽象/a44-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 18,
       "tags": [
         "䊤",
         "罕见"
@@ -3118,6 +3460,8 @@
       "difficulty": 3,
       "glyph": "抽象/a45.png",
       "scan": "抽象/a45-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 18,
       "tags": [
         "䌙",
         "罕见"
@@ -3136,6 +3480,8 @@
       "difficulty": 3,
       "glyph": "抽象/a46.png",
       "scan": "抽象/a46-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 13,
       "tags": [
         "䍜",
         "罕见"
@@ -3154,6 +3500,8 @@
       "difficulty": 3,
       "glyph": "抽象/a47.png",
       "scan": "抽象/a47-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "䍩",
         "罕见"
@@ -3172,6 +3520,8 @@
       "difficulty": 3,
       "glyph": "抽象/a48.png",
       "scan": "抽象/a48-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "䏤",
         "罕见"
@@ -3190,6 +3540,8 @@
       "difficulty": 3,
       "glyph": "抽象/a49.png",
       "scan": "抽象/a49-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 12,
       "tags": [
         "䖵",
         "罕见"
@@ -3208,6 +3560,8 @@
       "difficulty": 3,
       "glyph": "抽象/a5.png",
       "scan": "抽象/a5-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "㕫",
         "罕见"
@@ -3226,6 +3580,8 @@
       "difficulty": 3,
       "glyph": "抽象/a50.png",
       "scan": "抽象/a50-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 11,
       "tags": [
         "䜴",
         "罕见"
@@ -3244,6 +3600,8 @@
       "difficulty": 3,
       "glyph": "抽象/a51.png",
       "scan": "抽象/a51-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "䝅",
         "罕见"
@@ -3262,6 +3620,8 @@
       "difficulty": 3,
       "glyph": "抽象/a52.png",
       "scan": "抽象/a52-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 12,
       "tags": [
         "䝭",
         "罕见"
@@ -3280,6 +3640,8 @@
       "difficulty": 3,
       "glyph": "抽象/a53.png",
       "scan": "抽象/a53-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 12,
       "tags": [
         "䞢",
         "罕见"
@@ -3298,6 +3660,8 @@
       "difficulty": 3,
       "glyph": "抽象/a54.png",
       "scan": "抽象/a54-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 12,
       "tags": [
         "䠶",
         "罕见"
@@ -3316,6 +3680,8 @@
       "difficulty": 3,
       "glyph": "抽象/a55.png",
       "scan": "抽象/a55-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 11,
       "tags": [
         "䣬",
         "罕见"
@@ -3334,6 +3700,8 @@
       "difficulty": 3,
       "glyph": "抽象/a56.png",
       "scan": "抽象/a56-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "䧅",
         "罕见"
@@ -3352,6 +3720,8 @@
       "difficulty": 3,
       "glyph": "抽象/a57.png",
       "scan": "抽象/a57-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 19,
       "tags": [
         "䨮",
         "罕见"
@@ -3370,6 +3740,8 @@
       "difficulty": 3,
       "glyph": "抽象/a58.png",
       "scan": "抽象/a58-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 24,
       "tags": [
         "䵼",
         "罕见"
@@ -3388,6 +3760,8 @@
       "difficulty": 3,
       "glyph": "抽象/a6.png",
       "scan": "抽象/a6-scan.png",
+      "glyphFingerprint": "f221429c17e45bc5",
+      "strokeCount": 7,
       "tags": [
         "㕯",
         "罕见"
@@ -3406,6 +3780,8 @@
       "difficulty": 3,
       "glyph": "抽象/a7.png",
       "scan": "抽象/a7-scan.png",
+      "glyphFingerprint": "38065ea09730240d",
+      "strokeCount": 8,
       "tags": [
         "㘡",
         "罕见"
@@ -3424,6 +3800,8 @@
       "difficulty": 3,
       "glyph": "抽象/a8.png",
       "scan": "抽象/a8-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "㚔",
         "罕见"
@@ -3442,6 +3820,8 @@
       "difficulty": 3,
       "glyph": "抽象/a9.png",
       "scan": "抽象/a9-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "㚻",
         "罕见"
@@ -3460,6 +3840,8 @@
       "difficulty": 3,
       "glyph": "抽象/bao4.png",
       "scan": "抽象/bao4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "刞",
         "罕见"
@@ -3478,6 +3860,8 @@
       "difficulty": 3,
       "glyph": "抽象/bing2.png",
       "scan": "抽象/bing2-scan.png",
+      "glyphFingerprint": "aeb003c8397119e1",
+      "strokeCount": 8,
       "tags": [
         "並",
         "罕见"
@@ -3496,6 +3880,8 @@
       "difficulty": 3,
       "glyph": "抽象/cheng2.png",
       "scan": "抽象/cheng2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 11,
       "tags": [
         "偁",
         "罕见"
@@ -3514,6 +3900,8 @@
       "difficulty": 3,
       "glyph": "抽象/chou2.png",
       "scan": "抽象/chou2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "侜",
         "罕见"
@@ -3532,6 +3920,8 @@
       "difficulty": 3,
       "glyph": "抽象/dui.png",
       "scan": "抽象/dui-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "兌",
         "罕见"
@@ -3550,6 +3940,8 @@
       "difficulty": 3,
       "glyph": "抽象/er4.png",
       "scan": "抽象/er4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "刵",
         "罕见"
@@ -3568,6 +3960,8 @@
       "difficulty": 3,
       "glyph": "抽象/fu5.png",
       "scan": "抽象/fu5-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "刜",
         "罕见"
@@ -3586,6 +3980,8 @@
       "difficulty": 3,
       "glyph": "抽象/ge2.png",
       "scan": "抽象/ge2-scan.png",
+      "glyphFingerprint": "81f14a0fff9368c8",
+      "strokeCount": 4,
       "tags": [
         "丯",
         "罕见"
@@ -3604,6 +4000,8 @@
       "difficulty": 3,
       "glyph": "抽象/geng.png",
       "scan": "抽象/geng-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "伇",
         "罕见"
@@ -3622,6 +4020,8 @@
       "difficulty": 3,
       "glyph": "抽象/gong2.png",
       "scan": "抽象/gong2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "侚",
         "罕见"
@@ -3640,6 +4040,8 @@
       "difficulty": 3,
       "glyph": "抽象/ji3.png",
       "scan": "抽象/ji3-scan.png",
+      "glyphFingerprint": "53d12b5efcac8282",
+      "strokeCount": 11,
       "tags": [
         "祭",
         "祭祀"
@@ -3658,6 +4060,8 @@
       "difficulty": 3,
       "glyph": "抽象/jiao.png",
       "scan": "抽象/jiao-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "冓",
         "罕见"
@@ -3676,6 +4080,8 @@
       "difficulty": 3,
       "glyph": "抽象/jiong.png",
       "scan": "抽象/jiong-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 7,
       "tags": [
         "冏",
         "罕见"
@@ -3694,6 +4100,8 @@
       "difficulty": 3,
       "glyph": "抽象/jiu.png",
       "scan": "抽象/jiu-scan.png",
+      "glyphFingerprint": "9e30fec5e5f040af",
+      "strokeCount": 2,
       "tags": [
         "丩",
         "罕见"
@@ -3712,6 +4120,8 @@
       "difficulty": 3,
       "glyph": "抽象/jue2.png",
       "scan": "抽象/jue2-scan.png",
+      "glyphFingerprint": "91cb339409bf604f",
+      "strokeCount": 1,
       "tags": [
         "亅",
         "罕见"
@@ -3730,6 +4140,8 @@
       "difficulty": 3,
       "glyph": "抽象/lun.png",
       "scan": "抽象/lun-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "侖",
         "罕见"
@@ -3748,6 +4160,8 @@
       "difficulty": 3,
       "glyph": "抽象/nv2.png",
       "scan": "抽象/nv2-scan.png",
+      "glyphFingerprint": "5f74480e296380c7",
+      "strokeCount": 4,
       "tags": [
         "丮",
         "罕见"
@@ -3766,6 +4180,8 @@
       "difficulty": 3,
       "glyph": "抽象/peng.png",
       "scan": "抽象/peng-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "倗",
         "罕见"
@@ -3784,6 +4200,8 @@
       "difficulty": 3,
       "glyph": "抽象/qing.png",
       "scan": "抽象/qing-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "冟",
         "罕见"
@@ -3802,6 +4220,8 @@
       "difficulty": 3,
       "glyph": "抽象/shu.png",
       "scan": "抽象/shu-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "伓",
         "罕见"
@@ -3820,6 +4240,8 @@
       "difficulty": 3,
       "glyph": "抽象/tao2.png",
       "scan": "抽象/tao2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 3,
       "tags": [
         "乇",
         "罕见"
@@ -3838,6 +4260,8 @@
       "difficulty": 3,
       "glyph": "抽象/ti.png",
       "scan": "抽象/ti-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "倿",
         "罕见"
@@ -3856,6 +4280,8 @@
       "difficulty": 3,
       "glyph": "抽象/wan4.png",
       "scan": "抽象/wan4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "刓",
         "罕见"
@@ -3874,6 +4300,8 @@
       "difficulty": 3,
       "glyph": "抽象/xi3.png",
       "scan": "抽象/xi3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "係",
         "罕见"
@@ -3892,6 +4320,8 @@
       "difficulty": 3,
       "glyph": "抽象/xi5.png",
       "scan": "抽象/xi5-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "兮",
         "罕见"
@@ -3910,6 +4340,8 @@
       "difficulty": 3,
       "glyph": "抽象/xiong2.png",
       "scan": "抽象/xiong2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "兇",
         "罕见"
@@ -3928,6 +4360,8 @@
       "difficulty": 3,
       "glyph": "抽象/ya.png",
       "scan": "抽象/ya-scan.png",
+      "glyphFingerprint": "aeb003c8397119e1",
+      "strokeCount": 8,
       "tags": [
         "亞",
         "罕见"
@@ -3946,6 +4380,8 @@
       "difficulty": 3,
       "glyph": "抽象/yue4.png",
       "scan": "抽象/yue4-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "刖",
         "罕见"
@@ -3964,6 +4400,8 @@
       "difficulty": 1,
       "glyph": "数目/ba.png",
       "scan": "数目/ba-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 2,
       "tags": [
         "八",
         "数目"
@@ -3982,6 +4420,8 @@
       "difficulty": 1,
       "glyph": "数目/bai.png",
       "scan": "数目/bai-scan.png",
+      "glyphFingerprint": "6307fed6508a858a",
+      "strokeCount": 6,
       "tags": [
         "百",
         "数"
@@ -4000,6 +4440,8 @@
       "difficulty": 1,
       "glyph": "数目/bing.png",
       "scan": "数目/bing-scan.png",
+      "glyphFingerprint": "534247538652f644",
+      "strokeCount": 5,
       "tags": [
         "丙",
         "数目"
@@ -4018,6 +4460,8 @@
       "difficulty": 1,
       "glyph": "数目/chou.png",
       "scan": "数目/chou-scan.png",
+      "glyphFingerprint": "47b6a33dc2700275",
+      "strokeCount": 4,
       "tags": [
         "丑",
         "数目"
@@ -4036,6 +4480,8 @@
       "difficulty": 1,
       "glyph": "数目/ding2.png",
       "scan": "数目/ding2-scan.png",
+      "glyphFingerprint": "77fd8761a2143228",
+      "strokeCount": 2,
       "tags": [
         "丁",
         "数目"
@@ -4054,6 +4500,8 @@
       "difficulty": 1,
       "glyph": "数目/er.png",
       "scan": "数目/er-scan.png",
+      "glyphFingerprint": "6d5c6422bd934c5f",
+      "strokeCount": 2,
       "tags": [
         "二",
         "数"
@@ -4072,6 +4520,8 @@
       "difficulty": 1,
       "glyph": "数目/hai.png",
       "scan": "数目/hai-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "亥",
         "数目"
@@ -4090,6 +4540,8 @@
       "difficulty": 1,
       "glyph": "数目/jiu2.png",
       "scan": "数目/jiu2-scan.png",
+      "glyphFingerprint": "29bdeb6692deb862",
+      "strokeCount": 2,
       "tags": [
         "九",
         "数目"
@@ -4108,6 +4560,8 @@
       "difficulty": 1,
       "glyph": "数目/liu.png",
       "scan": "数目/liu-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 4,
       "tags": [
         "六",
         "数目"
@@ -4126,6 +4580,8 @@
       "difficulty": 1,
       "glyph": "数目/qi2.png",
       "scan": "数目/qi2-scan.png",
+      "glyphFingerprint": "29bdeb6692deb862",
+      "strokeCount": 2,
       "tags": [
         "七",
         "数目"
@@ -4144,6 +4600,8 @@
       "difficulty": 1,
       "glyph": "数目/qian.png",
       "scan": "数目/qian-scan.png",
+      "glyphFingerprint": "a45f15b9b7d5eef4",
+      "strokeCount": 3,
       "tags": [
         "千",
         "数"
@@ -4162,6 +4620,8 @@
       "difficulty": 1,
       "glyph": "数目/san.png",
       "scan": "数目/san-scan.png",
+      "glyphFingerprint": "8d532f8df317ceb3",
+      "strokeCount": 3,
       "tags": [
         "三",
         "数"
@@ -4180,6 +4640,8 @@
       "difficulty": 1,
       "glyph": "数目/shi.png",
       "scan": "数目/shi-scan.png",
+      "glyphFingerprint": "8943dbec924a8537",
+      "strokeCount": 2,
       "tags": [
         "十",
         "数"
@@ -4198,6 +4660,8 @@
       "difficulty": 1,
       "glyph": "数目/wan.png",
       "scan": "数目/wan-scan.png",
+      "glyphFingerprint": "534247538652f644",
+      "strokeCount": 3,
       "tags": [
         "万",
         "数目"
@@ -4216,6 +4680,8 @@
       "difficulty": 1,
       "glyph": "数目/wu2.png",
       "scan": "数目/wu2-scan.png",
+      "glyphFingerprint": "29bdeb6692deb862",
+      "strokeCount": 4,
       "tags": [
         "五",
         "数目"
@@ -4234,6 +4700,8 @@
       "difficulty": 1,
       "glyph": "数目/yi.png",
       "scan": "数目/yi-scan.png",
+      "glyphFingerprint": "116188afed0ca247",
+      "strokeCount": 1,
       "tags": [
         "一",
         "数"
@@ -4252,6 +4720,8 @@
       "difficulty": 1,
       "glyph": "数目/yi3.png",
       "scan": "数目/yi3-scan.png",
+      "glyphFingerprint": "e2acbcc83affe832",
+      "strokeCount": 1,
       "tags": [
         "乙",
         "数目"
@@ -4270,6 +4740,8 @@
       "difficulty": 1,
       "glyph": "数目/zhong2.png",
       "scan": "数目/zhong2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 6,
       "tags": [
         "仲",
         "数目"
@@ -4288,6 +4760,8 @@
       "difficulty": 3,
       "glyph": "数目/tian3.png",
       "scan": "数目/tian3-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 9,
       "tags": [
         "亯",
         "罕见"
@@ -4306,6 +4780,8 @@
       "difficulty": 1,
       "glyph": "自然现象/bai2.png",
       "scan": "自然现象/bai2-scan.png",
+      "glyphFingerprint": "eabdf7ff168e3ed3",
+      "strokeCount": 5,
       "tags": [
         "白",
         "白色"
@@ -4324,6 +4800,8 @@
       "difficulty": 1,
       "glyph": "自然现象/bo.png",
       "scan": "自然现象/bo-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 10,
       "tags": [
         "亳",
         "自然"
@@ -4342,6 +4820,8 @@
       "difficulty": 1,
       "glyph": "自然现象/chuan.png",
       "scan": "自然现象/chuan-scan.png",
+      "glyphFingerprint": "3b35ea4440aef90e",
+      "strokeCount": 3,
       "tags": [
         "川",
         "河流"
@@ -4360,6 +4840,8 @@
       "difficulty": 1,
       "glyph": "自然现象/dan.png",
       "scan": "自然现象/dan-scan.png",
+      "glyphFingerprint": "93372e0be0e79b67",
+      "strokeCount": 4,
       "tags": [
         "丹",
         "自然"
@@ -4378,6 +4860,8 @@
       "difficulty": 1,
       "glyph": "自然现象/guang.png",
       "scan": "自然现象/guang-scan.png",
+      "glyphFingerprint": "926d42c400590d25",
+      "strokeCount": 6,
       "tags": [
         "光",
         "光芒"
@@ -4396,6 +4880,8 @@
       "difficulty": 1,
       "glyph": "自然现象/hei.png",
       "scan": "自然现象/hei-scan.png",
+      "glyphFingerprint": "42ae8963a14bf6d7",
+      "strokeCount": 12,
       "tags": [
         "黑",
         "黑色"
@@ -4414,6 +4900,8 @@
       "difficulty": 1,
       "glyph": "自然现象/jing.png",
       "scan": "自然现象/jing-scan.png",
+      "glyphFingerprint": "1e81a0e7e178d9bd",
+      "strokeCount": 4,
       "tags": [
         "井",
         "自然"
@@ -4432,6 +4920,8 @@
       "difficulty": 1,
       "glyph": "自然现象/jing2.png",
       "scan": "自然现象/jing2-scan.png",
+      "glyphFingerprint": "3c99e9dda8540722",
+      "strokeCount": 8,
       "tags": [
         "京",
         "自然"
@@ -4450,6 +4940,8 @@
       "difficulty": 1,
       "glyph": "自然现象/ming.png",
       "scan": "自然现象/ming-scan.png",
+      "glyphFingerprint": "9d25eb3d78670447",
+      "strokeCount": 8,
       "tags": [
         "明",
         "光明"
@@ -4468,6 +4960,8 @@
       "difficulty": 1,
       "glyph": "自然现象/qi.png",
       "scan": "自然现象/qi-scan.png",
+      "glyphFingerprint": "de109133bca71307",
+      "strokeCount": 4,
       "tags": [
         "气",
         "空气"
@@ -4486,6 +4980,8 @@
       "difficulty": 1,
       "glyph": "自然现象/qiu.png",
       "scan": "自然现象/qiu-scan.png",
+      "glyphFingerprint": "6236b866735476cf",
+      "strokeCount": 5,
       "tags": [
         "丘",
         "自然"
@@ -4504,6 +5000,8 @@
       "difficulty": 1,
       "glyph": "自然现象/ri.png",
       "scan": "自然现象/ri-scan.png",
+      "glyphFingerprint": "b5415e1ccb0024d6",
+      "strokeCount": 4,
       "tags": [
         "太阳",
         "天体"
@@ -4522,6 +5020,8 @@
       "difficulty": 1,
       "glyph": "自然现象/shan.png",
       "scan": "自然现象/shan-scan.png",
+      "glyphFingerprint": "6fe0fa0661897721",
+      "strokeCount": 3,
       "tags": [
         "山",
         "地形"
@@ -4540,6 +5040,8 @@
       "difficulty": 1,
       "glyph": "自然现象/shi4.png",
       "scan": "自然现象/shi4-scan.png",
+      "glyphFingerprint": "1e67918db69f2c1b",
+      "strokeCount": 5,
       "tags": [
         "石",
         "石头"
@@ -4558,6 +5060,8 @@
       "difficulty": 1,
       "glyph": "自然现象/tian2.png",
       "scan": "自然现象/tian2-scan.png",
+      "glyphFingerprint": "2c1ef1e6d179c200",
+      "strokeCount": 5,
       "tags": [
         "田",
         "农耕"
@@ -4576,6 +5080,8 @@
       "difficulty": 1,
       "glyph": "自然现象/tu2.png",
       "scan": "自然现象/tu2-scan.png",
+      "glyphFingerprint": "130d3b8db9f9118a",
+      "strokeCount": 3,
       "tags": [
         "土",
         "土地"
@@ -4594,6 +5100,8 @@
       "difficulty": 1,
       "glyph": "自然现象/yue.png",
       "scan": "自然现象/yue-scan.png",
+      "glyphFingerprint": "fb1bcebbc659fe9a",
+      "strokeCount": 4,
       "tags": [
         "月亮",
         "天体"
@@ -4612,6 +5120,8 @@
       "difficulty": 2,
       "glyph": "自然现象/huo.png",
       "scan": "自然现象/huo-scan.png",
+      "glyphFingerprint": "6fb1ef6bee2ed123",
+      "strokeCount": 4,
       "tags": [
         "火",
         "火焰"
@@ -4630,6 +5140,8 @@
       "difficulty": 2,
       "glyph": "自然现象/lei.png",
       "scan": "自然现象/lei-scan.png",
+      "glyphFingerprint": "1cce1e506ee3f34c",
+      "strokeCount": 13,
       "tags": [
         "雷",
         "天象",
@@ -4649,6 +5161,8 @@
       "difficulty": 2,
       "glyph": "自然现象/shui.png",
       "scan": "自然现象/shui-scan.png",
+      "glyphFingerprint": "7fd2cff5d8663945",
+      "strokeCount": 4,
       "tags": [
         "水",
         "流水"
@@ -4667,6 +5181,8 @@
       "difficulty": 2,
       "glyph": "自然现象/tian.png",
       "scan": "自然现象/tian-scan.png",
+      "glyphFingerprint": "b5f717bed8e760ff",
+      "strokeCount": 4,
       "tags": [
         "天",
         "天体"
@@ -4685,6 +5201,8 @@
       "difficulty": 2,
       "glyph": "自然现象/yu.png",
       "scan": "自然现象/yu-scan.png",
+      "glyphFingerprint": "4ca6ef425eea7b9a",
+      "strokeCount": 8,
       "tags": [
         "雨",
         "气象"
@@ -4703,6 +5221,8 @@
       "difficulty": 3,
       "glyph": "自然现象/xing.png",
       "scan": "自然现象/xing-scan.png",
+      "glyphFingerprint": "1c280d18203ad577",
+      "strokeCount": 9,
       "tags": [
         "星",
         "天体"
@@ -4721,6 +5241,8 @@
       "difficulty": 3,
       "glyph": "自然现象/yun.png",
       "scan": "自然现象/yun-scan.png",
+      "glyphFingerprint": "4e8bbae7ab0c0986",
+      "strokeCount": 4,
       "tags": [
         "云",
         "气象"

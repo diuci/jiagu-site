@@ -57,6 +57,12 @@ export function buildSnapshot() {
     difficulty: c.difficulty,
     glyph: c.glyph,
     scan: c.scan || null,
+    // 字形指纹：内容仓从 GLYPHS 图元算出来的。
+    // 游戏站靠它避开「同形字同框」——两个字的图元一样时，那道四选一无解。
+    glyphFingerprint: c.glyph_fingerprint || null,
+    // 今字笔画数：内容仓从 Unihan kTotalStrokes 取的。
+    // 靠它挑形近的干扰项 —— 挑生僻字孩子无从排除，挑形近字才要靠字形判断。
+    strokeCount: typeof c.stroke_count === 'number' ? c.stroke_count : null,
     tags: c.tags || [],
     license: c.license,
     author: c.author,

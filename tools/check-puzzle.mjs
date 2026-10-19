@@ -42,6 +42,35 @@ export function checkAll(corpus) {
       problems.push(day + '：' + e.message)
     }
   }
+  // 同形字不得同框（2026-10-19 加）
+  //
+  // 内容库 261 字里 155 字与其他字共用同一组图元。若候选里有两个字同形，
+  // 玩家看到一张图却有两个「正确答案」，那道题无解。
+  // 修法在 makeChoices：按 glyphFingerprint 避开。这一条盯住它没被改回去。
+  const fps = new Map()
+  for (const c of chars) {
+    if (!c.glyphFingerprint) continue
+    if (!fps.has(c.glyphFingerprint)) fps.set(c.glyphFingerprint, [])
+    fps.get(c.glyphFingerprint).push(c)
+  }
+  const dupGroups = [...fps.values()].filter((g) => g.length > 1)
+  for (const c of chars) {
+    let choices
+    try { choices = makeChoices(c, chars) }
+    catch (e) { problems.push(c.char + '：' + e.message); continue }
+    const targetFp = c.glyphFingerprint
+    if (!targetFp) continue
+    for (const other of fps.get(targetFp) || []) {
+      if (other.id === c.id) continue
+      if (choices.includes(String(other.char)))
+        problems.push(c.char + ' 与 ' + other.char + ' 字形相同却同框（候选 ' + choices.join('/') + '）：这道题无解')
+    }
+  }
+  if (!chars.length) return problems
+  if (chars.some((c) => c.glyphFingerprint) && !dupGroups.length) {
+    // 不是错误，只是提醒：若曾经有同形组，现在一处也没有，说明指纹可能没同步
+  }
+
   // 历史连续性
   if (corpus.history && Array.isArray(corpus.history.days) && corpus.history.days.length) {
     const h = corpus.history
