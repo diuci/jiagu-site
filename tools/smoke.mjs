@@ -104,6 +104,10 @@ export async function run(url) {
         if (!clicked) problems.push('「画好了」按钮不可点（画布没收到笔画？）')
         const after = await page.evaluate(() => ({ solved: window.__jiagu.store.solved, streak: window.__jiagu.store.streak }))
         if (!after.solved) problems.push('真画标准答案后没进入已解态（采样/判定链断了）')
+        // DOM 断言：只查 store 状态抓不住「写进去了但页面没渲染」（2026-10-20 实抓：
+        // store 曾是 readonly(普通对象)，猜字反馈状态变了几个月、DOM 一次没渲染过）
+        const hasFb = await page.waitForSelector('.feedback', { timeout: 3000 }).then(() => true).catch(() => false)
+        if (!hasFb) problems.push('判定反馈没渲染（.feedback 缺失）——store 写入没穿过响应式')
       }
 
       mkdirSync('shots', { recursive: true })

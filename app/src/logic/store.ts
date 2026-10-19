@@ -1,5 +1,5 @@
 // 游戏状态。读取快照，生成题面，记录答案与连击。
-import { readonly } from 'vue'
+import { readonly, reactive, toRaw } from 'vue'
 import { dayKey, puzzleFor } from './daily.mjs'
 import { isCorrect, makeChoices } from './puzzle.mjs'
 import corpus from '../data/corpus.json'
@@ -39,7 +39,10 @@ function load() {
   return puzzleFor(C, day)
 }
 
-const state: State = {
+// state 必须是 reactive：写入（pick/submitDraw/换题）要穿过代理触发模板更新。
+// 之前直接 readonly(普通对象)，写入走裸对象不触发渲染——猜字的判定反馈
+// 永远不出现在页面上（2026-10-20 练习页双模式实测实抓）。
+const state: State = reactive({
   mode: 'daily',
   day: dayKey(new Date()),
   char: null,
@@ -49,7 +52,7 @@ const state: State = {
   correct: false,
   streak: 0,
   solved: 0,
-}
+})
 
 // 初始化每日题
 Object.assign(state, { char: load().char, choices: load().choices })
@@ -105,6 +108,8 @@ export function submitDraw(_sim: number, pass: boolean) {
 
 export const store = readonly(state)
 export { C as corpus }
-// dev hook / 冒烟测试用：暴露原始可变 state（普通对象），避免 readonly 代理经浏览器序列化丢数组性
-export const rawState = state
+// dev hook / 冒烟测试用：暴露 toRaw(state)——活状态（与 reactive 同一原始
+// target），且不丢数组性。代理对象经浏览器序列化会把数组变成 {0:…} 对象
+// （2026-10-20 smoke 实抓），必须给裸对象。
+export const rawState = toRaw(state)
 export const devHooks = { store: rawState, pick, submitDraw }
