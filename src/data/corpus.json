@@ -1,14 +1,14 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "ccc04a7ef12a89ba639d0c67ebe5f9cd6b9194cacecb9b7df2a3621bdcb2c69f",
-  "count": 255,
-  "sourceTotal": 255,
+  "sourceSha256": "2dbe27abdeb2a992819a61da2c89eca603807d94d3c7fe4436fee6af9de56248",
+  "count": 261,
+  "sourceTotal": 261,
   "skipped": [],
   "types": {
     "人体动作": 32,
     "动植物": 13,
     "器物": 22,
-    "抽象": 145,
+    "抽象": 151,
     "数目": 19,
     "自然现象": 24
   },
@@ -1189,7 +1189,7 @@
       "subtype": "车马",
       "difficulty": 2,
       "glyph": "器物/zhou.png",
-      "scan": "器物/zhou-scan.png",
+      "scan": null,
       "tags": [
         "舟",
         "船",
@@ -1225,8 +1225,8 @@
       "type": "器物",
       "subtype": "罕见",
       "difficulty": 3,
-      "glyph": "器物/zhou.png",
-      "scan": "器物/zhou-scan.png",
+      "glyph": "器物/zhou2.png",
+      "scan": "器物/zhou2-scan.png",
       "tags": [
         "冑",
         "罕见"
@@ -1643,6 +1643,24 @@
       "scan": "抽象/ke-scan.png",
       "tags": [
         "克",
+        "抽象"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "li4",
+      "char": "利",
+      "type": "抽象",
+      "subtype": "基本",
+      "difficulty": 1,
+      "glyph": "抽象/li4.png",
+      "scan": "抽象/li4-scan.png",
+      "tags": [
+        "利",
         "抽象"
       ],
       "license": "public-domain",
@@ -3435,6 +3453,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "bao4",
+      "char": "刞",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/bao4.png",
+      "scan": "抽象/bao4-scan.png",
+      "tags": [
+        "刞",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "bing2",
       "char": "並",
       "type": "抽象",
@@ -3498,6 +3534,42 @@
       "scan": "抽象/dui-scan.png",
       "tags": [
         "兌",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "er4",
+      "char": "刵",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/er4.png",
+      "scan": "抽象/er4-scan.png",
+      "tags": [
+        "刵",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "fu5",
+      "char": "刜",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/fu5.png",
+      "scan": "抽象/fu5-scan.png",
+      "tags": [
+        "刜",
         "罕见"
       ],
       "license": "public-domain",
@@ -3777,6 +3849,24 @@
       "authorEraEnd": -1300
     },
     {
+      "id": "wan4",
+      "char": "刓",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/wan4.png",
+      "scan": "抽象/wan4-scan.png",
+      "tags": [
+        "刓",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
       "id": "xi3",
       "char": "係",
       "type": "抽象",
@@ -3840,6 +3930,24 @@
       "scan": "抽象/ya-scan.png",
       "tags": [
         "亞",
+        "罕见"
+      ],
+      "license": "public-domain",
+      "author": "佚名",
+      "era": "商",
+      "authorDied": null,
+      "authorEraEnd": -1300
+    },
+    {
+      "id": "yue4",
+      "char": "刖",
+      "type": "抽象",
+      "subtype": "罕见",
+      "difficulty": 3,
+      "glyph": "抽象/yue4.png",
+      "scan": "抽象/yue4-scan.png",
+      "tags": [
+        "刖",
         "罕见"
       ],
       "license": "public-domain",
@@ -4626,7 +4734,7 @@
   ],
   "history": {
     "since": "2026-10-14",
-    "through": "2026-10-16",
+    "through": "2026-10-19",
     "added": 0,
     "days": [
       {
@@ -4640,6 +4748,18 @@
       {
         "day": "2026-10-16",
         "id": "duo"
+      },
+      {
+        "day": "2026-10-17",
+        "id": "qiu"
+      },
+      {
+        "day": "2026-10-18",
+        "id": "zhou"
+      },
+      {
+        "day": "2026-10-19",
+        "id": "a25"
       }
     ],
     "chars": {
@@ -4689,6 +4809,61 @@
         "tags": [
           "多",
           "数量"
+        ],
+        "license": "public-domain",
+        "author": "佚名",
+        "era": "商",
+        "authorDied": null,
+        "authorEraEnd": -1300
+      },
+      "qiu": {
+        "id": "qiu",
+        "char": "丘",
+        "type": "自然现象",
+        "subtype": "自然",
+        "difficulty": 1,
+        "glyph": "自然现象/qiu.png",
+        "scan": "自然现象/qiu-scan.png",
+        "tags": [
+          "丘",
+          "自然"
+        ],
+        "license": "public-domain",
+        "author": "佚名",
+        "era": "商",
+        "authorDied": null,
+        "authorEraEnd": -1300
+      },
+      "zhou": {
+        "id": "zhou",
+        "char": "舟",
+        "type": "器物",
+        "subtype": "车马",
+        "difficulty": 2,
+        "glyph": "器物/zhou.png",
+        "scan": "器物/zhou-scan.png",
+        "tags": [
+          "舟",
+          "船",
+          "交通"
+        ],
+        "license": "public-domain",
+        "author": "佚名",
+        "era": "商",
+        "authorDied": null,
+        "authorEraEnd": -1300
+      },
+      "a25": {
+        "id": "a25",
+        "char": "㫃",
+        "type": "抽象",
+        "subtype": "罕见",
+        "difficulty": 3,
+        "glyph": "抽象/a25.png",
+        "scan": "抽象/a25-scan.png",
+        "tags": [
+          "㫃",
+          "罕见"
         ],
         "license": "public-domain",
         "author": "佚名",

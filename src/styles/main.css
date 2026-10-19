@@ -1,55 +1,82 @@
-:root {
-  --paper: #f4ede0;
-  --card: #fbf7ee;
-  --bone: #efe6d2;
-  --line: #d8cbb4;
-  --ink: #241f1a;
-  --dim: #7a715f;
-  --cinnabar: #c8442e;
+/* 画甲骨 · 站点级样式。
+   颜色一律走 tokens.css 的变量，本文件不定义也不抄色值（规范 §1）。
+   本站独有的语义色用 var() 指过来：
+     --c-primary 主色（朱砂）
+     --c-ok 对 / --c-mis 错 */
+:root{
+  --c-primary:var(--cinnabar);
+  --c-ok:var(--celadon);
+  --c-mis:var(--gold);
 }
 * { box-sizing: border-box; }
 body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+  font-family: var(--round);
 }
-.app { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
-.hdr h1 { margin: 0; font-size: 28px; letter-spacing: 2px; }
-.hdr .sub { margin: 4px 0 0; color: var(--dim); font-size: 14px; }
+.app { max-width: 640px; margin: 0 auto; padding: 16px 16px 40px; }
+.hdr h1 { margin: 0; font-size: 28px; letter-spacing: 2px; font-family: var(--serif); }
+.hdr .sub { margin: 4px 0 0; color: var(--ink-faint); font-size: 14px; }
 .tabs { display: flex; gap: 8px; margin: 20px 0; }
 .tabs button {
   flex: 1; padding: 10px 0; border: 1px solid var(--line);
-  background: var(--card); color: var(--ink); border-radius: 8px; font-size: 15px; cursor: pointer;
+  background: var(--surface-hi); color: var(--ink); border-radius: 8px;
+  font-size: 15px; cursor: pointer; font-family: var(--round);
+  transition: border-color .18s, color .18s;
 }
-.tabs button.on { background: var(--cinnabar); color: #fff; border-color: var(--cinnabar); }
+.tabs button.on { background: var(--c-primary); color: var(--paper); border-color: var(--c-primary); }
+.tabs button:not(.on):hover { border-color: var(--c-primary); color: var(--c-primary); }
 .board {
-  background: var(--card); border: 2px solid var(--line); border-radius: 12px;
+  background: var(--card-grad); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 20px; text-align: center; margin-bottom: 16px;
+  box-shadow: var(--shadow);
 }
-.glyph { width: 200px; height: 200px; background: var(--bone); border-radius: 8px; }
+.glyph {
+  width: 200px; height: 200px; background: var(--paper-2);
+  border-radius: 8px; display: block; margin: 0 auto;
+}
 .scan-toggle {
   margin: 10px auto 0; display: block; padding: 6px 14px; font-size: 14px;
-  border: 1px solid var(--line); background: var(--card); color: var(--ink);
-  border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface-hi); color: var(--ink-soft);
+  border-radius: 6px; cursor: pointer; font-family: var(--round);
 }
-.scan-toggle:hover { background: var(--bone); }
-.q { margin: 14px 0 0; font-size: 20px; }
+.scan-toggle:hover { border-color: var(--c-primary); color: var(--c-primary); }
+.q { margin: 14px 0 0; font-size: 20px; color: var(--ink-soft); }
 .choices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
 .choice {
   padding: 22px 0; font-size: 32px; border: 1px solid var(--line);
-  background: var(--card); color: var(--ink); border-radius: 8px; cursor: pointer;
+  background: var(--surface-hi); color: var(--ink); border-radius: 10px;
+  cursor: pointer; font-family: var(--serif);
 }
 .choice:disabled { cursor: default; }
-.choice.ok { border-color: var(--cinnabar); background: #fbe9e5; }
-.choice.bad { border-color: #b08968; background: #f0e4d8; }
-.feedback { background: var(--card); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
-.feedback.good { border-left: 4px solid var(--cinnabar); }
-.feedback.bad { border-left: 4px solid #b08968; }
-.feedback .expl { color: var(--dim); font-size: 14px; margin: 8px 0 0; }
-.bar { display: flex; gap: 16px; align-items: center; color: var(--dim); font-size: 14px; }
-.bar button { margin-left: auto; padding: 8px 16px; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 6px; cursor: pointer; }
+.choice.ok { border-color: var(--c-primary); background: var(--wash-2); }
+.choice.bad { border-color: var(--c-mis); background: var(--wash-1); }
+.feedback {
+  background: var(--surface-hi); border-radius: var(--radius);
+  padding: 14px 16px; margin-bottom: 16px; border: 1px solid var(--line);
+}
+.feedback.good { border-left: 4px solid var(--c-ok); }
+.feedback.bad { border-left: 4px solid var(--c-primary); }
+.feedback .expl { color: var(--ink-soft); font-size: 14px; margin: 8px 0 0; }
+.bar { display: flex; gap: 16px; align-items: center; color: var(--ink-faint); font-size: 14px; }
+.bar button {
+  margin-left: auto; padding: 8px 16px; border: 1px solid var(--line);
+  background: var(--surface-hi); color: var(--ink); border-radius: 6px;
+  cursor: pointer; font-family: var(--round);
+}
+.bar button:hover { border-color: var(--c-primary); color: var(--c-primary); }
 .filter { margin-bottom: 12px; font-size: 14px; }
-.filter button { margin: 0 6px 6px 0; padding: 4px 10px; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 6px; cursor: pointer; }
-.about { background: var(--card); border-radius: 12px; padding: 20px; line-height: 1.8; }
-.about h2 { margin-top: 0; }
+.filter button {
+  margin: 0 6px 6px 0; padding: 4px 10px; border: 1px solid var(--line);
+  background: var(--surface-hi); color: var(--ink); border-radius: 6px;
+  cursor: pointer; font-family: var(--round);
+}
+.about {
+  background: var(--card-grad); border-radius: var(--radius);
+  padding: 20px; line-height: 1.9; border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.about h2 { margin-top: 0; font-family: var(--serif); }
+.about a { color: var(--c-primary); }
+.about :is(h2, h3) { font-family: var(--serif); }

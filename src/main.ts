@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { rawState, pick } from './logic/store'
+import './styles/tokens.css'
 import './styles/main.css'
 
 createApp(App).mount('#app')

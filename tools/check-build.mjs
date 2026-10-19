@@ -19,9 +19,15 @@ import { fileURLToPath } from 'node:url'
 const HERE = dirname(fileURLToPath(import.meta.url))
 const DIST = resolve(HERE, '../dist')
 const STYLES = resolve(HERE, '../src/styles/main.css')
+const TOKENS = resolve(HERE, '../src/styles/tokens.css')
 const TITLE = '甲骨猜字 · 丢词夺理'
 
-// 与主站 _deploy/index.html 的 :root 逐值一致（宣纸色 + 朱砂）
+// 与主站 _deploy/ui/tokens.css 逐值一致（宣纸色 + 朱砂）。
+// 2026-10-19：这几个值原本要求写在 src/styles/main.css 的 :root 里，
+// 那是接入全站 UI 体系之前的做法 —— 本站现在把 tokens.css 原样引入，
+// 令牌的正本是 _deploy/ui/tokens.css，副本由 check-ui.mjs 按 sha256 守。
+// 所以这里改成核对 tokens.css 本身，不再要求 main.css 重复定义一遍
+// （重复定义正是规范 §1 明令禁止的）。
 const LIGHT = {
   '--paper': '#f4ede0',
   '--ink': '#241f1a',
@@ -74,10 +80,12 @@ export function checkDir(dir) {
   if (!existsSync(resolve(dir, 'CNAME'))) problems.push('缺 dist/CNAME，自定义域名 jiagu.diuci.com 会失效')
   if (!existsSync(resolve(dir, '.nojekyll'))) problems.push('缺 dist/.nojekyll')
   if (!existsSync(resolve(dir, 'favicon.svg'))) problems.push('缺 favicon')
-  // 色值核对：五个站共用一套值，「有人顺手调好看一点」必须被抓到
-  let css = null
-  try { css = readFileSync(STYLES, 'utf8') } catch { problems.push('读不到 src/styles/main.css') }
-  if (css !== null) for (const p of checkText(css)) problems.push(p)
+  // 色值核对：六站共用一套值，「有人顺手调好看一点」必须被抓到。
+// 查的是 tokens.css（令牌副本），不是 main.css —— 令牌归正本管，
+// main.css 只许 var() 引用，不许重复定义（规范 §1）。
+let css = null
+try { css = readFileSync(TOKENS, 'utf8') } catch { problems.push('读不到 src/styles/tokens.css') }
+if (css !== null) for (const p of checkText(css)) problems.push(p)
   return problems
 }
 
