@@ -10,26 +10,10 @@
 import { readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { scoreDraw, judge, strokeToPrim, scrambleStrokes } from '../app/src/logic/draw.mjs'
+import { scoreDraw, judge, strokeToPrim, scrambleStrokes, strokesToPointStrokes as strokesAsPoints } from '../app/src/logic/draw.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const CORPUS = resolve(HERE, '../app/src/data/corpus.json')
-
-/** 把快照 strokes 变成「玩家笔画点列」——拿标准图元的几何当轨迹采样源。 */
-function strokesAsPoints(strokes) {
-  const pts = []
-  for (const prim of strokes) {
-    const [type, ...p] = prim
-    if (type === 'line') {
-      pts.push([{ x: p[0], y: p[1] }, { x: (p[0] + p[2]) / 2, y: (p[1] + p[3]) / 2 }, { x: p[2], y: p[3] }])
-    } else if (type === 'rect') {
-      pts.push([{ x: p[0], y: p[1] }, { x: p[2], y: p[3] }])
-    } else {
-      pts.push([{ x: p[0], y: p[1] }])
-    }
-  }
-  return pts
-}
 
 function run() {
   let corpus
@@ -85,18 +69,18 @@ function selftest() {
   }
   const target = [['line', 256, 140, 256, 330], ['line', 170, 210, 170, 330], ['line', 120, 330, 392, 330]] // 山
   add('好样本：标准答案的笔画点列判满分', () => {
-    const prims = strokesAsPointsLocal(target).map(strokeToPrim)
+    const prims = strokesAsPoints(target).map(strokeToPrim)
     return scoreDraw(prims, target, 'copy') >= 0.999 ? true : '标准答案没得满分'
   })
   add('坏样本：整体平移出中心的乱画判低分', () => {
     const scrambled = scrambleStrokes(target, 'test')
-    const prims = strokesAsPointsLocal(scrambled).map(strokeToPrim)
+    const prims = strokesAsPoints(scrambled).map(strokeToPrim)
     return scoreDraw(prims, target, 'free') < 0.6 ? true : '乱画没被判低'
   })
   add('坏样本：空笔画判 0', () => scoreDraw([], target, 'copy') === 0 ? true : '空笔画不是 0 分')
   add('宽判：图元数 ≤2 的目标容差放大（日：circle+dot）', () => {
     const ri = [['circle', 256, 256, 110], ['dot', 256, 256, 12]]
-    const prims = strokesAsPointsLocal(ri).map(strokeToPrim)
+    const prims = strokesAsPoints(ri).map(strokeToPrim)
     return scoreDraw(prims, ri, 'free') >= 0.999 ? true : '少图元目标判失败'
   })
   add('角度容差：±22.5° 内的近似共线命中', () => {
@@ -110,17 +94,6 @@ function selftest() {
   })
   console.log('[ok] check-draw --selftest 通过（' + cases.length + ' 项：' + cases.join('、') + '）')
   return process.exitCode || 0
-}
-
-// 与 run() 里同款的本地采样（selftest 不依赖快照）
-function strokesAsPointsLocal(strokes) {
-  const pts = []
-  for (const prim of strokes) {
-    const [type, ...p] = prim
-    if (type === 'line') pts.push([{ x: p[0], y: p[1] }, { x: (p[0] + p[2]) / 2, y: (p[1] + p[3]) / 2 }, { x: p[2], y: p[3] }])
-    else pts.push([{ x: p[0], y: p[1] }])
-  }
-  return pts
 }
 
 const isEntry = process.argv[1] && process.argv[1].replace(/\\/g, '/').endsWith('tools/check-draw.mjs')

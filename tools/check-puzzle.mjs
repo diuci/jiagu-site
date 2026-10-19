@@ -13,6 +13,7 @@ import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { makeChoices, verify } from '../app/src/logic/puzzle.mjs'
 import { puzzleFor, dayKey } from '../app/src/logic/daily.mjs'
+import { scoreDraw, judge, strokeToPrim, strokesToPointStrokes } from '../app/src/logic/draw.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(HERE, '..')
@@ -38,6 +39,16 @@ export function checkAll(corpus) {
       const { char, choices, frozen } = puzzleFor(corpus, day)
       const p = verify(choices, char)
       for (const q of p) problems.push(day + '（' + char.char + (frozen ? '，冻结' : '') + '）：' + q)
+      // 笔画回放（PLAN 步骤 9）：每日题已切画字玩法，这一天的字必须「画得过」
+      // ——标准答案在 copy 档判过且 ≈1。缺 strokes 或判不过，当天的题就是废题。
+      if (!Array.isArray(char.strokes) || !char.strokes.length) {
+        problems.push(day + '（' + char.char + '）：没有 strokes，画字玩法画不了')
+      } else {
+        const prims = strokesToPointStrokes(char.strokes).map(strokeToPrim)
+        const sim = scoreDraw(prims, char.strokes, 'copy')
+        if (sim < 0.999) problems.push(day + '（' + char.char + '）：标准答案在 copy 档只得 ' + sim.toFixed(2))
+        if (!judge(sim, 'copy').pass) problems.push(day + '（' + char.char + '）：标准答案判不过')
+      }
     } catch (e) {
       problems.push(day + '：' + e.message)
     }
@@ -96,7 +107,7 @@ function run() {
     console.error('    ' + problems.length + ' 个盘面问题')
     return 1
   }
-  console.log('[ok] 全量盘面自洽：' + corpus.count + ' 字四选一 + 最近 30 天每日题回放，历史连续')
+  console.log('[ok] 全量盘面自洽：' + corpus.count + ' 字四选一 + 最近 30 天每日题回放（盘面 + 笔画），历史连续')
   return 0
 }
 
@@ -124,6 +135,23 @@ function selftest() {
     const { char, choices } = puzzleFor(corpus, '2026-10-14')
     const p = verify(choices, char)
     return p.length === 0 ? true : '每日题不自洽：' + p.join('，')
+  })
+  add('每日题缺 strokes 被抓（画字玩法画不了）', () => {
+    const corpus = { chars: [{ id: 'ri', char: '日' }, { id: 'yue', char: '月' }, { id: 'shan', char: '山' }, { id: 'shui', char: '水' }] }
+    const p = checkAll(corpus)
+    return p.some((q) => q.includes('没有 strokes')) ? true : '缺 strokes 没被抓：' + p.join('，')
+  })
+  add('每日题笔画回放：标准答案判过、不误报', () => {
+    const corpus = {
+      chars: [
+        { id: 'ri', char: '日', strokes: [['circle', 256, 256, 110], ['dot', 256, 256, 12]] },
+        { id: 'yue', char: '月', strokes: [['line', 200, 120, 200, 380], ['line', 310, 120, 310, 380]] },
+        { id: 'shan', char: '山', strokes: [['line', 256, 140, 256, 330], ['line', 170, 210, 170, 330], ['line', 120, 330, 392, 330]] },
+        { id: 'shui', char: '水', strokes: [['line', 256, 140, 256, 330], ['line', 180, 200, 180, 330]] },
+      ],
+    }
+    const p = checkAll(corpus)
+    return !p.some((q) => q.includes('strokes') || q.includes('档') || q.includes('判不过')) ? true : '带 strokes 的好样本被误报：' + p.join('，')
   })
   console.log('[ok] check-puzzle --selftest 通过（' + cases.length + ' 项：' + cases.join('、') + '）')
   return process.exitCode || 0

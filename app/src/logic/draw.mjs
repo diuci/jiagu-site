@@ -138,6 +138,20 @@ export function judge(sim, level) {
   return { pass, stars }
 }
 
+/** 目标图元 → 「一笔一点列」的玩家轨迹（512 坐标系）。line 取端点+中点，
+ *  rect 走对角线，圆/点类取中心单点。check-draw 的标准答案、smoke 的真交互
+ *  驱动、check-puzzle 的笔画回放共用这一份——同一段逻辑抄三份是维护事故。 */
+export function strokesToPointStrokes(strokes) {
+  const out = []
+  for (const prim of strokes || []) {
+    const [type, ...p] = prim
+    if (type === 'line') out.push([{ x: p[0], y: p[1] }, { x: (p[0] + p[2]) / 2, y: (p[1] + p[3]) / 2 }, { x: p[2], y: p[3] }])
+    else if (type === 'rect') out.push([{ x: p[0], y: p[1] }, { x: p[2], y: p[3] }])
+    else out.push([{ x: p[0], y: p[1] }])
+  }
+  return out
+}
+
 /** 乱画样本（坏样本生成器）：把目标图元整体平移出画布中心区，角度翻转。 */
 export function scrambleStrokes(strokes, seedStr) {
   const rng = mulberry32(djb2('scramble:' + seedStr))

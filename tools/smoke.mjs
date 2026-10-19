@@ -11,6 +11,7 @@ import { existsSync, mkdirSync } from 'node:fs'
 import { homedir } from 'node:os'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { strokesToPointStrokes } from '../app/src/logic/draw.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 
@@ -68,20 +69,46 @@ export async function run(url) {
     })
     problems.push(...stateProblems(s))
 
-    // 每日题已切画字玩法（拍板 2026-10-19）：查画布存在 + 驱动 submitDraw 到完成态；
+    // 每日题已切画字玩法（拍板 2026-10-19）：查画布存在 + 真交互驱动到完成态；
     // 甲骨形图加载检查移到猜字分支（.glyph 是猜字模式的元素）。
     const hasCanvas = await page.evaluate(() => !!document.querySelector('.draw'))
     if (!hasCanvas) problems.push('每日题画布没渲染（.draw 缺失）')
 
     if (!problems.length && s) {
-      // 驱动画字提交（判定逻辑由 check-draw 把关，这里验证状态流转）
-      await page.evaluate(() => { window.__jiagu.submitDraw(0.9, true) })
-      const after = await page.evaluate(() => ({ solved: window.__jiagu.store.solved, streak: window.__jiagu.store.streak }))
-      if (!after.solved) problems.push('画字提交后没进入已解态')
+      // 真交互驱动（PLAN 步骤 8）：把标准答案点列 dispatch 成真实 pointer 事件流，
+      // 走 DrawBoard 的 pos() 采样 → 「画好了」按钮 → onDrawSubmit → 判定 → 完成态。
+      // 判定算法本身由 check-draw 把关；这里验证的是 DOM 事件链真通。
+      const pss = strokesToPointStrokes(s.char.strokes)
+      if (!pss.length) problems.push('快照里这个字没有 strokes，画字链路无法驱动')
+      else {
+        await page.evaluate((pointStrokes) => {
+          const canvas = document.querySelector('.draw')
+          const rect = canvas.getBoundingClientRect()
+          const toClient = (p) => ({ x: rect.left + (p.x / 512) * rect.width, y: rect.top + (p.y / 512) * rect.height })
+          const fire = (type, p) => canvas.dispatchEvent(new PointerEvent(type, {
+            bubbles: true, cancelable: true, pointerId: 1, isPrimary: true, clientX: p.x, clientY: p.y,
+          }))
+          for (const pts of pointStrokes) {
+            const cs = pts.map(toClient)
+            fire('pointerdown', cs[0])
+            for (const p of cs.slice(1)) fire('pointermove', p)
+            fire('pointerup', cs[cs.length - 1])
+          }
+        }, pss)
+        const clicked = await page.evaluate(() => {
+          const btn = [...document.querySelectorAll('.tbtn.go')].find((b) => !b.disabled)
+          if (!btn) return false
+          btn.click()
+          return true
+        })
+        if (!clicked) problems.push('「画好了」按钮不可点（画布没收到笔画？）')
+        const after = await page.evaluate(() => ({ solved: window.__jiagu.store.solved, streak: window.__jiagu.store.streak }))
+        if (!after.solved) problems.push('真画标准答案后没进入已解态（采样/判定链断了）')
+      }
 
       mkdirSync('shots', { recursive: true })
       await page.screenshot({ path: 'shots/daily.png', fullPage: true })
-      console.log('[ok] 冒烟：当日字「' + s.char.char + '」画字流一路到完成态')
+      console.log('[ok] 冒烟：当日字「' + s.char.char + '」真画 ' + pss.length + ' 笔标准答案，画布→提交→判定一路到完成态')
     }
     return finish(problems, errors)
   }
@@ -112,6 +139,20 @@ function selftest() {
   add('候选不是 4 个会被抓到', stateProblems({ char: { char: '日' }, choices: ['日', '月', '山'] }).length > 0)
   add('正确答案不在候选会被抓到', stateProblems({ char: { char: '日' }, choices: ['月', '山', '水', '火'] }).length > 0)
   add('合规状态不误伤', stateProblems({ char: { char: '日' }, choices: ['日', '月', '山', '水'], answered: false, correct: false }).length === 0)
+  // 真交互驱动的点列构造（步骤 8）：展开形状对，坏数据展开成空
+  add('line 图元展开成一笔三点（端点+中点）', (() => {
+    const [pts] = strokesToPointStrokes([['line', 100, 140, 100, 330]])
+    return pts.length === 3 && pts[0].x === 100 && pts[1].y === 235 && pts[2].y === 330
+  })())
+  add('圆/点类图元展开成中心单点', (() => {
+    const [pts] = strokesToPointStrokes([['circle', 256, 256, 110]])
+    return pts.length === 1 && pts[0].x === 256 && pts[0].y === 256
+  })())
+  add('rect 图元展开成对角线两笔点', (() => {
+    const [pts] = strokesToPointStrokes([['rect', 100, 100, 300, 300]])
+    return pts.length === 2 && pts[1].x === 300 && pts[1].y === 300
+  })())
+  add('空/缺 strokes 展开成空数组（驱动前会被拦下）', strokesToPointStrokes(undefined).length === 0 && strokesToPointStrokes([]).length === 0)
   console.log('[ok] smoke --selftest 通过（' + cases.length + ' 项：' + cases.join('、') + '）')
   return process.exitCode || 0
 }
