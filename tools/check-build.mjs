@@ -20,7 +20,7 @@ const HERE = dirname(fileURLToPath(import.meta.url))
 const DIST = resolve(HERE, '../dist')
 const STYLES = resolve(HERE, '../src/styles/main.css')
 const TOKENS = resolve(HERE, '../src/styles/tokens.css')
-const TITLE = '甲骨猜字 · 丢词夺理'
+const TITLE = '画甲骨 · 丢词夺理'
 
 // 与主站 _deploy/ui/tokens.css 逐值一致（宣纸色 + 朱砂）。
 // 2026-10-19：这几个值原本要求写在 src/styles/main.css 的 :root 里，

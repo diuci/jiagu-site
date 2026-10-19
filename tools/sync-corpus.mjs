@@ -63,6 +63,9 @@ export function buildSnapshot() {
     // 今字笔画数：内容仓从 Unihan kTotalStrokes 取的。
     // 靠它挑形近的干扰项 —— 挑生僻字孩子无从排除，挑形近字才要靠字形判断。
     strokeCount: typeof c.stroke_count === 'number' ? c.stroke_count : null,
+    // 甲骨形笔画数据（画字玩法，PLAN-画甲骨文 §4）：渲染坐标即判定坐标，
+    // 与内容仓 gen-glyphs.py 同源。
+    strokes: Array.isArray(c.strokes) ? c.strokes : null,
     tags: c.tags || [],
     license: c.license,
     author: c.author,
