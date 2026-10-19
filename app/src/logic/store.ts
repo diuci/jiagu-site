@@ -17,6 +17,8 @@ const C = corpus as unknown as {
     license: string
     era: string
     strokes: Array<Array<string | number>> | null
+    // 拓片出处三级口径：obimd 真骨片拓片 / ref Wikimedia 参考图 / null 渲染兜底
+    scanKind: 'obimd' | 'ref' | null
     scan?: string | null
   }>
   history?: { since: string; through: string; days: Array<{ day: string; id: string }> }

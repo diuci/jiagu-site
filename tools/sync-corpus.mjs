@@ -57,6 +57,10 @@ export function buildSnapshot() {
     difficulty: c.difficulty,
     glyph: c.glyph,
     scan: c.scan || null,
+    // 拓片出处三级口径（内容仓 OBIMD 断供策略）：obimd=真骨片拓片，
+    // ref=Wikimedia 参考图（非拓片），null=渲染兜底（如「舟」）。
+    // UI 的「原拓片」标签按它诚实显示，不把参考图说成拓片。
+    scanKind: c.scanKind === undefined ? null : c.scanKind,
     // 字形指纹：内容仓从 GLYPHS 图元算出来的。
     // 游戏站靠它避开「同形字同框」——两个字的图元一样时，那道四选一无解。
     glyphFingerprint: c.glyph_fingerprint || null,

@@ -1,6 +1,6 @@
 {
   "contentVersion": 1,
-  "sourceSha256": "d430c3157de3b772ea538a5cf29a4755fdae5affc4d66e9a07a137611ebdb8c3",
+  "sourceSha256": "a2a1cf10894c2607e6d6bf14f3bb84a69cc41bef698291301316015f4d5fb119",
   "count": 261,
   "sourceTotal": 261,
   "skipped": [],
@@ -21,6 +21,7 @@
       "difficulty": 1,
       "glyph": "人体动作/bao.png",
       "scan": "人体动作/bao-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -64,6 +65,7 @@
       "difficulty": 1,
       "glyph": "人体动作/bi.png",
       "scan": "人体动作/bi-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "df96d21544664a5b",
       "strokeCount": 14,
       "strokes": [
@@ -106,6 +108,7 @@
       "difficulty": 1,
       "glyph": "人体动作/bing3.png",
       "scan": "人体动作/bing3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -149,6 +152,7 @@
       "difficulty": 1,
       "glyph": "人体动作/bu2.png",
       "scan": "人体动作/bu2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "2bd709bf37d62cd8",
       "strokeCount": 7,
       "strokes": [
@@ -199,6 +203,7 @@
       "difficulty": 1,
       "glyph": "人体动作/cheng.png",
       "scan": "人体动作/cheng-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "fb60f9ba77f12aea",
       "strokeCount": 10,
       "strokes": [
@@ -256,6 +261,7 @@
       "difficulty": 1,
       "glyph": "人体动作/cong2.png",
       "scan": "人体动作/cong2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "aeb003c8397119e1",
       "strokeCount": 4,
       "strokes": [
@@ -306,6 +312,7 @@
       "difficulty": 1,
       "glyph": "人体动作/er2.png",
       "scan": "人体动作/er2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "7d64af71c0f987c4",
       "strokeCount": 6,
       "strokes": [
@@ -349,6 +356,7 @@
       "difficulty": 1,
       "glyph": "人体动作/fa.png",
       "scan": "人体动作/fa-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -392,6 +400,7 @@
       "difficulty": 1,
       "glyph": "人体动作/fu4.png",
       "scan": "人体动作/fu4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -435,6 +444,7 @@
       "difficulty": 1,
       "glyph": "人体动作/kou.png",
       "scan": "人体动作/kou-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "9c1e14db7f20e5a0",
       "strokeCount": 3,
       "strokes": [
@@ -465,6 +475,7 @@
       "difficulty": 1,
       "glyph": "人体动作/lai.png",
       "scan": "人体动作/lai-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -508,6 +519,7 @@
       "difficulty": 1,
       "glyph": "人体动作/li.png",
       "scan": "人体动作/li-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "bc98b154cdf58f94",
       "strokeCount": 2,
       "strokes": [
@@ -544,6 +556,7 @@
       "difficulty": 1,
       "glyph": "人体动作/qi4.png",
       "scan": "人体动作/qi4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -587,6 +600,7 @@
       "difficulty": 1,
       "glyph": "人体动作/ren.png",
       "scan": "人体动作/ren-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3e9abbbdc16b36a7",
       "strokeCount": 2,
       "strokes": [
@@ -629,6 +643,7 @@
       "difficulty": 1,
       "glyph": "人体动作/ren3.png",
       "scan": "人体动作/ren3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -672,6 +687,7 @@
       "difficulty": 1,
       "glyph": "人体动作/rou.png",
       "scan": "人体动作/rou-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "786cabef4f075066",
       "strokeCount": 6,
       "strokes": [
@@ -708,6 +724,7 @@
       "difficulty": 1,
       "glyph": "人体动作/she.png",
       "scan": "人体动作/she-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "00bdc602d2555818",
       "strokeCount": 6,
       "strokes": [
@@ -751,6 +768,7 @@
       "difficulty": 1,
       "glyph": "人体动作/shen.png",
       "scan": "人体动作/shen-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "de109133bca71307",
       "strokeCount": 7,
       "strokes": [
@@ -794,6 +812,7 @@
       "difficulty": 1,
       "glyph": "人体动作/shou2.png",
       "scan": "人体动作/shou2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "8eeb2f3d8d83a66c",
       "strokeCount": 9,
       "strokes": [
@@ -836,6 +855,7 @@
       "difficulty": 1,
       "glyph": "人体动作/xing2.png",
       "scan": "人体动作/xing2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "eb6af52867f8209a",
       "strokeCount": 6,
       "strokes": [
@@ -886,6 +906,7 @@
       "difficulty": 1,
       "glyph": "人体动作/xiu.png",
       "scan": "人体动作/xiu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -929,6 +950,7 @@
       "difficulty": 1,
       "glyph": "人体动作/zhi.png",
       "scan": "人体动作/zhi-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "d445176065e0f464",
       "strokeCount": 4,
       "strokes": [
@@ -972,6 +994,7 @@
       "difficulty": 1,
       "glyph": "人体动作/zuo2.png",
       "scan": "人体动作/zuo2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -1015,6 +1038,7 @@
       "difficulty": 2,
       "glyph": "人体动作/mu2.png",
       "scan": "人体动作/mu2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "e0225a3125a8a224",
       "strokeCount": 5,
       "strokes": [
@@ -1057,6 +1081,7 @@
       "difficulty": 2,
       "glyph": "人体动作/mu3.png",
       "scan": "人体动作/mu3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "434fd01eb8568e56",
       "strokeCount": 5,
       "strokes": [
@@ -1119,6 +1144,7 @@
       "difficulty": 2,
       "glyph": "人体动作/nv.png",
       "scan": "人体动作/nv-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "ad00f2f3eeb6ac19",
       "strokeCount": 3,
       "strokes": [
@@ -1204,6 +1230,7 @@
       "difficulty": 2,
       "glyph": "人体动作/xin.png",
       "scan": "人体动作/xin-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "21f8211f1e60bddb",
       "strokeCount": 4,
       "strokes": [
@@ -1255,6 +1282,7 @@
       "difficulty": 2,
       "glyph": "人体动作/zi.png",
       "scan": "人体动作/zi-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "86dddbc1c9e2df13",
       "strokeCount": 3,
       "strokes": [
@@ -1319,6 +1347,7 @@
       "difficulty": 2,
       "glyph": "人体动作/zou.png",
       "scan": "人体动作/zou-scan.png",
+      "scanKind": "ref",
       "glyphFingerprint": "fc027901eee7b4b2",
       "strokeCount": 7,
       "strokes": [
@@ -1390,6 +1419,7 @@
       "difficulty": 3,
       "glyph": "人体动作/fu3.png",
       "scan": "人体动作/fu3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "57d171ea20abe2a1",
       "strokeCount": 4,
       "strokes": [
@@ -1440,6 +1470,7 @@
       "difficulty": 3,
       "glyph": "人体动作/shou.png",
       "scan": "人体动作/shou-scan.png",
+      "scanKind": "ref",
       "glyphFingerprint": "de9f0302ca872d23",
       "strokeCount": 4,
       "strokes": [
@@ -1497,6 +1528,7 @@
       "difficulty": 3,
       "glyph": "人体动作/zu.png",
       "scan": "人体动作/zu-scan.png",
+      "scanKind": "ref",
       "glyphFingerprint": "ca4ced883acd22c5",
       "strokeCount": 7,
       "strokes": [
@@ -1555,6 +1587,7 @@
       "difficulty": 2,
       "glyph": "动植物/he.png",
       "scan": "动植物/he-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "842725b940b8155c",
       "strokeCount": 5,
       "strokes": [
@@ -1627,6 +1660,7 @@
       "difficulty": 2,
       "glyph": "动植物/mi.png",
       "scan": "动植物/mi-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "60626cf90dfb1c4c",
       "strokeCount": 6,
       "strokes": [
@@ -1699,6 +1733,7 @@
       "difficulty": 2,
       "glyph": "动植物/mu4.png",
       "scan": "动植物/mu4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "b6297b9468d0f9a7",
       "strokeCount": 4,
       "strokes": [
@@ -1756,6 +1791,7 @@
       "difficulty": 2,
       "glyph": "动植物/niao.png",
       "scan": "动植物/niao-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "20562bfbfd78e9a7",
       "strokeCount": 5,
       "strokes": [
@@ -1832,6 +1868,7 @@
       "difficulty": 2,
       "glyph": "动植物/niu.png",
       "scan": "动植物/niu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "da9a31faa6d0c66f",
       "strokeCount": 4,
       "strokes": [
@@ -1881,6 +1918,7 @@
       "difficulty": 2,
       "glyph": "动植物/yang.png",
       "scan": "动植物/yang-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "8fdf8b7234bfe77e",
       "strokeCount": 6,
       "strokes": [
@@ -1936,6 +1974,7 @@
       "difficulty": 2,
       "glyph": "动植物/yu2.png",
       "scan": "动植物/yu2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "7e6720fcf0224402",
       "strokeCount": 8,
       "strokes": [
@@ -2006,6 +2045,7 @@
       "difficulty": 3,
       "glyph": "动植物/ma.png",
       "scan": "动植物/ma-scan.png",
+      "scanKind": "ref",
       "glyphFingerprint": "27be6a5ab5f4890f",
       "strokeCount": 3,
       "strokes": [
@@ -2077,6 +2117,7 @@
       "difficulty": 3,
       "glyph": "动植物/quan.png",
       "scan": "动植物/quan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "d95e208db03714eb",
       "strokeCount": 4,
       "strokes": [
@@ -2149,6 +2190,7 @@
       "difficulty": 3,
       "glyph": "动植物/shi2.png",
       "scan": "动植物/shi2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f245e9a6a155fb23",
       "strokeCount": 7,
       "strokes": [
@@ -2212,6 +2254,7 @@
       "difficulty": 3,
       "glyph": "动植物/si.png",
       "scan": "动植物/si-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -2255,6 +2298,7 @@
       "difficulty": 3,
       "glyph": "动植物/tu.png",
       "scan": "动植物/tu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "94f153894fa4b311",
       "strokeCount": 8,
       "strokes": [
@@ -2324,6 +2368,7 @@
       "difficulty": 3,
       "glyph": "动植物/zhu.png",
       "scan": "动植物/zhu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "c28c033262eaa9b4",
       "strokeCount": 6,
       "strokes": [
@@ -2402,6 +2447,7 @@
       "difficulty": 1,
       "glyph": "器物/bi2.png",
       "scan": "器物/bi2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "8f2d741193e24447",
       "strokeCount": 18,
       "strokes": [
@@ -2436,6 +2482,7 @@
       "difficulty": 1,
       "glyph": "器物/ce.png",
       "scan": "器物/ce-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 5,
       "strokes": [
@@ -2479,6 +2526,7 @@
       "difficulty": 1,
       "glyph": "器物/cong.png",
       "scan": "器物/cong-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "6bd79c0484d1cb6d",
       "strokeCount": 12,
       "strokes": [
@@ -2514,6 +2562,7 @@
       "difficulty": 1,
       "glyph": "器物/dao.png",
       "scan": "器物/dao-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "5c300805d849199b",
       "strokeCount": 2,
       "strokes": [
@@ -2558,6 +2607,7 @@
       "difficulty": 1,
       "glyph": "器物/dun.png",
       "scan": "器物/dun-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f221429c17e45bc5",
       "strokeCount": 9,
       "strokes": [
@@ -2594,6 +2644,7 @@
       "difficulty": 1,
       "glyph": "器物/fu2.png",
       "scan": "器物/fu2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "849c03ff37761175",
       "strokeCount": 8,
       "strokes": [
@@ -2630,6 +2681,7 @@
       "difficulty": 1,
       "glyph": "器物/gong.png",
       "scan": "器物/gong-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "e5dfe93d105df3d4",
       "strokeCount": 3,
       "strokes": [
@@ -2674,6 +2726,7 @@
       "difficulty": 1,
       "glyph": "器物/jia.png",
       "scan": "器物/jia-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "7f0d4c9f99b4841d",
       "strokeCount": 5,
       "strokes": [
@@ -2717,6 +2770,7 @@
       "difficulty": 1,
       "glyph": "器物/ju.png",
       "scan": "器物/ju-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -2760,6 +2814,7 @@
       "difficulty": 1,
       "glyph": "器物/lv.png",
       "scan": "器物/lv-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "4e494a984c1f5a0b",
       "strokeCount": 15,
       "strokes": [
@@ -2810,6 +2865,7 @@
       "difficulty": 1,
       "glyph": "器物/min.png",
       "scan": "器物/min-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "475f57c28af25c57",
       "strokeCount": 5,
       "strokes": [
@@ -2867,6 +2923,7 @@
       "difficulty": 1,
       "glyph": "器物/ren2.png",
       "scan": "器物/ren2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "bc98b154cdf58f94",
       "strokeCount": 3,
       "strokes": [
@@ -2903,6 +2960,7 @@
       "difficulty": 1,
       "glyph": "器物/tao.png",
       "scan": "器物/tao-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "a50ec6ceeb392940",
       "strokeCount": 11,
       "strokes": [
@@ -2946,6 +3004,7 @@
       "difficulty": 1,
       "glyph": "器物/yi2.png",
       "scan": "器物/yi2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "533ec4fe83548ebc",
       "strokeCount": 6,
       "strokes": [
@@ -2996,6 +3055,7 @@
       "difficulty": 2,
       "glyph": "器物/che.png",
       "scan": "器物/che-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "b55910ae88761f84",
       "strokeCount": 4,
       "strokes": [
@@ -3059,6 +3119,7 @@
       "difficulty": 2,
       "glyph": "器物/ding.png",
       "scan": "器物/ding-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "ff31058c2023a73d",
       "strokeCount": 13,
       "strokes": [
@@ -3124,6 +3185,7 @@
       "difficulty": 2,
       "glyph": "器物/jue.png",
       "scan": "器物/jue-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "aeb003c8397119e1",
       "strokeCount": 9,
       "strokes": [
@@ -3174,6 +3236,7 @@
       "difficulty": 2,
       "glyph": "器物/wang.png",
       "scan": "器物/wang-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "92fd3afbd1430b62",
       "strokeCount": 6,
       "strokes": [
@@ -3256,6 +3319,7 @@
       "difficulty": 2,
       "glyph": "器物/yu3.png",
       "scan": "器物/yu3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "1a981f6e414d7651",
       "strokeCount": 5,
       "strokes": [
@@ -3303,6 +3367,7 @@
       "difficulty": 2,
       "glyph": "器物/zhou.png",
       "scan": null,
+      "scanKind": null,
       "glyphFingerprint": "7a97a6df51598816",
       "strokeCount": 6,
       "strokes": [
@@ -3361,6 +3426,7 @@
       "difficulty": 3,
       "glyph": "器物/ge.png",
       "scan": "器物/ge-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "046933f05450781a",
       "strokeCount": 4,
       "strokes": [
@@ -3418,6 +3484,7 @@
       "difficulty": 3,
       "glyph": "器物/zhou2.png",
       "scan": "器物/zhou2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -3461,6 +3528,7 @@
       "difficulty": 1,
       "glyph": "抽象/bei2.png",
       "scan": "抽象/bei2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 12,
       "strokes": [
@@ -3504,6 +3572,7 @@
       "difficulty": 1,
       "glyph": "抽象/bei3.png",
       "scan": "抽象/bei3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f46a53da10b97538",
       "strokeCount": 5,
       "strokes": [
@@ -3554,6 +3623,7 @@
       "difficulty": 1,
       "glyph": "抽象/bo2.png",
       "scan": "抽象/bo2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -3597,6 +3667,7 @@
       "difficulty": 1,
       "glyph": "抽象/bu.png",
       "scan": "抽象/bu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "d32e512d8d685ac9",
       "strokeCount": 2,
       "strokes": [
@@ -3633,6 +3704,7 @@
       "difficulty": 1,
       "glyph": "抽象/bu3.png",
       "scan": "抽象/bu3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "817057b1336b83d1",
       "strokeCount": 4,
       "strokes": [
@@ -3676,6 +3748,7 @@
       "difficulty": 1,
       "glyph": "抽象/chu.png",
       "scan": "抽象/chu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "141079951b4c8adc",
       "strokeCount": 5,
       "strokes": [
@@ -3719,6 +3792,7 @@
       "difficulty": 1,
       "glyph": "抽象/da.png",
       "scan": "抽象/da-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "0b2df8830b2c10cf",
       "strokeCount": 3,
       "strokes": [
@@ -3782,6 +3856,7 @@
       "difficulty": 1,
       "glyph": "抽象/dian.png",
       "scan": "抽象/dian-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -3825,6 +3900,7 @@
       "difficulty": 1,
       "glyph": "抽象/er3.png",
       "scan": "抽象/er3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -3868,6 +3944,7 @@
       "difficulty": 1,
       "glyph": "抽象/fei.png",
       "scan": "抽象/fei-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "0db0d1df2de7c4fd",
       "strokeCount": 8,
       "strokes": [
@@ -3911,6 +3988,7 @@
       "difficulty": 1,
       "glyph": "抽象/fen.png",
       "scan": "抽象/fen-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -3954,6 +4032,7 @@
       "difficulty": 1,
       "glyph": "抽象/gen.png",
       "scan": "抽象/gen-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "5710cd607883d9b5",
       "strokeCount": 6,
       "strokes": [
@@ -3990,6 +4069,7 @@
       "difficulty": 1,
       "glyph": "抽象/gong3.png",
       "scan": "抽象/gong3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -4033,6 +4113,7 @@
       "difficulty": 1,
       "glyph": "抽象/gong4.png",
       "scan": "抽象/gong4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -4076,6 +4157,7 @@
       "difficulty": 1,
       "glyph": "抽象/he2.png",
       "scan": "抽象/he2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -4119,6 +4201,7 @@
       "difficulty": 1,
       "glyph": "抽象/hou.png",
       "scan": "抽象/hou-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -4162,6 +4245,7 @@
       "difficulty": 1,
       "glyph": "抽象/hu.png",
       "scan": "抽象/hu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "db6892f0284c4744",
       "strokeCount": 5,
       "strokes": [
@@ -4198,6 +4282,7 @@
       "difficulty": 1,
       "glyph": "抽象/ji2.png",
       "scan": "抽象/ji2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -4241,6 +4326,7 @@
       "difficulty": 1,
       "glyph": "抽象/jie.png",
       "scan": "抽象/jie-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -4284,6 +4370,7 @@
       "difficulty": 1,
       "glyph": "抽象/jin.png",
       "scan": "抽象/jin-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -4327,6 +4414,7 @@
       "difficulty": 1,
       "glyph": "抽象/kan.png",
       "scan": "抽象/kan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -4370,6 +4458,7 @@
       "difficulty": 1,
       "glyph": "抽象/kang.png",
       "scan": "抽象/kang-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -4413,6 +4502,7 @@
       "difficulty": 1,
       "glyph": "抽象/ke.png",
       "scan": "抽象/ke-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -4456,6 +4546,7 @@
       "difficulty": 1,
       "glyph": "抽象/li4.png",
       "scan": "抽象/li4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -4499,6 +4590,7 @@
       "difficulty": 1,
       "glyph": "抽象/ling.png",
       "scan": "抽象/ling-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 5,
       "strokes": [
@@ -4542,6 +4634,7 @@
       "difficulty": 1,
       "glyph": "抽象/ming2.png",
       "scan": "抽象/ming2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c9144f4e7c69c02",
       "strokeCount": 6,
       "strokes": [
@@ -4584,6 +4677,7 @@
       "difficulty": 1,
       "glyph": "抽象/mo.png",
       "scan": "抽象/mo-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "434cd41011b9e29b",
       "strokeCount": 11,
       "strokes": [
@@ -4634,6 +4728,7 @@
       "difficulty": 1,
       "glyph": "抽象/nai.png",
       "scan": "抽象/nai-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "09f9fef486c75f27",
       "strokeCount": 2,
       "strokes": [
@@ -4677,6 +4772,7 @@
       "difficulty": 1,
       "glyph": "抽象/nan.png",
       "scan": "抽象/nan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "19d07374d7f9e3bd",
       "strokeCount": 9,
       "strokes": [
@@ -4720,6 +4816,7 @@
       "difficulty": 1,
       "glyph": "抽象/qi3.png",
       "scan": "抽象/qi3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 3,
       "strokes": [
@@ -4763,6 +4860,7 @@
       "difficulty": 1,
       "glyph": "抽象/qi5.png",
       "scan": "抽象/qi5-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -4806,6 +4904,7 @@
       "difficulty": 1,
       "glyph": "抽象/qie.png",
       "scan": "抽象/qie-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "81f14a0fff9368c8",
       "strokeCount": 5,
       "strokes": [
@@ -4842,6 +4941,7 @@
       "difficulty": 1,
       "glyph": "抽象/qu.png",
       "scan": "抽象/qu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "bc98b154cdf58f94",
       "strokeCount": 5,
       "strokes": [
@@ -4878,6 +4978,7 @@
       "difficulty": 1,
       "glyph": "抽象/re.png",
       "scan": "抽象/re-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -4921,6 +5022,7 @@
       "difficulty": 1,
       "glyph": "抽象/ru.png",
       "scan": "抽象/ru-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "467f8d59db27ac97",
       "strokeCount": 2,
       "strokes": [
@@ -4957,6 +5059,7 @@
       "difficulty": 1,
       "glyph": "抽象/shang.png",
       "scan": "抽象/shang-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "ef1b1170acb881af",
       "strokeCount": 3,
       "strokes": [
@@ -4993,6 +5096,7 @@
       "difficulty": 1,
       "glyph": "抽象/shi5.png",
       "scan": "抽象/shi5-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "81f14a0fff9368c8",
       "strokeCount": 8,
       "strokes": [
@@ -5029,6 +5133,7 @@
       "difficulty": 1,
       "glyph": "抽象/shi6.png",
       "scan": "抽象/shi6-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -5072,6 +5177,7 @@
       "difficulty": 1,
       "glyph": "抽象/wang2.png",
       "scan": "抽象/wang2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "9b606ad4124ab280",
       "strokeCount": 4,
       "strokes": [
@@ -5115,6 +5221,7 @@
       "difficulty": 1,
       "glyph": "抽象/wang3.png",
       "scan": "抽象/wang3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 3,
       "strokes": [
@@ -5158,6 +5265,7 @@
       "difficulty": 1,
       "glyph": "抽象/wei.png",
       "scan": "抽象/wei-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "817057b1336b83d1",
       "strokeCount": 5,
       "strokes": [
@@ -5201,6 +5309,7 @@
       "difficulty": 1,
       "glyph": "抽象/wen.png",
       "scan": "抽象/wen-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "de109133bca71307",
       "strokeCount": 4,
       "strokes": [
@@ -5244,6 +5353,7 @@
       "difficulty": 1,
       "glyph": "抽象/wu.png",
       "scan": "抽象/wu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "db0510e577b7cc86",
       "strokeCount": 4,
       "strokes": [
@@ -5279,6 +5389,7 @@
       "difficulty": 1,
       "glyph": "抽象/xi4.png",
       "scan": "抽象/xi4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "bca3c96159ff16fa",
       "strokeCount": 6,
       "strokes": [
@@ -5322,6 +5433,7 @@
       "difficulty": 1,
       "glyph": "抽象/xia.png",
       "scan": "抽象/xia-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "db6892f0284c4744",
       "strokeCount": 3,
       "strokes": [
@@ -5358,6 +5470,7 @@
       "difficulty": 1,
       "glyph": "抽象/xian.png",
       "scan": "抽象/xian-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -5401,6 +5514,7 @@
       "difficulty": 1,
       "glyph": "抽象/xiong.png",
       "scan": "抽象/xiong-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 5,
       "strokes": [
@@ -5444,6 +5558,7 @@
       "difficulty": 1,
       "glyph": "抽象/yan.png",
       "scan": "抽象/yan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "938daf283fad4d39",
       "strokeCount": 7,
       "strokes": [
@@ -5479,6 +5594,7 @@
       "difficulty": 1,
       "glyph": "抽象/yi4.png",
       "scan": "抽象/yi4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -5522,6 +5638,7 @@
       "difficulty": 1,
       "glyph": "抽象/yi5.png",
       "scan": "抽象/yi5-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 5,
       "strokes": [
@@ -5565,6 +5682,7 @@
       "difficulty": 1,
       "glyph": "抽象/yi6.png",
       "scan": "抽象/yi6-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -5608,6 +5726,7 @@
       "difficulty": 1,
       "glyph": "抽象/you.png",
       "scan": "抽象/you-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -5651,6 +5770,7 @@
       "difficulty": 1,
       "glyph": "抽象/you2.png",
       "scan": "抽象/you2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -5694,6 +5814,7 @@
       "difficulty": 1,
       "glyph": "抽象/yu4.png",
       "scan": "抽象/yu4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "db6892f0284c4744",
       "strokeCount": 3,
       "strokes": [
@@ -5730,6 +5851,7 @@
       "difficulty": 1,
       "glyph": "抽象/yu5.png",
       "scan": "抽象/yu5-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -5773,6 +5895,7 @@
       "difficulty": 1,
       "glyph": "抽象/yuan.png",
       "scan": "抽象/yuan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -5816,6 +5939,7 @@
       "difficulty": 1,
       "glyph": "抽象/yun2.png",
       "scan": "抽象/yun2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -5859,6 +5983,7 @@
       "difficulty": 1,
       "glyph": "抽象/zai.png",
       "scan": "抽象/zai-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -5902,6 +6027,7 @@
       "difficulty": 1,
       "glyph": "抽象/zha.png",
       "scan": "抽象/zha-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "4196b3062eb08b4c",
       "strokeCount": 5,
       "strokes": [
@@ -5945,6 +6071,7 @@
       "difficulty": 1,
       "glyph": "抽象/zhi2.png",
       "scan": "抽象/zhi2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "5547007826b02d12",
       "strokeCount": 4,
       "strokes": [
@@ -5988,6 +6115,7 @@
       "difficulty": 1,
       "glyph": "抽象/zhong.png",
       "scan": "抽象/zhong-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "fba755475b4fb732",
       "strokeCount": 4,
       "strokes": [
@@ -6023,6 +6151,7 @@
       "difficulty": 1,
       "glyph": "抽象/zuo.png",
       "scan": "抽象/zuo-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "d6db140734856c4a",
       "strokeCount": 5,
       "strokes": [
@@ -6066,6 +6195,7 @@
       "difficulty": 2,
       "glyph": "抽象/duo.png",
       "scan": "抽象/duo-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "b5994ec0bdf0df26",
       "strokeCount": 6,
       "strokes": [
@@ -6116,6 +6246,7 @@
       "difficulty": 2,
       "glyph": "抽象/shi3.png",
       "scan": "抽象/shi3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "cbc3ebc82f09cc9a",
       "strokeCount": 5,
       "strokes": [
@@ -6167,6 +6298,7 @@
       "difficulty": 2,
       "glyph": "抽象/xiao.png",
       "scan": "抽象/xiao-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "fb73fff56e1d0cca",
       "strokeCount": 3,
       "strokes": [
@@ -6208,6 +6340,7 @@
       "difficulty": 3,
       "glyph": "抽象/a1.png",
       "scan": "抽象/a1-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -6251,6 +6384,7 @@
       "difficulty": 3,
       "glyph": "抽象/a10.png",
       "scan": "抽象/a10-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "42ae8963a14bf6d7",
       "strokeCount": 12,
       "strokes": [
@@ -6293,6 +6427,7 @@
       "difficulty": 3,
       "glyph": "抽象/a11.png",
       "scan": "抽象/a11-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f221429c17e45bc5",
       "strokeCount": 6,
       "strokes": [
@@ -6329,6 +6464,7 @@
       "difficulty": 3,
       "glyph": "抽象/a12.png",
       "scan": "抽象/a12-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f221429c17e45bc5",
       "strokeCount": 11,
       "strokes": [
@@ -6365,6 +6501,7 @@
       "difficulty": 3,
       "glyph": "抽象/a13.png",
       "scan": "抽象/a13-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "987404e40599f8fe",
       "strokeCount": 11,
       "strokes": [
@@ -6422,6 +6559,7 @@
       "difficulty": 3,
       "glyph": "抽象/a14.png",
       "scan": "抽象/a14-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -6465,6 +6603,7 @@
       "difficulty": 3,
       "glyph": "抽象/a15.png",
       "scan": "抽象/a15-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -6508,6 +6647,7 @@
       "difficulty": 3,
       "glyph": "抽象/a16.png",
       "scan": "抽象/a16-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f221429c17e45bc5",
       "strokeCount": 7,
       "strokes": [
@@ -6544,6 +6684,7 @@
       "difficulty": 3,
       "glyph": "抽象/a17.png",
       "scan": "抽象/a17-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "eabdf7ff168e3ed3",
       "strokeCount": 5,
       "strokes": [
@@ -6594,6 +6735,7 @@
       "difficulty": 3,
       "glyph": "抽象/a18.png",
       "scan": "抽象/a18-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -6637,6 +6779,7 @@
       "difficulty": 3,
       "glyph": "抽象/a19.png",
       "scan": "抽象/a19-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -6680,6 +6823,7 @@
       "difficulty": 3,
       "glyph": "抽象/a2.png",
       "scan": "抽象/a2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 5,
       "strokes": [
@@ -6723,6 +6867,7 @@
       "difficulty": 3,
       "glyph": "抽象/a20.png",
       "scan": "抽象/a20-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -6766,6 +6911,7 @@
       "difficulty": 3,
       "glyph": "抽象/a21.png",
       "scan": "抽象/a21-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -6809,6 +6955,7 @@
       "difficulty": 3,
       "glyph": "抽象/a22.png",
       "scan": "抽象/a22-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -6852,6 +6999,7 @@
       "difficulty": 3,
       "glyph": "抽象/a23.png",
       "scan": "抽象/a23-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f221429c17e45bc5",
       "strokeCount": 9,
       "strokes": [
@@ -6888,6 +7036,7 @@
       "difficulty": 3,
       "glyph": "抽象/a24.png",
       "scan": "抽象/a24-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 12,
       "strokes": [
@@ -6931,6 +7080,7 @@
       "difficulty": 3,
       "glyph": "抽象/a25.png",
       "scan": "抽象/a25-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -6974,6 +7124,7 @@
       "difficulty": 3,
       "glyph": "抽象/a26.png",
       "scan": "抽象/a26-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 11,
       "strokes": [
@@ -7017,6 +7168,7 @@
       "difficulty": 3,
       "glyph": "抽象/a27.png",
       "scan": "抽象/a27-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "4adfb261a7e0c6bc",
       "strokeCount": 12,
       "strokes": [
@@ -7052,6 +7204,7 @@
       "difficulty": 3,
       "glyph": "抽象/a28.png",
       "scan": "抽象/a28-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "aeb003c8397119e1",
       "strokeCount": 16,
       "strokes": [
@@ -7102,6 +7255,7 @@
       "difficulty": 3,
       "glyph": "抽象/a29.png",
       "scan": "抽象/a29-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 15,
       "strokes": [
@@ -7145,6 +7299,7 @@
       "difficulty": 3,
       "glyph": "抽象/a3.png",
       "scan": "抽象/a3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -7188,6 +7343,7 @@
       "difficulty": 3,
       "glyph": "抽象/a30.png",
       "scan": "抽象/a30-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -7231,6 +7387,7 @@
       "difficulty": 3,
       "glyph": "抽象/a31.png",
       "scan": "抽象/a31-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -7274,6 +7431,7 @@
       "difficulty": 3,
       "glyph": "抽象/a32.png",
       "scan": "抽象/a32-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 5,
       "strokes": [
@@ -7317,6 +7475,7 @@
       "difficulty": 3,
       "glyph": "抽象/a33.png",
       "scan": "抽象/a33-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -7360,6 +7519,7 @@
       "difficulty": 3,
       "glyph": "抽象/a34.png",
       "scan": "抽象/a34-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -7403,6 +7563,7 @@
       "difficulty": 3,
       "glyph": "抽象/a35.png",
       "scan": "抽象/a35-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -7446,6 +7607,7 @@
       "difficulty": 3,
       "glyph": "抽象/a36.png",
       "scan": "抽象/a36-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 16,
       "strokes": [
@@ -7489,6 +7651,7 @@
       "difficulty": 3,
       "glyph": "抽象/a37.png",
       "scan": "抽象/a37-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 14,
       "strokes": [
@@ -7532,6 +7695,7 @@
       "difficulty": 3,
       "glyph": "抽象/a38.png",
       "scan": "抽象/a38-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -7575,6 +7739,7 @@
       "difficulty": 3,
       "glyph": "抽象/a39.png",
       "scan": "抽象/a39-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -7618,6 +7783,7 @@
       "difficulty": 3,
       "glyph": "抽象/a4.png",
       "scan": "抽象/a4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -7661,6 +7827,7 @@
       "difficulty": 3,
       "glyph": "抽象/a40.png",
       "scan": "抽象/a40-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 11,
       "strokes": [
@@ -7704,6 +7871,7 @@
       "difficulty": 3,
       "glyph": "抽象/a41.png",
       "scan": "抽象/a41-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 13,
       "strokes": [
@@ -7747,6 +7915,7 @@
       "difficulty": 3,
       "glyph": "抽象/a42.png",
       "scan": "抽象/a42-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 11,
       "strokes": [
@@ -7790,6 +7959,7 @@
       "difficulty": 3,
       "glyph": "抽象/a43.png",
       "scan": "抽象/a43-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -7833,6 +8003,7 @@
       "difficulty": 3,
       "glyph": "抽象/a44.png",
       "scan": "抽象/a44-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 18,
       "strokes": [
@@ -7876,6 +8047,7 @@
       "difficulty": 3,
       "glyph": "抽象/a45.png",
       "scan": "抽象/a45-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 18,
       "strokes": [
@@ -7919,6 +8091,7 @@
       "difficulty": 3,
       "glyph": "抽象/a46.png",
       "scan": "抽象/a46-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 13,
       "strokes": [
@@ -7962,6 +8135,7 @@
       "difficulty": 3,
       "glyph": "抽象/a47.png",
       "scan": "抽象/a47-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -8005,6 +8179,7 @@
       "difficulty": 3,
       "glyph": "抽象/a48.png",
       "scan": "抽象/a48-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -8048,6 +8223,7 @@
       "difficulty": 3,
       "glyph": "抽象/a49.png",
       "scan": "抽象/a49-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 12,
       "strokes": [
@@ -8091,6 +8267,7 @@
       "difficulty": 3,
       "glyph": "抽象/a5.png",
       "scan": "抽象/a5-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -8134,6 +8311,7 @@
       "difficulty": 3,
       "glyph": "抽象/a50.png",
       "scan": "抽象/a50-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 11,
       "strokes": [
@@ -8177,6 +8355,7 @@
       "difficulty": 3,
       "glyph": "抽象/a51.png",
       "scan": "抽象/a51-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -8220,6 +8399,7 @@
       "difficulty": 3,
       "glyph": "抽象/a52.png",
       "scan": "抽象/a52-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 12,
       "strokes": [
@@ -8263,6 +8443,7 @@
       "difficulty": 3,
       "glyph": "抽象/a53.png",
       "scan": "抽象/a53-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 12,
       "strokes": [
@@ -8306,6 +8487,7 @@
       "difficulty": 3,
       "glyph": "抽象/a54.png",
       "scan": "抽象/a54-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 12,
       "strokes": [
@@ -8349,6 +8531,7 @@
       "difficulty": 3,
       "glyph": "抽象/a55.png",
       "scan": "抽象/a55-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 11,
       "strokes": [
@@ -8392,6 +8575,7 @@
       "difficulty": 3,
       "glyph": "抽象/a56.png",
       "scan": "抽象/a56-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -8435,6 +8619,7 @@
       "difficulty": 3,
       "glyph": "抽象/a57.png",
       "scan": "抽象/a57-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 19,
       "strokes": [
@@ -8478,6 +8663,7 @@
       "difficulty": 3,
       "glyph": "抽象/a58.png",
       "scan": "抽象/a58-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 24,
       "strokes": [
@@ -8521,6 +8707,7 @@
       "difficulty": 3,
       "glyph": "抽象/a6.png",
       "scan": "抽象/a6-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "f221429c17e45bc5",
       "strokeCount": 7,
       "strokes": [
@@ -8557,6 +8744,7 @@
       "difficulty": 3,
       "glyph": "抽象/a7.png",
       "scan": "抽象/a7-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "38065ea09730240d",
       "strokeCount": 8,
       "strokes": [
@@ -8586,6 +8774,7 @@
       "difficulty": 3,
       "glyph": "抽象/a8.png",
       "scan": "抽象/a8-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -8629,6 +8818,7 @@
       "difficulty": 3,
       "glyph": "抽象/a9.png",
       "scan": "抽象/a9-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -8672,6 +8862,7 @@
       "difficulty": 3,
       "glyph": "抽象/bao4.png",
       "scan": "抽象/bao4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -8715,6 +8906,7 @@
       "difficulty": 3,
       "glyph": "抽象/bing2.png",
       "scan": "抽象/bing2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "aeb003c8397119e1",
       "strokeCount": 8,
       "strokes": [
@@ -8765,6 +8957,7 @@
       "difficulty": 3,
       "glyph": "抽象/cheng2.png",
       "scan": "抽象/cheng2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 11,
       "strokes": [
@@ -8808,6 +9001,7 @@
       "difficulty": 3,
       "glyph": "抽象/chou2.png",
       "scan": "抽象/chou2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -8851,6 +9045,7 @@
       "difficulty": 3,
       "glyph": "抽象/dui.png",
       "scan": "抽象/dui-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -8894,6 +9089,7 @@
       "difficulty": 3,
       "glyph": "抽象/er4.png",
       "scan": "抽象/er4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -8937,6 +9133,7 @@
       "difficulty": 3,
       "glyph": "抽象/fu5.png",
       "scan": "抽象/fu5-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -8980,6 +9177,7 @@
       "difficulty": 3,
       "glyph": "抽象/ge2.png",
       "scan": "抽象/ge2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "81f14a0fff9368c8",
       "strokeCount": 4,
       "strokes": [
@@ -9016,6 +9214,7 @@
       "difficulty": 3,
       "glyph": "抽象/geng.png",
       "scan": "抽象/geng-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -9059,6 +9258,7 @@
       "difficulty": 3,
       "glyph": "抽象/gong2.png",
       "scan": "抽象/gong2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -9102,6 +9302,7 @@
       "difficulty": 3,
       "glyph": "抽象/ji3.png",
       "scan": "抽象/ji3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "53d12b5efcac8282",
       "strokeCount": 11,
       "strokes": [
@@ -9172,6 +9373,7 @@
       "difficulty": 3,
       "glyph": "抽象/jiao.png",
       "scan": "抽象/jiao-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -9215,6 +9417,7 @@
       "difficulty": 3,
       "glyph": "抽象/jiong.png",
       "scan": "抽象/jiong-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 7,
       "strokes": [
@@ -9258,6 +9461,7 @@
       "difficulty": 3,
       "glyph": "抽象/jiu.png",
       "scan": "抽象/jiu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "9e30fec5e5f040af",
       "strokeCount": 2,
       "strokes": [
@@ -9301,6 +9505,7 @@
       "difficulty": 3,
       "glyph": "抽象/jue2.png",
       "scan": "抽象/jue2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "91cb339409bf604f",
       "strokeCount": 1,
       "strokes": [
@@ -9337,6 +9542,7 @@
       "difficulty": 3,
       "glyph": "抽象/lun.png",
       "scan": "抽象/lun-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -9380,6 +9586,7 @@
       "difficulty": 3,
       "glyph": "抽象/nv2.png",
       "scan": "抽象/nv2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "5f74480e296380c7",
       "strokeCount": 4,
       "strokes": [
@@ -9423,6 +9630,7 @@
       "difficulty": 3,
       "glyph": "抽象/peng.png",
       "scan": "抽象/peng-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -9466,6 +9674,7 @@
       "difficulty": 3,
       "glyph": "抽象/qing.png",
       "scan": "抽象/qing-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -9509,6 +9718,7 @@
       "difficulty": 3,
       "glyph": "抽象/shu.png",
       "scan": "抽象/shu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -9552,6 +9762,7 @@
       "difficulty": 3,
       "glyph": "抽象/tao2.png",
       "scan": "抽象/tao2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 3,
       "strokes": [
@@ -9595,6 +9806,7 @@
       "difficulty": 3,
       "glyph": "抽象/ti.png",
       "scan": "抽象/ti-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -9638,6 +9850,7 @@
       "difficulty": 3,
       "glyph": "抽象/wan4.png",
       "scan": "抽象/wan4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -9681,6 +9894,7 @@
       "difficulty": 3,
       "glyph": "抽象/xi3.png",
       "scan": "抽象/xi3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -9724,6 +9938,7 @@
       "difficulty": 3,
       "glyph": "抽象/xi5.png",
       "scan": "抽象/xi5-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -9767,6 +9982,7 @@
       "difficulty": 3,
       "glyph": "抽象/xiong2.png",
       "scan": "抽象/xiong2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -9810,6 +10026,7 @@
       "difficulty": 3,
       "glyph": "抽象/ya.png",
       "scan": "抽象/ya-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "aeb003c8397119e1",
       "strokeCount": 8,
       "strokes": [
@@ -9860,6 +10077,7 @@
       "difficulty": 3,
       "glyph": "抽象/yue4.png",
       "scan": "抽象/yue4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -9903,6 +10121,7 @@
       "difficulty": 1,
       "glyph": "数目/ba.png",
       "scan": "数目/ba-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 2,
       "strokes": [
@@ -9946,6 +10165,7 @@
       "difficulty": 1,
       "glyph": "数目/bai.png",
       "scan": "数目/bai-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "6307fed6508a858a",
       "strokeCount": 6,
       "strokes": [
@@ -9981,6 +10201,7 @@
       "difficulty": 1,
       "glyph": "数目/bing.png",
       "scan": "数目/bing-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "534247538652f644",
       "strokeCount": 5,
       "strokes": [
@@ -10024,6 +10245,7 @@
       "difficulty": 1,
       "glyph": "数目/chou.png",
       "scan": "数目/chou-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "47b6a33dc2700275",
       "strokeCount": 4,
       "strokes": [
@@ -10067,6 +10289,7 @@
       "difficulty": 1,
       "glyph": "数目/ding2.png",
       "scan": "数目/ding2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "77fd8761a2143228",
       "strokeCount": 2,
       "strokes": [
@@ -10103,6 +10326,7 @@
       "difficulty": 1,
       "glyph": "数目/er.png",
       "scan": "数目/er-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "6d5c6422bd934c5f",
       "strokeCount": 2,
       "strokes": [
@@ -10139,6 +10363,7 @@
       "difficulty": 1,
       "glyph": "数目/hai.png",
       "scan": "数目/hai-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -10182,6 +10407,7 @@
       "difficulty": 1,
       "glyph": "数目/jiu2.png",
       "scan": "数目/jiu2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "29bdeb6692deb862",
       "strokeCount": 2,
       "strokes": [
@@ -10218,6 +10444,7 @@
       "difficulty": 1,
       "glyph": "数目/liu.png",
       "scan": "数目/liu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 4,
       "strokes": [
@@ -10261,6 +10488,7 @@
       "difficulty": 1,
       "glyph": "数目/qi2.png",
       "scan": "数目/qi2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "29bdeb6692deb862",
       "strokeCount": 2,
       "strokes": [
@@ -10297,6 +10525,7 @@
       "difficulty": 1,
       "glyph": "数目/qian.png",
       "scan": "数目/qian-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "a45f15b9b7d5eef4",
       "strokeCount": 3,
       "strokes": [
@@ -10347,6 +10576,7 @@
       "difficulty": 1,
       "glyph": "数目/san.png",
       "scan": "数目/san-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "8d532f8df317ceb3",
       "strokeCount": 3,
       "strokes": [
@@ -10390,6 +10620,7 @@
       "difficulty": 1,
       "glyph": "数目/shi.png",
       "scan": "数目/shi-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "8943dbec924a8537",
       "strokeCount": 2,
       "strokes": [
@@ -10426,6 +10657,7 @@
       "difficulty": 1,
       "glyph": "数目/wan.png",
       "scan": "数目/wan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "534247538652f644",
       "strokeCount": 3,
       "strokes": [
@@ -10469,6 +10701,7 @@
       "difficulty": 1,
       "glyph": "数目/wu2.png",
       "scan": "数目/wu2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "29bdeb6692deb862",
       "strokeCount": 4,
       "strokes": [
@@ -10505,6 +10738,7 @@
       "difficulty": 1,
       "glyph": "数目/yi.png",
       "scan": "数目/yi-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "116188afed0ca247",
       "strokeCount": 1,
       "strokes": [
@@ -10534,6 +10768,7 @@
       "difficulty": 1,
       "glyph": "数目/yi3.png",
       "scan": "数目/yi3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "e2acbcc83affe832",
       "strokeCount": 1,
       "strokes": [
@@ -10570,6 +10805,7 @@
       "difficulty": 1,
       "glyph": "数目/zhong2.png",
       "scan": "数目/zhong2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 6,
       "strokes": [
@@ -10613,6 +10849,7 @@
       "difficulty": 3,
       "glyph": "数目/tian3.png",
       "scan": "数目/tian3-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 9,
       "strokes": [
@@ -10656,6 +10893,7 @@
       "difficulty": 1,
       "glyph": "自然现象/bai2.png",
       "scan": "自然现象/bai2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "eabdf7ff168e3ed3",
       "strokeCount": 5,
       "strokes": [
@@ -10706,6 +10944,7 @@
       "difficulty": 1,
       "glyph": "自然现象/bo.png",
       "scan": "自然现象/bo-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 10,
       "strokes": [
@@ -10749,6 +10988,7 @@
       "difficulty": 1,
       "glyph": "自然现象/chuan.png",
       "scan": "自然现象/chuan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3b35ea4440aef90e",
       "strokeCount": 3,
       "strokes": [
@@ -10792,6 +11032,7 @@
       "difficulty": 1,
       "glyph": "自然现象/dan.png",
       "scan": "自然现象/dan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "93372e0be0e79b67",
       "strokeCount": 4,
       "strokes": [
@@ -10827,6 +11068,7 @@
       "difficulty": 1,
       "glyph": "自然现象/guang.png",
       "scan": "自然现象/guang-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "926d42c400590d25",
       "strokeCount": 6,
       "strokes": [
@@ -10890,6 +11132,7 @@
       "difficulty": 1,
       "glyph": "自然现象/hei.png",
       "scan": "自然现象/hei-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "42ae8963a14bf6d7",
       "strokeCount": 12,
       "strokes": [
@@ -10932,6 +11175,7 @@
       "difficulty": 1,
       "glyph": "自然现象/jing.png",
       "scan": "自然现象/jing-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "1e81a0e7e178d9bd",
       "strokeCount": 4,
       "strokes": [
@@ -10982,6 +11226,7 @@
       "difficulty": 1,
       "glyph": "自然现象/jing2.png",
       "scan": "自然现象/jing2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "3c99e9dda8540722",
       "strokeCount": 8,
       "strokes": [
@@ -11025,6 +11270,7 @@
       "difficulty": 1,
       "glyph": "自然现象/ming.png",
       "scan": "自然现象/ming-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "9d25eb3d78670447",
       "strokeCount": 8,
       "strokes": [
@@ -11059,6 +11305,7 @@
       "difficulty": 1,
       "glyph": "自然现象/qi.png",
       "scan": "自然现象/qi-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "de109133bca71307",
       "strokeCount": 4,
       "strokes": [
@@ -11102,6 +11349,7 @@
       "difficulty": 1,
       "glyph": "自然现象/qiu.png",
       "scan": "自然现象/qiu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "6236b866735476cf",
       "strokeCount": 5,
       "strokes": [
@@ -11145,6 +11393,7 @@
       "difficulty": 1,
       "glyph": "自然现象/ri.png",
       "scan": "自然现象/ri-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "b5415e1ccb0024d6",
       "strokeCount": 4,
       "strokes": [
@@ -11179,6 +11428,7 @@
       "difficulty": 1,
       "glyph": "自然现象/shan.png",
       "scan": "自然现象/shan-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "6fe0fa0661897721",
       "strokeCount": 3,
       "strokes": [
@@ -11229,6 +11479,7 @@
       "difficulty": 1,
       "glyph": "自然现象/shi4.png",
       "scan": "自然现象/shi4-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "1e67918db69f2c1b",
       "strokeCount": 5,
       "strokes": [
@@ -11279,6 +11530,7 @@
       "difficulty": 1,
       "glyph": "自然现象/tian2.png",
       "scan": "自然现象/tian2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "2c1ef1e6d179c200",
       "strokeCount": 5,
       "strokes": [
@@ -11322,6 +11574,7 @@
       "difficulty": 1,
       "glyph": "自然现象/tu2.png",
       "scan": "自然现象/tu2-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "130d3b8db9f9118a",
       "strokeCount": 3,
       "strokes": [
@@ -11358,6 +11611,7 @@
       "difficulty": 1,
       "glyph": "自然现象/yue.png",
       "scan": "自然现象/yue-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "fb1bcebbc659fe9a",
       "strokeCount": 4,
       "strokes": [
@@ -11402,6 +11656,7 @@
       "difficulty": 2,
       "glyph": "自然现象/huo.png",
       "scan": "自然现象/huo-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "6fb1ef6bee2ed123",
       "strokeCount": 4,
       "strokes": [
@@ -11457,6 +11712,7 @@
       "difficulty": 2,
       "glyph": "自然现象/lei.png",
       "scan": "自然现象/lei-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "1cce1e506ee3f34c",
       "strokeCount": 13,
       "strokes": [
@@ -11511,6 +11767,7 @@
       "difficulty": 2,
       "glyph": "自然现象/shui.png",
       "scan": "自然现象/shui-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "7fd2cff5d8663945",
       "strokeCount": 4,
       "strokes": [
@@ -11568,6 +11825,7 @@
       "difficulty": 2,
       "glyph": "自然现象/tian.png",
       "scan": "自然现象/tian-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "b5f717bed8e760ff",
       "strokeCount": 4,
       "strokes": [
@@ -11623,6 +11881,7 @@
       "difficulty": 2,
       "glyph": "自然现象/yu.png",
       "scan": "自然现象/yu-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "4ca6ef425eea7b9a",
       "strokeCount": 8,
       "strokes": [
@@ -11688,6 +11947,7 @@
       "difficulty": 3,
       "glyph": "自然现象/xing.png",
       "scan": "自然现象/xing-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "1c280d18203ad577",
       "strokeCount": 9,
       "strokes": [
@@ -11734,6 +11994,7 @@
       "difficulty": 3,
       "glyph": "自然现象/yun.png",
       "scan": "自然现象/yun-scan.png",
+      "scanKind": "obimd",
       "glyphFingerprint": "4e8bbae7ab0c0986",
       "strokeCount": 4,
       "strokes": [
@@ -11774,8 +12035,8 @@
   ],
   "history": {
     "since": "2026-10-14",
-    "through": "2026-10-19",
-    "added": 0,
+    "through": "2026-10-20",
+    "added": 1,
     "days": [
       {
         "day": "2026-10-14",
@@ -11800,6 +12061,10 @@
       {
         "day": "2026-10-19",
         "id": "a25"
+      },
+      {
+        "day": "2026-10-20",
+        "id": "gong"
       }
     ],
     "chars": {
@@ -11904,6 +12169,50 @@
         "tags": [
           "㫃",
           "罕见"
+        ],
+        "license": "public-domain",
+        "author": "佚名",
+        "era": "商",
+        "authorDied": null,
+        "authorEraEnd": -1300
+      },
+      "gong": {
+        "id": "gong",
+        "char": "弓",
+        "type": "器物",
+        "subtype": "兵器",
+        "difficulty": 1,
+        "glyph": "器物/gong.png",
+        "scan": "器物/gong-scan.png",
+        "glyphFingerprint": "e5dfe93d105df3d4",
+        "strokeCount": 3,
+        "strokes": [
+          [
+            "arc",
+            220,
+            256,
+            110,
+            110,
+            250
+          ],
+          [
+            "line",
+            150,
+            180,
+            150,
+            332
+          ],
+          [
+            "line",
+            220,
+            256,
+            320,
+            256
+          ]
+        ],
+        "tags": [
+          "弓",
+          "兵器"
         ],
         "license": "public-domain",
         "author": "佚名",

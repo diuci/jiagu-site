@@ -103,8 +103,8 @@ function nextChar() {
             <figcaption>示意形</figcaption>
           </figure>
           <figure v-if="scanUrl">
-            <img :src="scanUrl" :alt="store.char?.char + ' 的原拓片'" class="tri-img" />
-            <figcaption>原拓片</figcaption>
+            <img :src="scanUrl" :alt="(store.char?.char || '') + (store.char?.scanKind === 'ref' ? ' 的甲骨原形参考图' : ' 的原骨片拓片')" class="tri-img" />
+            <figcaption>{{ store.char?.scanKind === 'ref' ? '甲骨原形（参考图）' : '原拓片' }}</figcaption>
           </figure>
         </div>
       </div>
