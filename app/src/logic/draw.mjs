@@ -162,3 +162,20 @@ export function scrambleStrokes(strokes, seedStr) {
     return [type, Math.min(CANVAS - 1, Math.max(0, p[0] + 200 + off())), Math.min(CANVAS - 1, Math.max(0, p[1] + 200 + off())), ...p.slice(2)]
   })
 }
+
+/** 手抖样本（§5.4 阈值宽容度回放）：标准答案的点列上加确定性噪声。
+ *  amp 是抖动总幅度（±amp/2）。孩子真实手抖的代理样本——抖成这样还判不过
+ *  才叫过严。与 scrambleStrokes 并排：一个造「乱画」，一个造「画得歪」。 */
+export function jitterStrokes(strokes, amp, seed) {
+  let s = (seed >>> 0) || 42
+  const rnd = () => { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296 }
+  const out = []
+  for (const prim of strokes) {
+    const [type, ...p] = prim
+    const j = (v) => v + (rnd() - 0.5) * amp
+    if (type === 'line') out.push([{ x: j(p[0]), y: j(p[1]) }, { x: j((p[0] + p[2]) / 2), y: j((p[1] + p[3]) / 2) }, { x: j(p[2]), y: j(p[3]) }])
+    else if (type === 'rect') out.push([{ x: p[0], y: p[1] }, { x: p[2], y: p[3] }])
+    else out.push([{ x: j(p[0]), y: j(p[1]) }])
+  }
+  return out
+}

@@ -10,7 +10,7 @@
 import { readFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { scoreDraw, judge, strokeToPrim, scrambleStrokes, strokesToPointStrokes as strokesAsPoints } from '../app/src/logic/draw.mjs'
+import { scoreDraw, judge, strokeToPrim, scrambleStrokes, jitterStrokes, strokesToPointStrokes as strokesAsPoints } from '../app/src/logic/draw.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const CORPUS = resolve(HERE, '../app/src/data/corpus.json')
@@ -51,12 +51,38 @@ function run() {
   if (lowOk < total * 0.9) {
     problems.push('乱画判低分的字只有 ' + lowOk + '/' + total + '（≥90% 才算玩法有效）')
   }
+
+  // 阈值宽容度回放（§5.4：阈值不许拍脑袋定稿）。真实孩子笔画的代理样本：
+  //   手抖（±12px 幅度的大抖）——绝大多数必须判过，抖一下就挂 = 挫败孩子
+  //   少画一笔——大多该判不过，胡乱少笔也能过 = 玩法失效
+  // 确定性种子，全库回放每天跑，阈值或算法一变这里立刻见分晓。
+  let shakeOk = 0
+  let shakeTotal = 0
+  const dropRates = []
+  for (const c of chars) {
+    const strokes = c.strokes || []
+    if (strokes.length < 2) continue
+    shakeTotal++
+    const shaken = jitterStrokes(strokes, 24, 42).map(strokeToPrim)
+    if (judge(scoreDraw(shaken, strokes, 'copy'), 'copy').pass) shakeOk++
+    const dropped = strokesAsPoints(strokes).slice(0, -1).map(strokeToPrim)
+    dropRates.push(judge(scoreDraw(dropped, strokes, 'copy'), 'copy').pass)
+  }
+  const shakeRate = shakeOk / shakeTotal
+  if (shakeRate < 0.9) {
+    problems.push('手抖样本（±12px）判过率只有 ' + (shakeRate * 100).toFixed(1) + '%（≥90% 才算不挫败孩子）')
+  }
+  const dropPass = dropRates.filter(Boolean).length / Math.max(1, dropRates.length)
+  if (dropPass > 0.35) {
+    problems.push('少画一笔判过率高达 ' + (dropPass * 100).toFixed(1) + '%（≤35% 才算不漏水）')
+  }
   if (problems.length) {
     for (const p of problems.slice(0, 20)) console.error('[!!] ' + p)
     console.error('    共 ' + problems.length + ' 个问题')
     return 1
   }
-  console.log('[ok] 画字判定：' + chars.length + ' 字 × 3 档标准答案满分；乱画判低 ' + lowOk + '/' + total)
+  console.log('[ok] 画字判定：' + chars.length + ' 字 × 3 档标准答案满分；乱画判低 ' + lowOk + '/' + total
+    + '；手抖判过 ' + (shakeRate * 100).toFixed(1) + '%、少笔判过 ' + (dropPass * 100).toFixed(1) + '%（宽容度回放）')
   return 0
 }
 
@@ -91,6 +117,20 @@ function selftest() {
   add('dot 识别：短笔画归为点', () => {
     const p = strokeToPrim([{ x: 256, y: 256 }, { x: 258, y: 257 }])
     return p.type === 'dot' ? true : '短笔画没归成 dot'
+  })
+  // 宽容度回放的两块地基（§5.4）：抖动器与少笔样本本身得是对的
+  add('抖动器：零幅度不破坏标准答案（好样本不被抖坏）', () => {
+    const shaken = jitterStrokes(target, 0, 42).map(strokeToPrim)
+    return scoreDraw(shaken, target, 'copy') >= 0.999 ? true : '零抖动把标准答案抖低分了'
+  })
+  add('抖动器：确定性（同种子同序列）', () => {
+    const a = JSON.stringify(jitterStrokes(target, 24, 42))
+    const b = JSON.stringify(jitterStrokes(target, 24, 42))
+    return a === b ? true : '同种子抖出了不同序列，回放不可复现'
+  })
+  add('少笔样本：去掉一笔后相似度必须下降', () => {
+    const dropped = strokesAsPoints(target).slice(0, -1).map(strokeToPrim)
+    return scoreDraw(dropped, target, 'copy') < 0.999 ? true : '少一笔没掉分'
   })
   console.log('[ok] check-draw --selftest 通过（' + cases.length + ' 项：' + cases.join('、') + '）')
   return process.exitCode || 0
