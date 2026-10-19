@@ -75,15 +75,19 @@ export function pickDaily(chars, day) {
   return { char: pool[idx], type, day }
 }
 
-/** 这一天冻在记录里吗？冻着就必须按记录的那一字出，不许重新摇。 */
+/** 这一天冻在记录里吗？冻着就必须按记录的那一字出，不许重新摇。
+ *  记录只钉「id」；字的数据优先取当前快照（字段会随内容仓演进，比如画字要的
+ *  strokes 只在快照里，旧冻结映射没有）——当前快照删了这个字才落到 ghosts。 */
 export function frozenFor(corpus, day) {
   const h = corpus && !Array.isArray(corpus) ? corpus.history : null
   if (!h || !Array.isArray(h.days)) return null
   const hit = h.days.find((x) => x.day === day)
   if (!hit) return null
-  const ch = (h.chars || {})[hit.id]
-  if (!ch) throw new Error(day + ' 冻在记录里，指向「' + hit.id + '」，可记录里没有这个字')
-  return { char: ch, frozen: true }
+  const cur = (Array.isArray(corpus) ? [] : corpus.chars).find((c) => c.id === hit.id)
+  if (cur) return { char: cur, frozen: true }
+  const ghost = (h.ghosts || {})[hit.id]
+  if (ghost) return { char: Object.assign({ ghost: true }, ghost), frozen: true }
+  throw new Error(day + ' 冻在记录里，指向「' + hit.id + '」，可快照与幽灵记录里都没有这个字')
 }
 
 /** 一个可玩的题面：选字 + 生成四选一 + 自检。CI 与客户端走同一条路。 */

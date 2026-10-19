@@ -68,23 +68,20 @@ export async function run(url) {
     })
     problems.push(...stateProblems(s))
 
-    // 甲骨形图真加载了（naturalWidth > 0），不是破图
-    const imgW = await page.evaluate(() => {
-      const img = document.querySelector('.glyph')
-      return img ? img.naturalWidth : -1
-    })
-    if (imgW <= 0) problems.push('甲骨形图没加载（naturalWidth=' + imgW + '）：/glyphs/ 路径或 public/glyphs/ 缺文件')
+    // 每日题已切画字玩法（拍板 2026-10-19）：查画布存在 + 驱动 submitDraw 到完成态；
+    // 甲骨形图加载检查移到猜字分支（.glyph 是猜字模式的元素）。
+    const hasCanvas = await page.evaluate(() => !!document.querySelector('.draw'))
+    if (!hasCanvas) problems.push('每日题画布没渲染（.draw 缺失）')
 
     if (!problems.length && s) {
-      // 点正确字
-      await page.evaluate((answer) => { window.__jiagu.pick(answer) }, s.char.char)
-      const after = await page.evaluate(() => ({ answered: window.__jiagu.store.answered, correct: window.__jiagu.store.correct }))
-      if (!after.answered) problems.push('点了正确字后没进入已答题态')
-      else if (!after.correct) problems.push('点了正确字却判为错')
+      // 驱动画字提交（判定逻辑由 check-draw 把关，这里验证状态流转）
+      await page.evaluate(() => { window.__jiagu.submitDraw(0.9, true) })
+      const after = await page.evaluate(() => ({ solved: window.__jiagu.store.solved, streak: window.__jiagu.store.streak }))
+      if (!after.solved) problems.push('画字提交后没进入已解态')
 
       mkdirSync('shots', { recursive: true })
       await page.screenshot({ path: 'shots/daily.png', fullPage: true })
-      console.log('[ok] 冒烟：当日题「' + s.char.char + '」一路猜到完成态')
+      console.log('[ok] 冒烟：当日字「' + s.char.char + '」画字流一路到完成态')
     }
     return finish(problems, errors)
   }

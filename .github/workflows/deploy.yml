@@ -37,7 +37,9 @@ jobs:
       - name: 盘面与快照
         # check:corpus（快照 vs 内容仓）是本地推送前的检查：CI 不检出内容仓，跑不了。
         # 这里只校验已提交快照的内部自洽（check:puzzle）。
-        run: npm run check:puzzle
+        run: |
+          npm run check:puzzle
+          npm run check:draw
 
       - name: 构建
         run: npm run build

@@ -16,6 +16,8 @@ const C = corpus as unknown as {
     tags: string[]
     license: string
     era: string
+    strokes: Array<Array<string | number>> | null
+    scan?: string | null
   }>
   history?: { since: string; through: string; days: Array<{ day: string; id: string }> }
 }
@@ -91,7 +93,18 @@ export function pick(choice: string) {
   }
 }
 
+/** 画字提交：相似度与过/不过由 draw.mjs 判定，这里只管连击/进度。 */
+export function submitDraw(_sim: number, pass: boolean) {
+  if (pass) {
+    state.streak += 1
+    state.solved += 1
+  } else {
+    state.streak = 0
+  }
+}
+
 export const store = readonly(state)
 export { C as corpus }
 // dev hook / 冒烟测试用：暴露原始可变 state（普通对象），避免 readonly 代理经浏览器序列化丢数组性
 export const rawState = state
+export const devHooks = { store: rawState, pick, submitDraw }
