@@ -1,88 +1,89 @@
 {
-  "tokens": "app/src/styles/tokens.css",
-  "tokensSha256": "1dc7fa43afa870c3fde8b52f9e2b90b23d819d37dadde3dc79e1bdb6d5ae1985",
-  "css": [
-    "app/src/styles/main.css",
-    "app/src/App.vue",
-    "app/src/components/TopNav.vue",
-    "app/src/components/SiteFooter.vue"
-  ],
-  "nav": [
-    {
-      "file": "app/src/components/TopNav.vue",
-      "start": "<nav class=\"dc-nav\">",
-      "end": "</nav>"
-    }
-  ],
-  "footer": [
-    {
-      "file": "app/src/components/SiteFooter.vue",
-      "start": "<footer class=\"dc-foot\">",
-      "end": "</footer>"
-    }
-  ],
-  "sidebar": [],
-  "parkOrder": [
-    {
-      "file": "app/src/components/TopNav.vue",
-      "start": "<nav class=\"dc-nav\">",
-      "end": "</nav>"
-    },
-    {
-      "file": "app/src/components/SiteFooter.vue",
-      "start": "<footer class=\"dc-foot\">",
-      "end": "</footer>"
-    }
-  ],
-  "legalLinks": [
-    "/sources",
-    "/accuracy",
-    "/legal"
-  ],
-  "parks": [
-    "首页",
-    "学古诗",
-    "画甲骨",
-    "连词",
-    "猜谜",
-    "汉兜",
-    "月冕",
-    "大作战"
-  ],
-  "allowNoLangBtn": true,
-  "allowNoLangBtnReason": "本站内容为古文字与今字对照，不存在简繁两套，按规范 §3「不许静默择一」不摆这枚钮",
-  "langBtnClass": "dc-lang-btn",
-  "themeBtnClass": "dc-theme-btn",
-  "sidebarSelectors": [
-    ".dc-sidebar",
-    ".VPSidebar"
-  ],
-  "tabbarFiles": [
-    "core/tabbar.json"
-  ],
-  "chrome": {
-    "noBlankLinks": [
-      "app/src/components/TopNav.vue",
-      "app/src/components/SiteFooter.vue",
-      "app/src/components/TabBar.vue",
-      "app/src/App.vue"
-    ],
-    "mustContain": [
-      {
-        "file": "app/src/components/TopNav.vue",
-        "needle": ["dc-nav-in", "dc-brand-tx", "dc-brand-s"]
-      },
-      {
-        "file": "app/src/App.vue",
-        "needle": "TabBar"
-      }
-    ],
-    "forbid": [
-      {
-        "file": "app/src/components/TopNav.vue",
-        "needle": "width:30px",
-        "why": "印章尺寸以 core/chrome.css 为准（40px 渐变印）"
-      }
-    ]
-  }
+    "tokens":  "app/src/styles/tokens.css",
+    "tokensSha256":  "1dc7fa43afa870c3fde8b52f9e2b90b23d819d37dadde3dc79e1bdb6d5ae1985",
+    "css":  [
+                "app/src/styles/main.css",
+                "app/src/App.vue",
+                "app/src/components/TopNav.vue",
+                "app/src/components/SiteFooter.vue"
+            ],
+    "nav":  [
+                {
+                    "file":  "app/src/components/TopNav.vue",
+                    "start":  "\u003cnav class=\"dc-nav\"\u003e",
+                    "end":  "\u003c/nav\u003e"
+                }
+            ],
+    "footer":  [
+                   {
+                       "file":  "app/src/components/SiteFooter.vue",
+                       "start":  "\u003cfooter class=\"dc-foot\"\u003e",
+                       "end":  "\u003c/footer\u003e"
+                   }
+               ],
+    "sidebar":  [
+
+                ],
+    "parkOrder":  [
+                      {
+                          "file":  "app/src/components/TopNav.vue",
+                          "start":  "\u003cnav class=\"dc-nav\"\u003e",
+                          "end":  "\u003c/nav\u003e"
+                      },
+                      {
+                          "file":  "app/src/components/SiteFooter.vue",
+                          "start":  "\u003cfooter class=\"dc-foot\"\u003e",
+                          "end":  "\u003c/footer\u003e"
+                      }
+                  ],
+    "legalLinks":  [
+                       "/legal"
+                   ],
+    "parks":  [
+                  "首页",
+                  "学古诗",
+                  "画甲骨",
+                  "连词",
+                  "猜谜",
+                  "汉兜",
+                  "月冕",
+                  "大作战"
+              ],
+    "themeBtnClass":  "dc-theme-btn",
+    "sidebarSelectors":  [
+                             ".dc-sidebar",
+                             ".VPSidebar"
+                         ],
+    "tabbarFiles":  [
+                        "core/tabbar.json"
+                    ],
+    "chrome":  {
+                   "noBlankLinks":  [
+                                        "app/src/components/TopNav.vue",
+                                        "app/src/components/SiteFooter.vue",
+                                        "app/src/components/TabBar.vue",
+                                        "app/src/App.vue"
+                                    ],
+                   "mustContain":  [
+                                       {
+                                           "file":  "app/src/components/TopNav.vue",
+                                           "needle":  [
+                                                          "dc-nav-in",
+                                                          "dc-brand-tx",
+                                                          "dc-brand-s"
+                                                      ]
+                                       },
+                                       {
+                                           "file":  "app/src/App.vue",
+                                           "needle":  "TabBar"
+                                       }
+                                   ],
+                   "forbid":  [
+                                  {
+                                      "file":  "app/src/components/TopNav.vue",
+                                      "needle":  "width:30px",
+                                      "why":  "印章尺寸以 core/chrome.css 为准（40px 渐变印）"
+                                  }
+                              ]
+               }
 }

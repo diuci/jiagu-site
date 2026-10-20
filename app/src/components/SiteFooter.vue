@@ -9,16 +9,11 @@ import parksData from '../../../core/parks.json'
   <footer class="dc-foot">
     <div class="dc-foot-in">
       <div class="dc-foot-l">
-        <a href="https://diuci.com/">丢词夺理 diuci.com</a> · 看甲骨形，认今字<br>
-        字条来自内容仓 chinese-oracle-bone-script，逐条写明来源与许可<br>
-        <a href="https://k12.diuci.com/legal">原文公有领域 · 注释 CC BY 4.0 · 代码 MIT</a><br>
-        <a href="https://k12.diuci.com/accuracy">内容准确性与台账</a> ·
-        <a href="https://k12.diuci.com/sources">数据来源与版权</a>
+        <a href="https://diuci.com/">丢词夺理 diuci.com</a> · 字条来自 chinese-oracle-bone-script · 注释 CC BY 4.0 · 代码 MIT ·
+        <a href="https://k12.diuci.com/legal">版权与免责</a>
       </div>
       <nav aria-label="八个乐园">
         <a v-for="p in parksData.parks" :key="p.href" :href="p.href">{{ p.label }}</a>
-        <a href="https://github.com/diuci/chinese-oracle-bone-script">内容仓库</a>
-        <a href="https://k12.diuci.com/legal">版权与免责</a>
         <a href="mailto:hi@diuci.com">hi@diuci.com</a>
       </nav>
     </div>

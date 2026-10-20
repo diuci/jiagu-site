@@ -10,20 +10,28 @@
     <!-- 首帧之前定色（规范 §4）：暗色用户先看到夜墨，不闪白屏。
          脚本与 _deploy/core/theme.mjs 的 BOOTSTRAP 同源（check-core R4 钉特征）。 -->
     <script>
-      ;(function () {
-        var t = document.documentElement
-        var saved = null
-        try { saved = localStorage.getItem('dc-theme') } catch (e) {}
-        var mode = saved === 'dark' || saved === 'light'
-          ? saved
-          : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
-        t.setAttribute('data-theme', mode)
-        t.classList.toggle('dark', mode === 'dark')
-        t.classList.toggle('light', mode === 'light')
-        var m = document.querySelector('meta[name="theme-color"]')
-        if (m) m.setAttribute('content', mode === 'dark' ? '#17140f' : '#f4ede0')
-      })();
-    </script>
+/* 首帧定色：主题存 cookie（domain=.diuci.com），主站与分站共享，切一次全站跟变；
+   localStorage 只读一次作老用户迁移。与 core/theme.mjs 的 BOOTSTRAP 同源。 */
+(function(){
+  var t=document.documentElement;
+  function rc(n){var h=document.cookie.split(/;\s*/).find(function(c){return c.indexOf(n+'=')===0});return h?h.slice(n.length+1):null}
+  function wc(v){document.cookie='dc-theme='+v+';domain=.diuci.com;path=/;max-age=31536000;SameSite=Lax'}
+  var mode=rc('dc-theme');
+  if(mode!=='dark'&&mode!=='light'){
+    try{mode=localStorage.getItem('dc-theme')}catch(e){}
+    if(mode==='dark'||mode==='light'){try{wc(mode)}catch(e){}}
+    else mode=null;
+  }
+  if(mode!=='dark'&&mode!=='light')
+    mode=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+  t.setAttribute('data-theme',mode);
+  t.classList.toggle('dark',mode==='dark');
+  t.classList.toggle('light',mode==='light');
+  var m=document.querySelector('meta[name="theme-color"]');
+  if(m)m.setAttribute('content',mode==='dark'?'#17140f':'#f4ede0');
+  if(m&&window.MutationObserver)new MutationObserver(function(){m.setAttribute('content',t.getAttribute('data-theme')==='dark'?'#17140f':'#f4ede0')}).observe(t,{attributes:true,attributeFilter:['data-theme']});
+})();
+</script>
     <script type="module" src="/src/main.ts"></script>
     <!-- 字体与主站同一套（缺了它圆体/衬线全回退系统字体，顶栏一眼就不是一家）：
          Noto Serif SC 正文衬线、ZCOOL KuaiLe 站名/印章/圆钮、ZCOOL XiaoWei 楷体。 -->

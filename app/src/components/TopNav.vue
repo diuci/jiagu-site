@@ -25,10 +25,8 @@ function toggleTheme() {
 }
 
 onMounted(() => {
-  let v = false
-  try { v = localStorage.getItem('dc-theme') === 'dark' } catch {}
-  dark.value = v
-  apply(v)
+  // 首帧脚本已按 cookie/系统偏好定好 data-theme，这里只取当前态
+  dark.value = document.documentElement.dataset.theme === 'dark'
 })
 
 // 顶栏乐园数据单源 core/parks.json（当前项按 hostname 判定）
