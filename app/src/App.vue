@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import TopNav from './components/TopNav.vue'
 import SiteFooter from './components/SiteFooter.vue'
+import TabBar from './components/TabBar.vue'
 import GameView from './components/GameView.vue'
 import AboutView from './components/AboutView.vue'
 
@@ -17,10 +18,11 @@ const tab = ref<'daily' | 'practice' | 'about'>('daily')
       <button :class="{ on: tab === 'about' }" @click="tab = 'about'">关于</button>
     </nav>
 
-    <main class="main">
+    <main class="main dc-page-in">
       <GameView v-if="tab !== 'about'" :key="tab" :mode="tab" @next="tab = tab" />
       <AboutView v-else />
     </main>
   </div>
   <SiteFooter />
+  <TabBar />
 </template>

@@ -59,5 +59,30 @@
   ],
   "tabbarFiles": [
     "core/tabbar.json"
-  ]
+  ],
+  "chrome": {
+    "noBlankLinks": [
+      "app/src/components/TopNav.vue",
+      "app/src/components/SiteFooter.vue",
+      "app/src/components/TabBar.vue",
+      "app/src/App.vue"
+    ],
+    "mustContain": [
+      {
+        "file": "app/src/components/TopNav.vue",
+        "needle": ["dc-nav-in", "dc-brand-tx", "dc-brand-s"]
+      },
+      {
+        "file": "app/src/App.vue",
+        "needle": "TabBar"
+      }
+    ],
+    "forbid": [
+      {
+        "file": "app/src/components/TopNav.vue",
+        "needle": "width:30px",
+        "why": "印章尺寸以 core/chrome.css 为准（40px 渐变印）"
+      }
+    ]
+  }
 }

@@ -3,6 +3,7 @@ import App from './App.vue'
 import { rawState, pick, submitDraw } from './logic/store'
 import './styles/tokens.css'
 import './styles/main.css'
+import '../../core/chrome.css'
 
 createApp(App).mount('#app')
 
