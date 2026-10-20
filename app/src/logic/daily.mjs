@@ -1,68 +1,33 @@
 // 每日题的选字与种子。客户端与 tools/ 共用这一份。
 //
-// 规则：同一天永远同一个字；日期可回放（?d=YYYY-MM-DD）。
-// 选字不排难度、不排重：种子由日期决定，人不能挑，挑了就不是「今天这一字」。
+// 机械件（dayKey/parseDayKey/djb2/mulberry32/冻结回放）已收进统一核心
+// core/daily.mjs（PLAN-全站统一-v2）——这里只留**本站的选题策略**：
+// 按字类轮转（拍板 2026-10-19，PLAN-画甲骨文 §3.4 方案 B）：六字类按天序号
+// 轮转，类内再用日期种子取字，约 44 天覆盖全库；纯随机会让某几类（如抽象
+// 151 字）长期霸榜、动植物长期缺席。
 //
-// 选字策略（拍板 2026-10-19，PLAN-画甲骨文 §3.4 方案 B）：按**字类轮转**——
-// 六字类按天序号轮转，类内再用日期种子取字，约 44 天覆盖全库；
-// 纯随机会让某几类（如抽象 151 字）长期霸榜、动植物长期缺席。
-// 字类顺序 = 内容仓的合法集顺序，跨端一致。
-//
-// 已经发出去的日子记在 corpus.json 的 history 里，回放一律按那份记录走。
-// 为什么必须记下来：选字是「日期 → 词库里的第几个字」，词库一变（内容仓补了字、
-// 改了顺序），同一天的题就跟着变。玩家上周猜过的那一字，这周回放变成另一字，
-// 那不叫回放，那叫换题。所以过去的日子钉死在记录里，只有还没玩过的日子跟着词库走。
-//
-// 种子用自包含的确定性哈希（djb2 → mulberry32），不引 seedrandom 依赖。
+// 已经发出去的日子记在 corpus.json 的 history 里，回放一律按那份记录走
+// （core 的 frozenFor 铁律：记录钉了 id 就按记录走，词库怎么变都不换题）。
 
+import {
+  dayKey,
+  parseDayKey,
+  djb2,
+  mulberry32,
+  DAY_MS,
+  pickFromPool,
+  frozenFor as coreFrozenFor,
+} from '../../../core/daily.mjs'
 import { makeChoices, verify } from './puzzle.mjs'
 
-export const DAY_MS = 86400000
+// 机械件原样再导出：tools/（check-draw/check-puzzle/smoke/sync-corpus）与
+// draw.mjs 都从这里拿——站内导入路径不变，core 是唯一实现。
+export { dayKey, parseDayKey, djb2, mulberry32, DAY_MS }
 
 // 与内容仓 validate.py 的字类合法集同源同序（改那边必须同步这边）
 export const CANON_TYPES = ['自然现象', '动植物', '人体动作', '器物', '数目', '抽象']
 
-/** 本地日期 → YYYY-MM-DD。用本地时区：「今天这一字」按玩家所在的日子算。 */
-export function dayKey(d = new Date()) {
-  const y = d.getFullYear()
-  const m = String(d.getMonth() + 1).padStart(2, '0')
-  const day = String(d.getDate()).padStart(2, '0')
-  return y + '-' + m + '-' + day
-}
-
-export function parseDayKey(s) {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s || ''))
-  if (!m) return null
-  const y = Number(m[1])
-  const mo = Number(m[2])
-  const day = Number(m[3])
-  if (mo < 1 || mo > 12 || day < 1 || day > 31) return null
-  const dt = new Date(y, mo - 1, day)
-  if (dt.getFullYear() !== y || dt.getMonth() !== mo - 1 || dt.getDate() !== day) return null
-  return dt
-}
-
-/** djb2 字符串哈希 → 32 位无符号整数。确定性、跨语言可复现。 */
-export function djb2(str) {
-  let h = 5381
-  for (let i = 0; i < str.length; i++) {
-    h = ((h << 5) + h + str.charCodeAt(i)) >>> 0
-  }
-  return h
-}
-
-/** mulberry32：由 32 位种子生成确定性伪随机序列。 */
-export function mulberry32(seed) {
-  let a = seed >>> 0
-  return function () {
-    a = (a + 0x6d2b79f5) | 0
-    let t = Math.imul(a ^ (a >>> 15), 1 | a)
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
-  }
-}
-
-/** 当天玩哪个字：字类轮转 + 类内日期种子。chars 顺序必须稳定（按 type/difficulty/id 排序）。 */
+/** 当天玩哪个字：字类轮转 + 类内日期种子（salt 用本站名——不与别站同题）。 */
 export function pickDaily(chars, day) {
   if (!chars.length) throw new Error('字库快照是空的')
   const have = [...new Set(chars.map((c) => c.type))]
@@ -70,24 +35,20 @@ export function pickDaily(chars, day) {
   const dayIdx = Math.floor(Date.parse(day + 'T00:00:00') / DAY_MS)
   const type = types[dayIdx % types.length]
   const pool = chars.filter((c) => c.type === type)
-  const rng = mulberry32(djb2('jiagu-daily:' + day))
-  const idx = Math.floor(rng() * pool.length)
-  return { char: pool[idx], type, day }
+  const char = pickFromPool(pool, day, 'jiagu-daily')
+  return { char, type, day }
 }
 
-/** 这一天冻在记录里吗？冻着就必须按记录的那一字出，不许重新摇。
- *  记录只钉「id」；字的数据优先取当前快照（字段会随内容仓演进，比如画字要的
- *  strokes 只在快照里，旧冻结映射没有）——当前快照删了这个字才落到 ghosts。 */
+/** 这一天冻在记录里吗？（core 机械件 + 本站词库查找） */
 export function frozenFor(corpus, day) {
-  const h = corpus && !Array.isArray(corpus) ? corpus.history : null
-  if (!h || !Array.isArray(h.days)) return null
-  const hit = h.days.find((x) => x.day === day)
-  if (!hit) return null
-  const cur = (Array.isArray(corpus) ? [] : corpus.chars).find((c) => c.id === hit.id)
-  if (cur) return { char: cur, frozen: true }
-  const ghost = (h.ghosts || {})[hit.id]
-  if (ghost) return { char: Object.assign({ ghost: true }, ghost), frozen: true }
-  throw new Error(day + ' 冻在记录里，指向「' + hit.id + '」，可快照与幽灵记录里都没有这个字')
+  return coreFrozenFor(
+    Array.isArray(corpus) ? null : corpus.history,
+    day,
+    (id) => {
+      const chars = Array.isArray(corpus) ? corpus : corpus.chars
+      return chars.find((c) => c.id === id)
+    },
+  )
 }
 
 /** 一个可玩的题面：选字 + 生成四选一 + 自检。CI 与客户端走同一条路。 */

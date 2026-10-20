@@ -15,9 +15,10 @@
     "check:legal": "node tools/check-legal.mjs",
     "check:build": "node tools/check-build.mjs",
     "check:ui": "node tools/check-ui.mjs",
+    "check:core": "node tools/check-core.mjs",
     "smoke": "node tools/smoke.mjs",
-    "selftest": "node tools/sync-corpus.mjs --selftest && node tools/check-puzzle.mjs --selftest && node tools/check-draw.mjs --selftest && node tools/check-legal.mjs --selftest && node tools/check-build.mjs --selftest && node tools/check-ui.mjs --selftest && node tools/smoke.mjs --selftest",
-    "verify": "npm run selftest && npm run build && npm run check:puzzle && npm run check:corpus && npm run check:draw && npm run check:legal && npm run check:build && npm run check:ui"
+    "selftest": "node tools/sync-corpus.mjs --selftest && node tools/check-puzzle.mjs --selftest && node tools/check-draw.mjs --selftest && node tools/check-legal.mjs --selftest && node tools/check-build.mjs --selftest && node tools/check-ui.mjs --selftest && node tools/smoke.mjs --selftest && node tools/check-core.mjs --selftest",
+    "verify": "npm run selftest && npm run build && npm run check:puzzle && npm run check:corpus && npm run check:draw && npm run check:legal && npm run check:build && npm run check:ui && npm run check:core"
   },
   "dependencies": {
     "vue": "^3.5.13"
