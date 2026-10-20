@@ -95,6 +95,10 @@ export async function run(url) {
     const target = url.replace(/\/$/, '') + '/?dev=hey'
     await page.goto(target, { waitUntil: 'networkidle2', timeout: 45000 })
 
+    // v4 步4：手机视口下整页不许横向溢出（scrollWidth 超出视口 >1px 即报）
+    const docOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)
+    if (docOverflow > 1) problems.push('390px 视口下整页横向溢出 ' + docOverflow + 'px')
+
     const s = await page.evaluate(() => {
       const g = window.__jiagu
       if (!g) return null
