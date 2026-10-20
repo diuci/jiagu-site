@@ -6,6 +6,7 @@
 // - 三档底纹：临摹 = 目标字形原图垫底照描；描红 = 淡底纹；自由画 = 空白
 // - 点列实时采样（move 节流交给浏览器帧率），笔画数据交父组件判定
 import { ref, watch, onMounted } from 'vue'
+import { CANVAS } from '../logic/draw.mjs'
 
 const props = defineProps({
   glyphUrl: { type: String, required: true }, // 渲染字形（底纹用）
@@ -21,35 +22,32 @@ const cur = ref([])
 
 let ctx = null
 
-function cssSize() {
-  const el = canvas.value
-  return el ? el.clientWidth : 320
-}
-
 function setup() {
   const el = canvas.value
   if (!el) return
-  const size = cssSize()
-  el.width = size
-  el.height = size
+  // backing store 恒为 CANVAS(512)：与 pos() 的换算目标、draw.mjs 的判定空间同一个坐标系。
+  // 之前 backing 跟着 clientWidth 走、repaint 却直接画 512 坐标——墨迹被放大 512/宽 倍，
+  // 鼠标/手指画在哪，显示就偏到哪（实抓：画的和显示的有偏差）。
+  // CSS 负责显示尺寸（width:100%/max-width:360 + aspect-ratio），512 对 360 还有富余清晰度。
+  el.width = CANVAS
+  el.height = CANVAS
   ctx = el.getContext('2d')
   repaint()
 }
 
 function repaint() {
   if (!ctx) return
-  const size = cssSize()
-  ctx.clearRect(0, 0, size, size)
+  ctx.clearRect(0, 0, CANVAS, CANVAS)
   // 底纹：临摹原色照描；描红淡影；自由画无
   const img = bottomImage.value
   if (img && props.level !== 'free') {
     ctx.globalAlpha = props.level === 'trace' ? 0.55 : 0.16
-    ctx.drawImage(img, 0, 0, size, size)
+    ctx.drawImage(img, 0, 0, CANVAS, CANVAS)
     ctx.globalAlpha = 1
   }
   // 玩家笔画：朱砂粗线
   ctx.strokeStyle = '#c8442e'
-  ctx.lineWidth = Math.max(6, size / 64)
+  ctx.lineWidth = Math.max(6, CANVAS / 64)
   ctx.lineCap = 'round'
   ctx.lineJoin = 'round'
   for (const pts of [...strokes.value, cur.value]) {
